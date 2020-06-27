@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1614px" preserveAspectRatio="none" style="width:1036px;height:1614px;" version="1.1" viewBox="0 0 1036 1614" width="1036px" zoomAndPan="magnify"><defs><filter height="300%" id="f3c4x4vixqgmo" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3d2b382175f970f6b48b67a0ce6d8474]
+cluster emAssetDataModel--><rect fill="#87CEFA" filter="url(#f3c4x4vixqgmo)" height="103" style="stroke: #000000; stroke-width: 1.5;" width="521" x="257" y="32"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="448" y="47.5352">emAssetDataModel</text><!--MD5=[740ac11ee111d95e674dd8a0469f13ec]
+cluster emAssetApplication--><rect fill="#87CEFA" filter="url(#f3c4x4vixqgmo)" height="103" style="stroke: #000000; stroke-width: 1.5;" width="532" x="257" y="196"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="144" x="451" y="211.5352">emAssetApplication</text><!--MD5=[644f81a8b727e6cf4c60fc040dc66e91]
+cluster emAssetApi--><rect fill="#87CEFA" filter="url(#f3c4x4vixqgmo)" height="170" style="stroke: #000000; stroke-width: 1.5;" width="768" x="257" y="360"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="598" y="375.5352">emAssetApi</text><!--MD5=[54d204357629552dbed757185d42dab5]
+cluster emAssetHarmonyAPI--><rect fill="#B0C4DE" filter="url(#f3c4x4vixqgmo)" height="87" style="stroke: #000000; stroke-width: 1.5;" width="696" x="297" y="411"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="151" x="569.5" y="426.5352">emAssetHarmonyAPI</text><!--MD5=[4c25348e949de40a5514eff3cb93b6d0]
+cluster emAssetDB--><path d="M284,753 C284,743 396.5,743 396.5,743 C396.5,743 509,743 509,753 L509,860 C509,870 396.5,870 396.5,870 C396.5,870 284,870 284,860 L284,753 " fill="#87CEFA" filter="url(#f3c4x4vixqgmo)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M284,753 C284,763 396.5,763 396.5,763 C396.5,763 509,763 509,753 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="355.5" y="778.5352">emAssetDB</text><!--MD5=[c88c6f7424bb7a3851feb7458a6e8865]
+cluster emAssetTradingEngine--><rect fill="#87CEFA" filter="url(#f3c4x4vixqgmo)" height="455" style="stroke: #000000; stroke-width: 1.5;" width="203" x="30" y="579"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="166" x="48.5" y="594.5352">emAssetTradingEngine</text><!--MD5=[8af7f7aac7d1214c21863f4779140185]
+cluster emAssetAccumulator--><rect fill="#87CEFA" filter="url(#f3c4x4vixqgmo)" height="103" style="stroke: #000000; stroke-width: 1.5;" width="295" x="284" y="931"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="152" x="355.5" y="946.5352">emAssetAccumulator</text><!--MD5=[ad38d61ba104f122664a27e38a3b9fc7]
+cluster Harmony--><rect fill="#20B2AA" filter="url(#f3c4x4vixqgmo)" height="508" style="stroke: #000000; stroke-width: 1.5;" width="336" x="284" y="1095"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="65" x="419.5" y="1110.5352">Harmony</text><!--MD5=[08ae4a6790da311afef40cc7d4edb0b6]
+entity emAssetUML--><rect fill="#ADD8E6" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="107" x="300.5" y="75"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="310.5" y="98.5352">emAssetUML</text><!--MD5=[52363a468c97f8fd2b8725068f9bcb20]
+entity emAssetOpenApi--><rect fill="#ADD8E6" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="138" x="443" y="75"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="118" x="453" y="98.5352">emAssetOpenApi</text><!--MD5=[82d1a4a3b797cee719b9914d6e9a3125]
+entity emAssetProtobuf--><rect fill="#ADD8E6" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="138" x="616" y="75"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="118" x="626" y="98.5352">emAssetProtobuf</text><!--MD5=[2307914ffed18f63d001a58573f11989]
+entity emAssetVenmo--><rect fill="#ADD8E6" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="126" x="300" y="239"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="310" y="262.5352">emAssetVenmo</text><!--MD5=[5d5bfd27a3ef2c64779d2fdb980616bd]
+entity emAssetExplorer--><rect fill="#ADD8E6" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="137" x="461.5" y="239"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="471.5" y="262.5352">emAssetExplorer</text><!--MD5=[84e1bd625cf4e95e99df1b1d6845d719]
+entity emAssetBinance--><rect fill="#ADD8E6" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="131" x="633.5" y="239"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="111" x="643.5" y="262.5352">emAssetBinance</text><!--MD5=[5f90c3ce219ba3123bf034275f27c8af]
+entity emAssetHarmonyGraphql--><rect fill="#00FFFF" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="195" x="781.5" y="446"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="175" x="791.5" y="469.5352">emAssetHarmonyGraphql</text><!--MD5=[9f35244124bdd856d12b5b656c9adf99]
+entity emAssetHarmonyCovalent--><rect fill="#00FFFF" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="200" x="546" y="446"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="180" x="556" y="469.5352">emAssetHarmonyCovalent</text><!--MD5=[41318fc134e7d7a44867a9ca599c1867]
+entity emAssetHarmonyUbiquity--><rect fill="#00FFFF" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="197" x="313.5" y="446"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="177" x="323.5" y="469.5352">emAssetHarmonyUbiquity</text><!--MD5=[cafbe2448e97f1e42e1aea6f9c3fcc49]
+entity emAssetHarmonyDB--><path d="M327,811 C327,801 406,801 406,801 C406,801 485,801 485,811 L485,836.4883 C485,846.4883 406,846.4883 406,846.4883 C406,846.4883 327,846.4883 327,836.4883 L327,811 " fill="#00FFFF" filter="url(#f3c4x4vixqgmo)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M327,811 C327,821 406,821 406,821 C406,821 485,821 485,811 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="138" x="337" y="838.5352">emAssetHarmonyDB</text><!--MD5=[debc848ad69e4331af7f33fc560db7d4]
+entity emAssetLiquidity--><rect fill="#ADD8E6" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="136" x="54" y="622"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="116" x="64" y="645.5352">emAssetLiquidity</text><!--MD5=[54ec26f25ff7596885fed00e3bb47f09]
+entity emAssetLayer2--><rect fill="#ADD8E6" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="123" x="60.5" y="805.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="103" x="70.5" y="829.0352">emAssetLayer2</text><!--MD5=[f7a4d0f0c2799efd9549b466731eab11]
+entity emAssetAssets--><rect fill="#ADD8E6" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="122" x="61" y="974"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="71" y="997.5352">emAssetAssets</text><!--MD5=[4d6d60eec7c7641953a167f976438b79]
+entity emAssetHarmonyAccumulator--><rect fill="#00FFFF" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="227" x="327.5" y="974"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="207" x="337.5" y="997.5352">emAssetHarmonyAccumulator</text><!--MD5=[3b37b07235baba6f6c486977d813dcfe]
+entity harmonyApi--><rect fill="#90EE90" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="104" x="404" y="1138"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="414" y="1161.5352">harmonyApi</text><!--MD5=[0b8cc06a5a3e214362e0228922700d6c]
+entity harmonyExplorerNode--><rect fill="#90EE90" filter="url(#f3c4x4vixqgmo)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="176" x="368" y="1295"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="378" y="1318.5352">harmonyExplorerNode</text><!--MD5=[ba63a3eeb4eacee57b1224f6de215178]
+entity harmonyRawDB--><path d="M316.5,1462 C316.5,1452 456,1452 456,1452 C456,1452 595.5,1452 595.5,1462 L595.5,1569.4414 C595.5,1579.4414 456,1579.4414 456,1579.4414 C456,1579.4414 316.5,1579.4414 316.5,1569.4414 L316.5,1462 " fill="#90EE90" filter="url(#f3c4x4vixqgmo)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M316.5,1462 C316.5,1472 456,1472 456,1472 C456,1472 595.5,1472 595.5,1462 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="326.5" y="1489.5352">Title: Harmony Raw Database</text><path d="M316.5,1487.4883 C316.5,1497.4883 456,1497.4883 456,1497.4883 C456,1497.4883 595.5,1497.4883 595.5,1487.4883 " fill="none" style="stroke: #000000; stroke-width: 1.0;"/><path d="M316.5,1489.4883 C316.5,1499.4883 456,1499.4883 456,1499.4883 C456,1499.4883 595.5,1499.4883 595.5,1489.4883 " fill="none" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="247" x="332.5" y="1510.0234">Description: Harmony Raw Database</text><path d="M316.5,1511.9766 C316.5,1521.9766 456,1521.9766 456,1521.9766 C456,1521.9766 595.5,1521.9766 595.5,1511.9766 " fill="none" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="332.5" y="1534.5117">Links:</text><a href="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" target="_top" title="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" xlink:actuate="onRequest" xlink:href="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" xlink:show="new" xlink:title="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="53" x="332.5" y="1551">Schema</text></a><a href="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" target="_top" title="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" xlink:actuate="onRequest" xlink:href="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" xlink:show="new" xlink:title="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="62" x="332.5" y="1567.4883">Schema2</text></a><!--MD5=[7163b7bafbf9352b06f491bf6d0f18bd]
+link emAssetUML to emAssetOpenApi--><path d="M407.7,93 C419.38,93 431.06,93 442.74,93 " fill="none" id="emAssetUML-emAssetOpenApi" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[cc9dcf27536441e29554e27ec27f14ee]
+link emAssetOpenApi to emAssetProtobuf--><path d="M581.27,93 C592.75,93 604.23,93 615.71,93 " fill="none" id="emAssetOpenApi-emAssetProtobuf" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[70b62053c03b79d4044ea46750022c76]
+link emAssetVenmo to emAssetExplorer--><path d="M426.28,257 C437.89,257 449.51,257 461.12,257 " fill="none" id="emAssetVenmo-emAssetExplorer" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[039403d05868e98d532849ce43724c99]
+link emAssetExplorer to emAssetBinance--><path d="M598.66,257 C610.15,257 621.65,257 633.15,257 " fill="none" id="emAssetExplorer-emAssetBinance" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7c82f7eb02366a89ef2074d94f41416f]
+link emAssetHarmonyCovalent to emAssetHarmonyGraphql--><path d="M746.12,464 C757.88,464 769.65,464 781.41,464 " fill="none" id="emAssetHarmonyCovalent-emAssetHarmonyGraphql" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f6716205e1080f4e57eb2c1fdaa11e27]
+link emAssetHarmonyUbiquity to emAssetHarmonyCovalent--><path d="M510.72,464 C522.43,464 534.15,464 545.86,464 " fill="none" id="emAssetHarmonyUbiquity-emAssetHarmonyCovalent" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c429d9ead2699c47db7faf826f36459e]
+link emAssetLiquidity to emAssetLayer2--><path d="M122,658.08 C122,692.67 122,770.67 122,805.34 " fill="none" id="emAssetLiquidity-emAssetLayer2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4367f47f83fba7f5ff1aaec21638a0fd]
+link emAssetLayer2 to emAssetAssets--><path d="M122,841.69 C122,873.6 122,941.63 122,973.65 " fill="none" id="emAssetLayer2-emAssetAssets" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3a9c909ac4b9a22698f74a22c31d35d6]
+link harmonyApi to harmonyExplorerNode--><path d="M456,1174.18 C456,1203.97 456,1264.9 456,1294.74 " fill="none" id="harmonyApi-harmonyExplorerNode" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[82963ca1fa4a139ac17c45dc924e054a]
+link harmonyExplorerNode to harmonyRawDB--><path d="M456,1331.09 C456,1357.61 456,1409.98 456,1451.99 " fill="none" id="harmonyExplorerNode-harmonyRawDB" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[eb0e1632d70b29acc93ad51787ea17e1]
+link emAssetDataModel to emAssetApplication--><path d="M265,135.2391 C265,135.5102 265,135.7821 265,136.0547 C265,137.1452 265,138.248 265,139.3621 C265,141.5903 265,143.8634 265,146.1725 C265,155.4088 265,165.2203 265,175.0313 C265,179.9367 265,184.8421 265,189.6753 C265,190.8836 265,192.0874 265,193.2856 C265,193.8846 265,194.4823 265,195.0785 C265,195.3765 265,195.6742 265,195.9715 " fill="none" id="emAssetDataModel-emAssetApplication" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[baf7683361b8a65d97507a0c71511e4a]
+link emAssetApplication to emAssetApi--><path d="M265,299.2566 C265,301.8032 265,304.4295 265,307.124 C265,312.5131 265,318.1752 265,324.0193 C265,329.8633 265,335.8894 265,342.0063 C265,345.0648 265,348.146 265,351.2385 C265,352.7848 265,354.3339 265,355.8844 C265,356.6597 265,357.4353 265,358.211 C265,358.5989 265,358.9869 265,359.3748 C265,359.5688 265,359.7628 265,359.9568 " fill="none" id="emAssetApplication-emAssetApi" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7d9067a92480f9c7bfe370b14e54085c]
+link emAssetApi to emAssetDB--><path d="M269.943,530.4492 C269.9842,530.995 270.0257,531.5433 270.0673,532.0939 C270.1505,533.1952 270.2344,534.3059 270.319,535.4256 C270.6574,539.9048 271.0069,544.5297 271.3657,549.2794 C272.0835,558.7789 272.8389,568.778 273.6194,579.11 C275.1805,599.7741 276.8422,621.7703 278.5037,643.7663 C280.1653,665.7622 281.8268,687.7579 283.3876,708.4211 C284.168,718.7527 284.9232,728.7511 285.6407,738.2499 C285.7304,739.4373 285.8195,740.6168 285.908,741.7882 C285.9301,742.0811 285.9522,742.3734 285.9742,742.6653 " fill="none" id="emAssetApi-emAssetDB" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[89a3e8a8fa58731982260e44b056720f]
+link emAssetApi to emAssetTradingEngine--><path d="M256.95,500.017 C256.4531,502.1785 255.9407,504.4076 255.4149,506.6946 C254.3634,511.2686 253.2586,516.0743 252.1183,521.0346 C249.8377,530.9551 247.415,541.4934 244.9925,552.0313 C242.57,562.5691 240.1477,573.1063 237.8677,583.0246 C236.7277,587.9838 235.6232,592.7882 234.5722,597.3606 C234.0467,599.6467 233.5345,601.8749 233.0378,604.0354 " fill="none" id="emAssetApi-emAssetTradingEngine" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[92e9aade13b24c545c39f209c30c5856]
+link emAssetTradingEngine to emAssetDB--><path d="M233.0463,662.7887 C233.1323,663.0216 233.2188,663.2559 233.3058,663.4917 C233.4799,663.9633 233.6562,664.4408 233.8345,664.9239 C234.5479,666.8563 235.2947,668.8793 236.0713,670.983 C242.2838,687.8122 250.4,709.7994 258.515,731.7838 C266.63,753.7681 274.7438,775.7497 280.9513,792.5677 C281.7272,794.6699 282.4733,796.6915 283.186,798.6223 C283.3641,799.105 283.5402,799.582 283.7141,800.0532 C283.8011,800.2888 283.8875,800.5229 283.9734,800.7556 " fill="none" id="emAssetTradingEngine-emAssetDB" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f42744ea739981d0156c44536f0906ea]
+link emAssetDB to emAssetAccumulator--><path d="M292,870.2622 C292,870.547 292,870.8326 292,871.1189 C292,873.409 292,875.7454 292,878.1187 C292,887.6119 292,897.6963 292,907.78 C292,912.8219 292,917.8636 292,922.8312 C292,925.315 292,927.7802 292,930.2177 C292,930.3701 292,930.5223 292,930.6744 " fill="none" id="emAssetDB-emAssetAccumulator" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e06d33b4a2952fc7a4700fc707c254d8]
+link emAssetAccumulator to Harmony--><path d="M292,1034.2391 C292,1034.5102 292,1034.7821 292,1035.0547 C292,1036.1452 292,1037.248 292,1038.3621 C292,1040.5903 292,1042.8634 292,1045.1725 C292,1054.4088 292,1064.2203 292,1074.0313 C292,1078.9367 292,1083.8421 292,1088.6753 C292,1089.8836 292,1091.0874 292,1092.2856 C292,1092.8846 292,1093.4823 292,1094.0785 C292,1094.3765 292,1094.6742 292,1094.9715 " fill="none" id="emAssetAccumulator-Harmony" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4bb45c59d32fd81e296f5ce836c77bcc]
+@startuml
+
+' **** Grouping **** '
+
+rectangle emAssetDataModel #lightskyblue {
+	rectangle emAssetUML #lightblue
+	rectangle emAssetOpenApi #lightblue
+	rectangle emAssetProtobuf #lightblue
+}
+emAssetUML -right- - emAssetOpenApi
+emAssetOpenApi -right- - emAssetProtobuf
+
+rectangle emAssetApplication #lightskyblue {
+	rectangle emAssetVenmo #lightblue
+	rectangle emAssetExplorer #lightblue
+	rectangle emAssetBinance #lightblue
+}
+emAssetVenmo -right- - emAssetExplorer
+emAssetExplorer -right- - emAssetBinance
+
+rectangle emAssetApi #lightskyblue {
+
+	rectangle emAssetHarmonyAPI #lightsteelblue {
+		rectangle emAssetHarmonyGraphql #cyan
+		rectangle emAssetHarmonyCovalent #cyan
+		rectangle emAssetHarmonyUbiquity #cyan
+	}
+	emAssetHarmonyGraphql -left- - emAssetHarmonyCovalent
+	emAssetHarmonyCovalent -left- - emAssetHarmonyUbiquity
+
+}
+
+database emAssetDB #lightskyblue {
+
+	database emAssetHarmonyDB #cyan 
+}
+
+rectangle emAssetTradingEngine #lightskyblue {
+ 	rectangle emAssetLiquidity #lightblue
+        rectangle emAssetLayer2 #lightblue
+        rectangle emAssetAssets #lightblue
+}
+emAssetLiquidity -down- - emAssetLayer2
+emAssetLayer2 -down- - emAssetAssets
+
+
+rectangle emAssetAccumulator #lightskyblue {
+	rectangle emAssetHarmonyAccumulator #cyan
+}
+
+
+rectangle Harmony  #lightseagreen{
+
+	rectangle harmonyApi #lightgreen
+
+	rectangle harmonyExplorerNode #lightgreen
+
+	database harmonyRawDB #lightgreen [
+		Title: Harmony Raw Database
+		====
+		Description: Harmony Raw Database
+		....
+		Links:
+		[[https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go Schema]]\n[[https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go Schema2]]]
+}
+harmonyApi -down- - harmonyExplorerNode
+harmonyExplorerNode -down- - harmonyRawDB
+
+
+
+' **** Dependencies **** '
+
+emAssetDataModel -down- - emAssetApplication
+emAssetApplication -down- - emAssetApi
+emAssetApi -down- - emAssetDB
+emAssetApi -down- - emAssetTradingEngine
+emAssetTradingEngine -down- - emAssetDB
+emAssetDB -down- - emAssetAccumulator
+emAssetAccumulator -down- - Harmony
+
+@enduml
+
+@startuml
+
+
+rectangle emAssetDataModel #lightskyblue {
+	rectangle emAssetUML #lightblue
+	rectangle emAssetOpenApi #lightblue
+	rectangle emAssetProtobuf #lightblue
+}
+emAssetUML -right- - emAssetOpenApi
+emAssetOpenApi -right- - emAssetProtobuf
+
+rectangle emAssetApplication #lightskyblue {
+	rectangle emAssetVenmo #lightblue
+	rectangle emAssetExplorer #lightblue
+	rectangle emAssetBinance #lightblue
+}
+emAssetVenmo -right- - emAssetExplorer
+emAssetExplorer -right- - emAssetBinance
+
+rectangle emAssetApi #lightskyblue {
+
+	rectangle emAssetHarmonyAPI #lightsteelblue {
+		rectangle emAssetHarmonyGraphql #cyan
+		rectangle emAssetHarmonyCovalent #cyan
+		rectangle emAssetHarmonyUbiquity #cyan
+	}
+	emAssetHarmonyGraphql -left- - emAssetHarmonyCovalent
+	emAssetHarmonyCovalent -left- - emAssetHarmonyUbiquity
+
+}
+
+database emAssetDB #lightskyblue {
+
+	database emAssetHarmonyDB #cyan 
+}
+
+rectangle emAssetTradingEngine #lightskyblue {
+ 	rectangle emAssetLiquidity #lightblue
+        rectangle emAssetLayer2 #lightblue
+        rectangle emAssetAssets #lightblue
+}
+emAssetLiquidity -down- - emAssetLayer2
+emAssetLayer2 -down- - emAssetAssets
+
+
+rectangle emAssetAccumulator #lightskyblue {
+	rectangle emAssetHarmonyAccumulator #cyan
+}
+
+
+rectangle Harmony  #lightseagreen{
+
+	rectangle harmonyApi #lightgreen
+
+	rectangle harmonyExplorerNode #lightgreen
+
+	database harmonyRawDB #lightgreen [
+		Title: Harmony Raw Database
+		====
+		Description: Harmony Raw Database
+		....
+		Links:
+		[[https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go Schema]]\n[[https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go Schema2]]]
+}
+harmonyApi -down- - harmonyExplorerNode
+harmonyExplorerNode -down- - harmonyRawDB
+
+
+
+
+emAssetDataModel -down- - emAssetApplication
+emAssetApplication -down- - emAssetApi
+emAssetApi -down- - emAssetDB
+emAssetApi -down- - emAssetTradingEngine
+emAssetTradingEngine -down- - emAssetDB
+emAssetDB -down- - emAssetAccumulator
+emAssetAccumulator -down- - Harmony
+
+@enduml
+
+PlantUML version 1.2020.11(Sat May 30 03:13:43 PDT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

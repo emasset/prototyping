@@ -1,0 +1,337 @@
+openapi: "3.0.0"
+info: <
+  title: "harmony API."
+  description: "the purpose of this application is to provide all APIs needed\nto interact with harmony"
+  contact: <
+    name: "John Whitton"
+    url: "http://johnwhitton.dev"
+    email: "john@johnwhitton.com"
+  >
+  license: <
+    name: "MIT License"
+    url: "http://opensource.org/licenses/MIT"
+  >
+  version: "0.0.1"
+>
+servers: <
+  url: "https://api.s0.b.hmny.io/"
+  description: "harmony testnet hosted explorer node"
+>
+paths: <
+  path: <
+    name: "/#net_version"
+    value: <
+      post: <
+        tags: "v1-protocol"
+        summary: "request the network version."
+        request_body: <
+          request_body: <
+            description: "request the network version."
+            content: <
+              additional_properties: <
+                name: "application/json"
+                value: <
+                  schema: <
+                    reference: <
+                      _ref: "#components/schemas/net_version"
+                    >
+                  >
+                  example: <
+                    yaml: "jsonrpc: \"2.0\"\nid: 1\nmethod: net_version\n"
+                  >
+                >
+              >
+            >
+            required: true
+          >
+        >
+        responses: <
+          response_or_reference: <
+            name: "200"
+            value: <
+              response: <
+                description: "network version."
+                content: <
+                  additional_properties: <
+                    name: "application/json"
+                    value: <
+                      schema: <
+                        reference: <
+                          _ref: "#components/schemas/net_version_resp"
+                        >
+                      >
+                      example: <
+                        yaml: "jsonrpc: \"2.0\"\nid: 1\nresult: \"1\"\n"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+  path: <
+    name: "/#net_peerCount"
+    value: <
+      post: <
+        tags: "v1-protocol"
+        summary: "request the number of peers."
+        request_body: <
+          request_body: <
+            description: "the number of peers."
+            content: <
+              additional_properties: <
+                name: "application/json"
+                value: <
+                  schema: <
+                    reference: <
+                      _ref: "#components/schemas/net_peerCount"
+                    >
+                  >
+                  example: <
+                    yaml: "jsonrpc: \"2.0\"\nid: 1\nmethod: net_peerCount\n"
+                  >
+                >
+              >
+            >
+            required: true
+          >
+        >
+        responses: <
+          response_or_reference: <
+            name: "200"
+            value: <
+              response: <
+                description: "network peer count."
+                content: <
+                  additional_properties: <
+                    name: "application/json"
+                    value: <
+                      schema: <
+                        reference: <
+                          _ref: "#components/schemas/net_version_resp"
+                        >
+                      >
+                      example: <
+                        yaml: "jsonrpc: \"2.0\"\nid: 1\nresult: \"0x17\"\n"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+>
+components: <
+  schemas: <
+    additional_properties: <
+      name: "request"
+      value: <
+        schema: <
+          required: "jsonrpc"
+          required: "id"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "jsonrpc"
+              value: <
+                schema: <
+                  enum: <
+                    yaml: "\"2.0\"\n"
+                  >
+                  type: "string"
+                >
+              >
+            >
+            additional_properties: <
+              name: "id"
+              value: <
+                schema: <
+                  enum: <
+                    yaml: "1\n"
+                  >
+                  type: "integer"
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+    additional_properties: <
+      name: "response"
+      value: <
+        schema: <
+          required: "jsonrpc"
+          required: "id"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "jsronrpc"
+              value: <
+                schema: <
+                  enum: <
+                    yaml: "\"2.0\"\n"
+                  >
+                  type: "string"
+                >
+              >
+            >
+            additional_properties: <
+              name: "id"
+              value: <
+                schema: <
+                  enum: <
+                    yaml: "1\n"
+                  >
+                  type: "integer"
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+    additional_properties: <
+      name: "net_version"
+      value: <
+        schema: <
+          all_of: <
+            reference: <
+              _ref: "#/components/schemas/request"
+            >
+          >
+          all_of: <
+            schema: <
+              required: "method"
+              type: "object"
+              properties: <
+                additional_properties: <
+                  name: "method"
+                  value: <
+                    schema: <
+                      enum: <
+                        yaml: "net_version\n"
+                      >
+                      type: "string"
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+    additional_properties: <
+      name: "net_version_resp"
+      value: <
+        schema: <
+          all_of: <
+            reference: <
+              _ref: "#/components/schemas/response"
+            >
+          >
+          all_of: <
+            schema: <
+              required: "method"
+              type: "object"
+              properties: <
+                additional_properties: <
+                  name: "result"
+                  value: <
+                    schema: <
+                      type: "string"
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+    additional_properties: <
+      name: "net_peerCount"
+      value: <
+        schema: <
+          all_of: <
+            reference: <
+              _ref: "#/components/schemas/request"
+            >
+          >
+          all_of: <
+            schema: <
+              required: "method"
+              type: "object"
+              properties: <
+                additional_properties: <
+                  name: "method"
+                  value: <
+                    schema: <
+                      enum: <
+                        yaml: "net_peerCount\n"
+                      >
+                      type: "string"
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+    additional_properties: <
+      name: "net_peerCount_resp"
+      value: <
+        schema: <
+          all_of: <
+            reference: <
+              _ref: "#/components/schemas/response"
+            >
+          >
+          all_of: <
+            schema: <
+              required: "method"
+              type: "object"
+              properties: <
+                additional_properties: <
+                  name: "result"
+                  value: <
+                    schema: <
+                      type: "string"
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+>
+tags: <
+  name: "v1-protocol"
+  description: "protocol APIs returning hex."
+>
+tags: <
+  name: "v1-block"
+  description: "block APIs returning hex."
+>
+tags: <
+  name: "v2-protocol"
+  description: "protocol API returning decimal."
+>
+tags: <
+  name: "v2-block"
+  description: "block APIs returning decimal."
+>

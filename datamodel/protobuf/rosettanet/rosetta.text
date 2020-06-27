@@ -1,0 +1,2089 @@
+openapi: "3.0.2"
+info: <
+  title: "Rosetta"
+  description: "A Standard for Blockchain Interaction\n"
+  license: <
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+  >
+  version: "1.3.1"
+>
+paths: <
+  path: <
+    name: "/network/list"
+    value: <
+      post: <
+        tags: "Network"
+        summary: "Get List of Available Networks"
+        description: "This endpoint returns a list of NetworkIdentifiers that the Rosetta\nserver can handle.\n"
+        operation_id: "networkList"
+        request_body: <
+          request_body: <
+            content: <
+              additional_properties: <
+                name: "application/json"
+                value: <
+                  schema: <
+                    reference: <
+                      _ref: "#/components/schemas/MetadataRequest"
+                    >
+                  >
+                >
+              >
+            >
+            required: true
+          >
+        >
+        responses: <
+          default: <
+            response: <
+              description: "unexpected error"
+              content: <
+                additional_properties: <
+                  name: "application/json"
+                  value: <
+                    schema: <
+                      reference: <
+                        _ref: "#/components/schemas/Error"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          response_or_reference: <
+            name: "200"
+            value: <
+              response: <
+                description: "Expected response to a valid request"
+                content: <
+                  additional_properties: <
+                    name: "application/json"
+                    value: <
+                      schema: <
+                        reference: <
+                          _ref: "#/components/schemas/NetworkListResponse"
+                        >
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+  path: <
+    name: "/network/status"
+    value: <
+      post: <
+        tags: "Network"
+        summary: "Get Network Status"
+        description: "This endpoint returns the current status of the network requested. Any\nNetworkIdentifier returned by /network/list should be accessible here.\n"
+        operation_id: "networkStatus"
+        request_body: <
+          request_body: <
+            content: <
+              additional_properties: <
+                name: "application/json"
+                value: <
+                  schema: <
+                    reference: <
+                      _ref: "#/components/schemas/NetworkRequest"
+                    >
+                  >
+                >
+              >
+            >
+            required: true
+          >
+        >
+        responses: <
+          default: <
+            response: <
+              description: "unexpected error"
+              content: <
+                additional_properties: <
+                  name: "application/json"
+                  value: <
+                    schema: <
+                      reference: <
+                        _ref: "#/components/schemas/Error"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          response_or_reference: <
+            name: "200"
+            value: <
+              response: <
+                description: "Expected response to a valid request"
+                content: <
+                  additional_properties: <
+                    name: "application/json"
+                    value: <
+                      schema: <
+                        reference: <
+                          _ref: "#/components/schemas/NetworkStatusResponse"
+                        >
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+  path: <
+    name: "/network/options"
+    value: <
+      post: <
+        tags: "Network"
+        summary: "Get Network Options"
+        description: "This endpoint returns the version information and allowed\nnetwork-specific types for a NetworkIdentifier. Any\nNetworkIdentifier returned by /network/list should be accessible here.\n\nBecause options are retrievable in the context of a NetworkIdentifier,\nit is possible to define unique options for each network.\n"
+        operation_id: "networkOptions"
+        request_body: <
+          request_body: <
+            content: <
+              additional_properties: <
+                name: "application/json"
+                value: <
+                  schema: <
+                    reference: <
+                      _ref: "#/components/schemas/NetworkRequest"
+                    >
+                  >
+                >
+              >
+            >
+            required: true
+          >
+        >
+        responses: <
+          default: <
+            response: <
+              description: "unexpected error"
+              content: <
+                additional_properties: <
+                  name: "application/json"
+                  value: <
+                    schema: <
+                      reference: <
+                        _ref: "#/components/schemas/Error"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          response_or_reference: <
+            name: "200"
+            value: <
+              response: <
+                description: "Expected response to a valid request"
+                content: <
+                  additional_properties: <
+                    name: "application/json"
+                    value: <
+                      schema: <
+                        reference: <
+                          _ref: "#/components/schemas/NetworkOptionsResponse"
+                        >
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+  path: <
+    name: "/block"
+    value: <
+      post: <
+        tags: "Block"
+        summary: "Get a Block"
+        description: "Get a block by its Block Identifier. If transactions are returned in\nthe same call to the node as fetching the block, the response should\ninclude these transactions in the Block object. If not, an array of\nTransaction Identifiers should be returned so /block/transaction\nfetches can be done to get all transaction information.\n"
+        operation_id: "block"
+        request_body: <
+          request_body: <
+            content: <
+              additional_properties: <
+                name: "application/json"
+                value: <
+                  schema: <
+                    reference: <
+                      _ref: "#/components/schemas/BlockRequest"
+                    >
+                  >
+                >
+              >
+            >
+            required: true
+          >
+        >
+        responses: <
+          default: <
+            response: <
+              description: "unexpected error"
+              content: <
+                additional_properties: <
+                  name: "application/json"
+                  value: <
+                    schema: <
+                      reference: <
+                        _ref: "#/components/schemas/Error"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          response_or_reference: <
+            name: "200"
+            value: <
+              response: <
+                description: "Expected response to a valid request"
+                content: <
+                  additional_properties: <
+                    name: "application/json"
+                    value: <
+                      schema: <
+                        reference: <
+                          _ref: "#/components/schemas/BlockResponse"
+                        >
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+  path: <
+    name: "/block/transaction"
+    value: <
+      post: <
+        tags: "Block"
+        summary: "Get a Block Transaction"
+        description: "Get a transaction in a block by its Transaction Identifier. This endpoint\nshould only be used when querying a node for a block does not return all\ntransactions contained within it.\n\nAll transactions returned by this endpoint must be appended to any\ntransactions returned by the /block method by consumers of this data.\nFetching a transaction by hash is considered an Explorer Method\n(which is classified under the Future Work section).\n\nCalling this endpoint requires reference to a BlockIdentifier because\ntransaction parsing can change depending on which block contains the\ntransaction. For example, in Bitcoin it is necessary to know which block\ncontains a transaction to determine the destination of fee payments.\nWithout specifying a block identifier, the node\nwould have to infer which block to use (which could change during a re-org).\n\nImplementations that require fetching previous transactions to populate\nthe response (ex: Previous UTXOs in Bitcoin) may find it useful to run a\ncache within the Rosetta server in the /data directory\n(on a path that does not conflict with the node).\n"
+        operation_id: "blockTransaction"
+        request_body: <
+          request_body: <
+            content: <
+              additional_properties: <
+                name: "application/json"
+                value: <
+                  schema: <
+                    reference: <
+                      _ref: "#/components/schemas/BlockTransactionRequest"
+                    >
+                  >
+                >
+              >
+            >
+            required: true
+          >
+        >
+        responses: <
+          default: <
+            response: <
+              description: "unexpected error"
+              content: <
+                additional_properties: <
+                  name: "application/json"
+                  value: <
+                    schema: <
+                      reference: <
+                        _ref: "#/components/schemas/Error"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          response_or_reference: <
+            name: "200"
+            value: <
+              response: <
+                description: "Expected response to a valid request"
+                content: <
+                  additional_properties: <
+                    name: "application/json"
+                    value: <
+                      schema: <
+                        reference: <
+                          _ref: "#/components/schemas/BlockTransactionResponse"
+                        >
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+  path: <
+    name: "/mempool"
+    value: <
+      post: <
+        tags: "Mempool"
+        summary: "Get All Mempool Transactions"
+        description: "Get all Transaction Identifiers in the mempool"
+        operation_id: "mempool"
+        request_body: <
+          request_body: <
+            content: <
+              additional_properties: <
+                name: "application/json"
+                value: <
+                  schema: <
+                    reference: <
+                      _ref: "#/components/schemas/MempoolRequest"
+                    >
+                  >
+                >
+              >
+            >
+            required: true
+          >
+        >
+        responses: <
+          default: <
+            response: <
+              description: "unexpected error"
+              content: <
+                additional_properties: <
+                  name: "application/json"
+                  value: <
+                    schema: <
+                      reference: <
+                        _ref: "#/components/schemas/Error"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          response_or_reference: <
+            name: "200"
+            value: <
+              response: <
+                description: "Expected response to a valid request"
+                content: <
+                  additional_properties: <
+                    name: "application/json"
+                    value: <
+                      schema: <
+                        reference: <
+                          _ref: "#/components/schemas/MempoolResponse"
+                        >
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+  path: <
+    name: "/mempool/transaction"
+    value: <
+      post: <
+        tags: "Mempool"
+        summary: "Get a Mempool Transaction"
+        description: "Get a transaction in the mempool by its Transaction Identifier. This is\na separate request than fetching a block transaction (/block/transaction)\nbecause some blockchain nodes need to know that a transaction query is\nfor something in the mempool instead of a transaction in a block.\n\nTransactions may not be fully parsable until they are in a block (ex: may\nnot be possible to determine the fee to pay before a transaction is\nexecuted). On this endpoint, it is ok that returned transactions are\nonly estimates of what may actually be included in a block.\n"
+        operation_id: "mempoolTransaction"
+        request_body: <
+          request_body: <
+            content: <
+              additional_properties: <
+                name: "application/json"
+                value: <
+                  schema: <
+                    reference: <
+                      _ref: "#/components/schemas/MempoolTransactionRequest"
+                    >
+                  >
+                >
+              >
+            >
+            required: true
+          >
+        >
+        responses: <
+          default: <
+            response: <
+              description: "unexpected error"
+              content: <
+                additional_properties: <
+                  name: "application/json"
+                  value: <
+                    schema: <
+                      reference: <
+                        _ref: "#/components/schemas/Error"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          response_or_reference: <
+            name: "200"
+            value: <
+              response: <
+                description: "Expected response to a valid request"
+                content: <
+                  additional_properties: <
+                    name: "application/json"
+                    value: <
+                      schema: <
+                        reference: <
+                          _ref: "#/components/schemas/MempoolTransactionResponse"
+                        >
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+  path: <
+    name: "/account/balance"
+    value: <
+      post: <
+        tags: "Account"
+        summary: "Get an Account Balance"
+        description: "Get an array of all Account Balances for an Account Identifier and the\nBlock Identifier at which the balance lookup was performed.\n\nSome consumers of account balance data need to know at which block the\nbalance was calculated to reconcile account balance changes.\n\nTo get all balances associated with an account, it may be necessary to\nperform multiple balance requests with unique Account Identifiers.\n\nIf the client supports it, passing nil AccountIdentifier metadata to\nthe request should fetch all balances (if applicable).\n\nIt is also possible to perform a historical balance lookup (if the server\nsupports it) by passing in an optional BlockIdentifier.\n"
+        operation_id: "accountBalance"
+        request_body: <
+          request_body: <
+            content: <
+              additional_properties: <
+                name: "application/json"
+                value: <
+                  schema: <
+                    reference: <
+                      _ref: "#/components/schemas/AccountBalanceRequest"
+                    >
+                  >
+                >
+              >
+            >
+            required: true
+          >
+        >
+        responses: <
+          default: <
+            response: <
+              description: "unexpected error"
+              content: <
+                additional_properties: <
+                  name: "application/json"
+                  value: <
+                    schema: <
+                      reference: <
+                        _ref: "#/components/schemas/Error"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          response_or_reference: <
+            name: "200"
+            value: <
+              response: <
+                description: "Expected response to a valid request"
+                content: <
+                  additional_properties: <
+                    name: "application/json"
+                    value: <
+                      schema: <
+                        reference: <
+                          _ref: "#/components/schemas/AccountBalanceResponse"
+                        >
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+  path: <
+    name: "/construction/metadata"
+    value: <
+      post: <
+        tags: "Construction"
+        summary: "Get Transaction Construction Metadata"
+        description: "Get any information required to construct a transaction for a specific\nnetwork. Metadata returned here could be a recent hash to use, an\naccount sequence number, or even arbitrary chain state. It is up to the\nclient to correctly populate the options object with any\nnetwork-specific details to ensure the correct metadata is retrieved.\n\nIt is important to clarify that this endpoint should not pre-construct\nany transactions for the client (this should happen in the SDK). This\nendpoint is left purposely unstructured because of the wide scope\nof metadata that could be required.\n\nIn a future version of the spec, we plan to pass an array of Rosetta\nOperations to specify which metadata should be received and to create\na transaction in an accompanying SDK. This will help to insulate the\nclient from chain-specific details that are currently required here.\n"
+        operation_id: "constructionMetadata"
+        request_body: <
+          request_body: <
+            content: <
+              additional_properties: <
+                name: "application/json"
+                value: <
+                  schema: <
+                    reference: <
+                      _ref: "#/components/schemas/ConstructionMetadataRequest"
+                    >
+                  >
+                >
+              >
+            >
+            required: true
+          >
+        >
+        responses: <
+          default: <
+            response: <
+              description: "unexpected error"
+              content: <
+                additional_properties: <
+                  name: "application/json"
+                  value: <
+                    schema: <
+                      reference: <
+                        _ref: "#/components/schemas/Error"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          response_or_reference: <
+            name: "200"
+            value: <
+              response: <
+                description: "Expected response to a valid request"
+                content: <
+                  additional_properties: <
+                    name: "application/json"
+                    value: <
+                      schema: <
+                        reference: <
+                          _ref: "#/components/schemas/ConstructionMetadataResponse"
+                        >
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+  path: <
+    name: "/construction/submit"
+    value: <
+      post: <
+        tags: "Construction"
+        summary: "Submit a Signed Transaction"
+        description: "Submit a pre-signed transaction to the node. This call should not block\non the transaction being included in a block. Rather, it should return\nimmediately with an indication of whether or not the transaction was\nincluded in the mempool.\n\nThe transaction submission response should only return a 200 status\nif the submitted transaction could be included in the mempool.\nOtherwise, it should return an error.\n"
+        operation_id: "constructionSubmit"
+        request_body: <
+          request_body: <
+            content: <
+              additional_properties: <
+                name: "application/json"
+                value: <
+                  schema: <
+                    reference: <
+                      _ref: "#/components/schemas/ConstructionSubmitRequest"
+                    >
+                  >
+                >
+              >
+            >
+            required: true
+          >
+        >
+        responses: <
+          default: <
+            response: <
+              description: "unexpected error"
+              content: <
+                additional_properties: <
+                  name: "application/json"
+                  value: <
+                    schema: <
+                      reference: <
+                        _ref: "#/components/schemas/Error"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          response_or_reference: <
+            name: "200"
+            value: <
+              response: <
+                description: "Expected response to a valid request"
+                content: <
+                  additional_properties: <
+                    name: "application/json"
+                    value: <
+                      schema: <
+                        reference: <
+                          _ref: "#/components/schemas/ConstructionSubmitResponse"
+                        >
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+>
+components: <
+  schemas: <
+    additional_properties: <
+      name: "NetworkIdentifier"
+      value: <
+        schema: <
+          required: "blockchain - network"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "blockchain"
+              value: <
+                schema: <
+                  type: "string"
+                >
+              >
+            >
+            additional_properties: <
+              name: "network"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "mainnet\n"
+                  >
+                  type: "string"
+                  description: "If a blockchain has a specific chain-id or network identifier, it\nshould go in this field. It is up to the client to determine which\nnetwork-specific identifier is mainnet or testnet.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "sub_network_identifier"
+              value: <
+                reference: <
+                  _ref: "SubNetworkIdentifier"
+                >
+              >
+            >
+          >
+          description: "The network_identifier specifies which network a particular object is associated with.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "SubNetworkIdentifier"
+      value: <
+        schema: <
+          required: "network"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "network"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "shard 1\n"
+                  >
+                  type: "string"
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "producer: 0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5\n"
+                  >
+                  type: "object"
+                >
+              >
+            >
+          >
+          description: "In blockchains with sharded state, the SubNetworkIdentifier\nis required to query some object on a specific shard. This identifier is\noptional for all non-sharded blockchains.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "BlockIdentifier"
+      value: <
+        schema: <
+          required: "index"
+          required: "hash"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "index"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "1123941\n"
+                  >
+                  type: "integer"
+                  description: "This is also known as the block height.\n"
+                  format: "int64"
+                >
+              >
+            >
+            additional_properties: <
+              name: "hash"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85\n"
+                  >
+                  type: "string"
+                >
+              >
+            >
+          >
+          description: "The block_identifier uniquely identifies a block in a particular network.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "PartialBlockIdentifier"
+      value: <
+        schema: <
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "index"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "1123941\n"
+                  >
+                  type: "integer"
+                  format: "int64"
+                >
+              >
+            >
+            additional_properties: <
+              name: "hash"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85\n"
+                  >
+                  type: "string"
+                >
+              >
+            >
+          >
+          description: "When fetching data by BlockIdentifier, it may be possible to only specify the\nindex or hash. If neither property is specified, it is assumed that the\nclient is making a request at the current block.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "TransactionIdentifier"
+      value: <
+        schema: <
+          required: "hash"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "hash"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f\n"
+                  >
+                  type: "string"
+                  description: "Any transactions that are attributable only to a block (ex: a block event)\nshould use the hash of the block as the identifier.\n"
+                >
+              >
+            >
+          >
+          description: "The transaction_identifier uniquely identifies a transaction in a particular network and block\nor in the mempool.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "OperationIdentifier"
+      value: <
+        schema: <
+          required: "index"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "index"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "1\n"
+                  >
+                  type: "integer"
+                  description: "The operation index is used to ensure each operation has a unique identifier within\na transaction.\n\nTo clarify, there may not be any notion of an operation index in the blockchain being described.\n"
+                  format: "int64"
+                >
+              >
+            >
+            additional_properties: <
+              name: "network_index"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "0\n"
+                  >
+                  type: "integer"
+                  description: "Some blockchains specify an operation index that is essential for client use. For example,\nBitcoin uses a network_index to identify which UTXO was used in a transaction.\n\nnetwork_index should not be populated if there is no notion of an operation index in a\nblockchain (typically most account-based blockchains).\n"
+                  format: "int64"
+                >
+              >
+            >
+          >
+          description: "The operation_identifier uniquely identifies an operation within a transaction.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "AccountIdentifier"
+      value: <
+        schema: <
+          required: "address"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "address"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "0x3a065000ab4183c6bf581dc1e55a605455fc6d61\n"
+                  >
+                  type: "string"
+                  description: "The address may be a cryptographic public key (or some encoding of it) or a provided username.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "sub_account"
+              value: <
+                reference: <
+                  _ref: "SubAccountIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  type: "object"
+                  description: "Blockchains that utilize a username model (where the address is not a derivative of a cryptographic\npublic key) should specify the public key(s) owned by the address in metadata.\n"
+                >
+              >
+            >
+          >
+          description: "The account_identifier uniquely identifies an account within a network.\nAll fields in the account_identifier are utilized to determine this uniqueness\n(including the metadata field, if populated).\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "SubAccountIdentifier"
+      value: <
+        schema: <
+          required: "address"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "address"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "0x6b175474e89094c44da98b954eedeac495271d0f\n"
+                  >
+                  type: "string"
+                  description: "The SubAccount address may be a cryptographic value or some\nother identifier (ex: bonded) that uniquely specifies a SubAccount.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  type: "object"
+                  description: "If the SubAccount address is not sufficient to uniquely specify a SubAccount,\nany other identifying information can be stored here.\n\nIt is important to note that two SubAccounts with identical addresses but\ndiffering metadata will not be considered equal by clients.\n"
+                >
+              >
+            >
+          >
+          description: "An account may have state specific to a contract address (ERC-20 token)\nand/or a stake (delegated balance). The sub_account_identifier should\nspecify which state (if applicable) an account instantiation refers to.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "Block"
+      value: <
+        schema: <
+          required: "block_identifier"
+          required: "parent_block_identifier"
+          required: "timestamp"
+          required: "transactions"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "block_identifier"
+              value: <
+                reference: <
+                  _ref: "BlockIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "parent_block_identifier"
+              value: <
+                reference: <
+                  _ref: "BlockIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "timestamp"
+              value: <
+                reference: <
+                  _ref: "Timestamp"
+                >
+              >
+            >
+            additional_properties: <
+              name: "transactions"
+              value: <
+                schema: <
+                  type: "array"
+                  items: <
+                    schema_or_reference: <
+                      reference: <
+                        _ref: "Transaction"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "transactions_root: 0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347\ndifficulty: \"123891724987128947\"\n"
+                  >
+                  type: "object"
+                >
+              >
+            >
+          >
+          description: "Blocks contain an array of Transactions that\noccurred at a particular BlockIdentifier.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "Transaction"
+      value: <
+        schema: <
+          required: "transaction_identifier"
+          required: "operations"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "transaction_identifier"
+              value: <
+                reference: <
+                  _ref: "TransactionIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "operations"
+              value: <
+                schema: <
+                  type: "array"
+                  items: <
+                    schema_or_reference: <
+                      reference: <
+                        _ref: "Operation"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "size: 12378\nlockTime: 1582272577\n"
+                  >
+                  type: "object"
+                  description: "Transactions that are related to other transactions (like a cross-shard transactioin) should include\nthe tranaction_identifier of these transactions in the metadata.\n"
+                >
+              >
+            >
+          >
+          description: "Transactions contain an array of Operations\nthat are attributable to the same TransactionIdentifier.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "Operation"
+      value: <
+        schema: <
+          required: "operation_identifier"
+          required: "type"
+          required: "status"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "operation_identifier"
+              value: <
+                reference: <
+                  _ref: "OperationIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "related_operations"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "- index: 0\n  operation_identifier:\n    index: 0\n"
+                  >
+                  type: "array"
+                  items: <
+                    schema_or_reference: <
+                      reference: <
+                        _ref: "OperationIdentifier"
+                      >
+                    >
+                  >
+                  description: "Restrict referenced related_operations to identifier indexes\n< the current operation_identifier.index. This ensures there\nexists a clear DAG-structure of relations.\n\nSince operations are one-sided, one could imagine relating operations\nin a single transfer or linking operations in a call tree.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "type"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "Transfer\n"
+                  >
+                  type: "string"
+                  description: "The network-specific type of the operation. Ensure that any type that can be returned here is also\nspecified in the NetowrkStatus. This can be very useful to downstream consumers that parse all\nblock data.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "status"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "Reverted\n"
+                  >
+                  type: "string"
+                  description: "The network-specific status of the operation. Status is not defined on the transaction object\nbecause blockchains with smart contracts may have transactions that partially apply.\n\nBlockchains with atomic transactions (all operations succeed or all operations fail) will have\nthe same status for each operation.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "account"
+              value: <
+                reference: <
+                  _ref: "AccountIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "amount"
+              value: <
+                reference: <
+                  _ref: "Amount"
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "asm: 304502201fd8abb11443f8b1b9a04e0495e0543d05611473a790c8939f089d073f90509a022100f4677825136605d732e2126d09a2d38c20c75946cd9fc239c0497e84c634e3dd01 03301a8259a12e35694cc22ebc45fee635f4993064190f6ce96e7fb19a03bb6be2\nhex: 48304502201fd8abb11443f8b1b9a04e0495e0543d05611473a790c8939f089d073f90509a022100f4677825136605d732e2126d09a2d38c20c75946cd9fc239c0497e84c634e3dd012103301a8259a12e35694cc22ebc45fee635f4993064190f6ce96e7fb19a03bb6be2\n"
+                  >
+                  type: "object"
+                >
+              >
+            >
+          >
+          description: "Operations contain all balance-changing information within a\ntransaction. They are always one-sided (only affect 1 AccountIdentifier)\nand can succeed or fail independently from a Transaction.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "Amount"
+      value: <
+        schema: <
+          required: "value"
+          required: "currency"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "value"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "\"1238089899992\"\n"
+                  >
+                  type: "string"
+                  description: "Value of the transaction in atomic units represented as an arbitrary-sized signed integer.\n\nFor example, 1 BTC would be represented by a value of 100000000.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "currency"
+              value: <
+                reference: <
+                  _ref: "Currency"
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  type: "object"
+                >
+              >
+            >
+          >
+          description: "Amount is some Value of a Currency.\nIt is considered invalid to specify a Value without a Currency.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "Currency"
+      value: <
+        schema: <
+          required: "symbol"
+          required: "decimals"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "symbol"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "BTC\n"
+                  >
+                  type: "string"
+                  description: "Canonical symbol associated with a currency.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "decimals"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "8\n"
+                  >
+                  type: "integer"
+                  description: "Number of decimal places in the standard unit representation of the amount.\n\nFor example, BTC has 8 decimals. Note that it is not possible to represent\nthe value of some currency in atomic units that is not base 10.\n"
+                  format: "int32"
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "Issuer: Satoshi\n"
+                  >
+                  type: "object"
+                  description: "Any additional information related to the currency itself.\n\nFor example, it would be useful to populate this object with the contract address\nof an ERC-20 token.\n"
+                >
+              >
+            >
+          >
+          description: "Currency is composed of a canonical Symbol and\nDecimals. This Decimals value is used to convert\nan Amount.Value from atomic units (Satoshis) to standard units\n(Bitcoins).\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "Peer"
+      value: <
+        schema: <
+          required: "peer_id"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "peer_id"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5\n"
+                  >
+                  type: "string"
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  type: "object"
+                >
+              >
+            >
+          >
+          description: "A Peer is a representation of a node's peer.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "Version"
+      value: <
+        schema: <
+          required: "rosetta_version"
+          required: "node_version"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "rosetta_version"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "1.2.5\n"
+                  >
+                  type: "string"
+                  description: "The rosetta_version is the version of the Rosetta interface\nthe implementation adheres to. This can be useful for clients\nlooking to reliably parse responses.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "node_version"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "1.0.2\n"
+                  >
+                  type: "string"
+                  description: "The node_version is the canonical version of the node\nruntime. This can help clients manage deployments.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "middleware_version"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "0.2.7\n"
+                  >
+                  type: "string"
+                  description: "When a middleware server is used to adhere to the Rosetta\ninterface, it should return its version here. This can help\nclients manage deployments.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  type: "object"
+                  description: "Any other information that may be useful about versioning\nof dependent services should be returned here.\n"
+                >
+              >
+            >
+          >
+          description: "The Version object is utilized to inform the client\nof the versions of different components of the Rosetta\nimplementation.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "Allow"
+      value: <
+        schema: <
+          required: "operation_statuses"
+          required: "operation_types"
+          required: "errors"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "operation_statuses"
+              value: <
+                schema: <
+                  type: "array"
+                  items: <
+                    schema_or_reference: <
+                      reference: <
+                        _ref: "OperationStatus"
+                      >
+                    >
+                  >
+                  description: "All Operation.Status this implementation supports. Any status\nthat is returned during parsing that is not listed here will cause\nclient validation to error.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "operation_types"
+              value: <
+                schema: <
+                  type: "array"
+                  items: <
+                    schema_or_reference: <
+                      schema: <
+                        example: <
+                          yaml: "TRANSFER\n"
+                        >
+                        type: "string"
+                      >
+                    >
+                  >
+                  description: "All Operation.Type this implementation supports. Any type\nthat is returned during parsing that is not listed here will\ncause client validation to error.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "errors"
+              value: <
+                schema: <
+                  type: "array"
+                  items: <
+                    schema_or_reference: <
+                      reference: <
+                        _ref: "Error"
+                      >
+                    >
+                  >
+                  description: "All Errors that this implementation could return. Any error\nthat is returned during parsing that is not listed here will\ncause client validation to error.\n"
+                >
+              >
+            >
+          >
+          description: "Allow specifies supported Operation status, Operation types,\nand all possible error statuses. This Allow object is used by\nclients to validate the correctness of a Rosetta Server implementation. It is\nexpected that these clients will error if they receive some response\nthat contains any of the above information that is not specified here.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "Error"
+      value: <
+        schema: <
+          required: "code"
+          required: "message"
+          required: "retriable"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "code"
+              value: <
+                schema: <
+                  type: "integer"
+                  description: "Code is a network-specific error code. If desired, this code\ncan be equivalent to an HTTP status code.\n"
+                  format: "int32"
+                >
+              >
+            >
+            additional_properties: <
+              name: "message"
+              value: <
+                schema: <
+                  type: "string"
+                  description: "Message is a network-specific error message.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "retriable"
+              value: <
+                schema: <
+                  type: "boolean"
+                  description: "An error is retriable if the same request may succeed if submitted\nagain.\n"
+                >
+              >
+            >
+          >
+          description: "Instead of utilizing HTTP status codes to describe node errors (which often\ndo not have a good analog), rich errors are returned using this object.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "OperationStatus"
+      value: <
+        schema: <
+          example: <
+            yaml: "status: SUCCESS\nsuccessful: true\n"
+          >
+          required: "status"
+          required: "successful"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "status"
+              value: <
+                schema: <
+                  type: "string"
+                  description: "The status is the network-specific status of the operation.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "successful"
+              value: <
+                schema: <
+                  type: "boolean"
+                  description: "An Operation is considered successful if the Operation.Amount\nshould affect the Operation.Account. Some blockchains (like Bitcoin)\nonly include successful operations in blocks but other blockchains\n(like Ethereum) include unsuccessful operations that incur a fee.\n\nTo reconcile the computed balance from the stream of Operations,\nit is critical to understand which Operation.Status indicate an\nOperation is successful and should affect an Account.\n"
+                >
+              >
+            >
+          >
+          description: "OperationStatus is utilized to indicate which Operation\nstatus are considered successful.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "Timestamp"
+      value: <
+        schema: <
+          example: <
+            yaml: "1582833600000\n"
+          >
+          type: "integer"
+          description: "The timestamp of the block in milliseconds since the Unix Epoch. The timestamp is stored in\nmilliseconds because some blockchains produce blocks more often than once a second.\n"
+          format: "int64"
+        >
+      >
+    >
+    additional_properties: <
+      name: "AccountBalanceRequest"
+      value: <
+        schema: <
+          required: "network_identifier"
+          required: "account_identifier"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "network_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/NetworkIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "account_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/AccountIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "block_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/PartialBlockIdentifier"
+                >
+              >
+            >
+          >
+          description: "An AccountBalanceRequest is utilized to make a balance request\non the /account/balance endpoint. If the block_identifier is populated,\na historical balance query should be performed.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "AccountBalanceResponse"
+      value: <
+        schema: <
+          required: "block_identifier"
+          required: "balances"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "block_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/BlockIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "balances"
+              value: <
+                schema: <
+                  type: "array"
+                  items: <
+                    schema_or_reference: <
+                      reference: <
+                        _ref: "#/components/schemas/Amount"
+                      >
+                    >
+                  >
+                  description: "A single account may have a balance in multiple currencies.\n"
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "sequence_number: 23\n"
+                  >
+                  type: "object"
+                  description: "Account-based blockchains that utilize a nonce or sequence number\nshould include that number in the metadata. This number could be\nunique to the identifier or global across the account address.\n"
+                >
+              >
+            >
+          >
+          description: "An AccountBalanceResponse is returned on the /account/balance endpoint.\nIf an account has a balance for each AccountIdentifier describing it\n(ex: an ERC-20 token balance on a few smart contracts), an account\nbalance request must be made with each AccountIdentifier.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "BlockRequest"
+      value: <
+        schema: <
+          required: "network_identifier"
+          required: "block_identifier"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "network_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/NetworkIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "block_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/PartialBlockIdentifier"
+                >
+              >
+            >
+          >
+          description: "A BlockRequest is utilized to make a block request on the\n/block endpoint.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "BlockResponse"
+      value: <
+        schema: <
+          required: "block"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "block"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/Block"
+                >
+              >
+            >
+            additional_properties: <
+              name: "other_transactions"
+              value: <
+                schema: <
+                  type: "array"
+                  items: <
+                    schema_or_reference: <
+                      reference: <
+                        _ref: "#/components/schemas/TransactionIdentifier"
+                      >
+                    >
+                  >
+                  description: "Some blockchains may require additional transactions to be fetched\nthat weren't returned in the block response\n(ex: block only returns transaction hashes). For blockchains with a\nlot of transactions in each block, this\ncan be very useful as consumers can concurrently fetch all\ntransactions returned.\n"
+                >
+              >
+            >
+          >
+          description: "A BlockResponse includes a fully-populated block or a partially-populated\nblock with a list of other transactions to fetch (other_transactions).\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "BlockTransactionRequest"
+      value: <
+        schema: <
+          required: "network_identifier"
+          required: "block_identifier"
+          required: "transaction_identifier"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "network_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/NetworkIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "block_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/BlockIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "transaction_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/TransactionIdentifier"
+                >
+              >
+            >
+          >
+          description: "A BlockTransactionRequest is used to fetch a Transaction included in a\nblock that is not returned in a BlockResponse.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "BlockTransactionResponse"
+      value: <
+        schema: <
+          required: "transaction"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "transaction"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/Transaction"
+                >
+              >
+            >
+          >
+          description: "A BlockTransactionResponse contains information about a block transaction.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "MempoolRequest"
+      value: <
+        schema: <
+          required: "network_identifier"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "network_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/NetworkIdentifier"
+                >
+              >
+            >
+          >
+          description: "A MempoolRequest is utilized to retrieve all transaction identifiers in\nthe mempool for a particular network_identifier.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "MempoolResponse"
+      value: <
+        schema: <
+          required: "transaction_identifiers"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "transaction_identifiers"
+              value: <
+                schema: <
+                  type: "array"
+                  items: <
+                    schema_or_reference: <
+                      reference: <
+                        _ref: "#/components/schemas/TransactionIdentifier"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          description: "A MempoolResponse contains all transaction identifiers in the mempool\nfor a particular network_identifier.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "MempoolTransactionRequest"
+      value: <
+        schema: <
+          required: "network_identifier"
+          required: "transaction_identifier"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "network_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/NetworkIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "transaction_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/TransactionIdentifier"
+                >
+              >
+            >
+          >
+          description: "A MempoolTransactionRequest is utilized to retrieve a transaction\nfrom the mempool.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "MempoolTransactionResponse"
+      value: <
+        schema: <
+          required: "transaction"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "transaction"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/Transaction"
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "descendant_fees: 123923\nancestor_count: 2\n"
+                  >
+                  type: "object"
+                >
+              >
+            >
+          >
+          description: "A MempoolTransactionResponse contains an estimate of a mempool\ntransaction. It may not be possible to know the full impact of\na transaction in the mempool (ex: fee paid).\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "MetadataRequest"
+      value: <
+        schema: <
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  type: "object"
+                >
+              >
+            >
+          >
+          description: "A MetadataRequest is utilized in any request where\nthe only argument is optional metadata.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "NetworkListResponse"
+      value: <
+        schema: <
+          required: "network_identifiers"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "network_identifiers"
+              value: <
+                schema: <
+                  type: "array"
+                  items: <
+                    schema_or_reference: <
+                      reference: <
+                        _ref: "#/components/schemas/NetworkIdentifier"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          description: "A NetworkListResponse contains all NetworkIdentifiers\nthat the node can serve information for.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "NetworkRequest"
+      value: <
+        schema: <
+          required: "network_identifier"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "network_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/NetworkIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  type: "object"
+                >
+              >
+            >
+          >
+          description: "A NetworkRequest is utilized to retrieve some data specific exclusively\nto a NetworkIdentifier.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "NetworkStatusResponse"
+      value: <
+        schema: <
+          required: "current_block_identifier"
+          required: "current_block_timestamp"
+          required: "genesis_block_identifier"
+          required: "peers"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "current_block_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/BlockIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "current_block_timestamp"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/Timestamp"
+                >
+              >
+            >
+            additional_properties: <
+              name: "genesis_block_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/BlockIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "peers"
+              value: <
+                schema: <
+                  type: "array"
+                  items: <
+                    schema_or_reference: <
+                      reference: <
+                        _ref: "#/components/schemas/Peer"
+                      >
+                    >
+                  >
+                >
+              >
+            >
+          >
+          description: "NetworkStatusResponse contains basic information about the node's\nview of a blockchain network.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "NetworkOptionsResponse"
+      value: <
+        schema: <
+          required: "version"
+          required: "allow"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "version"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/Version"
+                >
+              >
+            >
+            additional_properties: <
+              name: "allow"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/Allow"
+                >
+              >
+            >
+          >
+          description: "NetworkOptionsResponse contains information about the versioning of the\nnode and the allowed operation statuses, operation types, and errors.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "ConstructionMetadataRequest"
+      value: <
+        schema: <
+          required: "network_identifier"
+          required: "options"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "network_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/NetworkIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "options"
+              value: <
+                schema: <
+                  type: "object"
+                  description: "Some blockchains require different metadata for different types of\ntransaction construction (ex: delegation versus a transfer). Instead\nof requiring a blockchain node to return all possible types of\nmetadata for construction (which may require multiple node fetches),\nthe client can populate an options object to limit the metadata\nreturned to only the subset required.\n"
+                >
+              >
+            >
+          >
+          description: "A ConstructionMetadataRequest is utilized to get information required\nto construct a transaction. The Options object used to specify which\nmetadata to return is left purposely unstructured to allow flexibility\nfor implementers.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "ConstructionMetadataResponse"
+      value: <
+        schema: <
+          required: "metadata"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  example: <
+                    yaml: "account_sequence: 23\nrecent_block_hash: 0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5\n"
+                  >
+                  type: "object"
+                >
+              >
+            >
+          >
+          description: "The ConstructionMetadataResponse returns network-specific metadata\nused for transaction construction. It is likely that the client will\nnot inspect this metadata before passing it to a client SDK that uses\nit for construction.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "ConstructionSubmitRequest"
+      value: <
+        schema: <
+          required: "network_identifier"
+          required: "signed_transaction"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "network_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/NetworkIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "signed_transaction"
+              value: <
+                schema: <
+                  type: "string"
+                >
+              >
+            >
+          >
+          description: "The transaction submission request includes a signed transaction.\n"
+        >
+      >
+    >
+    additional_properties: <
+      name: "ConstructionSubmitResponse"
+      value: <
+        schema: <
+          required: "transaction_identifier"
+          type: "object"
+          properties: <
+            additional_properties: <
+              name: "transaction_identifier"
+              value: <
+                reference: <
+                  _ref: "#/components/schemas/TransactionIdentifier"
+                >
+              >
+            >
+            additional_properties: <
+              name: "metadata"
+              value: <
+                schema: <
+                  type: "object"
+                >
+              >
+            >
+          >
+          description: "A TransactionSubmitResponse contains the transaction_identifier of a\nsubmitted transaction that was accepted into the mempool.\n"
+        >
+      >
+    >
+  >
+>

@@ -1,0 +1,392 @@
+@startuml
+
+rectangle emAssetApplications #lightskyblue {
+	rectangle emAsset.com #lightblue [
+		emAsset.com
+		====
+		Payment Application similar to Venmo for fiat
+		plus digital asset transfer. 
+		(stablecoins, native tokens, erc20 and nft's)
+		....
+		Links:
+		[[https://venmo.com/ Venmo]]\n[[https://blog.abuiles.com/building-your-own-venmo-with-stellar/ Stellar Venmo]]\n[[https://metamask.io/ Metamask]]]
+	rectangle emAssetX.com #lightblue [
+		emAssetX.com
+		====
+		Trading Platform similar to Binance 
+		supporting fiat and digital assets from 
+		multiple layer 1 protocols.
+		(stablecoins, native tokens, erc20 and nft's)
+		....
+		Links:
+		[[https://www.binance.com BINANCE]]\n[[https://www.stellarx.com/ stellarX]]]
+	rectangle trust.emAsset.com  #lightblue [
+		trust.emAsset.com
+		====
+		Analytics and Transaction Explorer with compliance
+		similar to etherscan. 
+		....
+		Links:
+		[[https://etherscan.io/ etherscan]]]
+
+	emAsset.com -[hidden]right- emAssetX.com
+	emAssetX.com -[hidden]right- trust.emAsset.com
+}
+
+emAssetApplications -- api.emasset.com
+
+rectangle api.emasset.com #lightskyblue {
+
+
+	rectangle complianceAPI  #lightblue [
+		complianceAPI
+		====
+		Account management with know your Customer(KYC)  
+		and Anti Money Laundering (AML) compliance 
+		similar to Plaid.
+		....
+		Links:
+		[[https://plaid.com/docs/ plaid]]]
+	rectangle fiatAPI #lightblue [
+		fiat management
+		====
+		Deposit, withdrawal and transfer capabilities 
+		similar to primetrust.
+		....
+		Links:
+		[[https://documentation.primetrust.com/ Prime Trust]]\n[[https://developers.braintreepayments.com/reference/overview Braintree]]\n[[https://stripe.com/docs/api stripe]]]
+	rectangle digitalAssetAPI  #lightblue [
+		Digital Assets
+		====
+		Deposit, withdrawal and transfer capabilities for multiple layer 1 platforms.
+		Multichain capabilities powered by emAsset Inter Block Chain eIBC..
+		Digital assets  powered by smart contract standards similar to openzepplin standards.
+		....
+		Links:
+		[[https://openzeppelin.com/sdk/ OpenZeppelin]]]
+	rectangle emAssetTradeAPI  #lightblue [
+		Trading API
+		====
+		Digital Asset Trading for multiple platforms.
+		Similar to Coinbase and Binance.
+		....
+		Links:
+		[[https://developers.coinbase.com/api/v2 Coinbase API]] [[https://www.rosetta-api.org/docs/welcome.html Rosetta]]\n[[https://binance-docs.github.io/apidocs/spot/en/#introduction Binance API]]]
+	rectangle emAssetAnalyticsAPI  #lightblue [
+		Analytics API
+		====
+		Enhanced reporting capabilities.
+		Similar to Covalent and GraphQL.
+		....
+		Links:
+		[[https://www.covalenthq.com/docs/api/#overview covalent]]\n[[https://thegraph.com/docs/graphql-api#queries GraphQL]]]
+
+	complianceAPI -[hidden]right- fiatAPI
+	fiatAPI -[hidden]right- digitalAssetAPI
+	digitalAssetAPI -[hidden]right- emAssetTradeAPI
+	emAssetTradeAPI -[hidden]right- emAssetAnalyticsAPI
+
+}
+complianceAPI -- complianceProviders
+fiatAPI -- fiatProviders
+digitalAssetAPI -- AssetProviders
+emAssetTradeAPI -- emAssetTradingEngine
+emAssetAnalyticsAPI  -- emAssetDB
+
+
+rectangle complianceProviders #lightblue {
+	rectangle plaid #lightseagreen [
+		compliance Providers
+		====
+		Account management with know your Customer(KYC)  
+		and Anti Money Laundering (AML) compliance 
+		similar to Plaid.
+		....
+		Links:
+		[[https://plaid.com/docs/ plaid]]]
+}
+
+rectangle fiatProviders #lightblue {
+	storage fiatAssets #lightgreen [
+		fiat Assets
+		====
+		$USD, €EUR, etc
+		]
+ 
+	rectangle primetrust #lightseagreen [
+		Fiat Providers
+		====
+		Finaincial Institutions integrated with primetrust
+		....
+		Links:
+		[[https://documentation.primetrust.com/ Prime Trust]]\n[[https://developers.braintreepayments.com/reference/overview Braintree]]\n[[https://stripe.com/docs/api stripe]]]
+
+	rectangle fiat #lightseagreen [
+		Financial Institutions
+		====
+		Providing banking and finanical services.
+		....
+		Links:]
+
+	fiatAssets .. primetrust
+	primetrust -- fiat
+}
+
+rectangle emAssetTradingEngine #lightskyblue {
+
+
+	rectangle emIBC  #lightblue [
+		emiIBC emAsset Inter Blockchain framework
+		====
+		Multichain and fiat interoperability and connectivity. 
+		Similar to Interchain Standards.
+		....
+		Links:
+		[[https://github.com/cosmos/ics Interchain Standards]]\n[[https://medium.com/web3foundation/polkadots-messaging-scheme-b1ec560908b7 polkadot messaging]]\n[[https://libp2p.io/ libp2p]]]
+	rectangle emAssetSmartContractProtocol #lightblue {
+		rectangle liquidity  #lightblue [
+			Liquidity Protocol	
+			====
+			Provides multi-chain liquidity pools for stable coins 
+			and other digital assets.
+			Similar to uniswap, 0x and Cowri but across multiple chains.
+			....
+			Links:
+			[[https://0x.org/docs/api 0X]]\n[[https://uniswap.org/docs/v2/ Uniswap]]\n[[https://github.com/cowri/loihi Cowri]]]
+		rectangle atom  #lightblue [
+			Atomic Swaps
+			====
+			Multichain swap of digital assets without intermediaries.
+			Similar to uniswap, 0x and Cowri but across multiple chains.
+			....
+			Links:
+			[[https://github.com/cosmos/peggy peggy]]\n[[https://0x.org/docs/api 0X]]\n[[https://uniswap.org/docs/v2/ Uniswap]]\n[[https://github.com/cowri/loihi Cowri]]]
+		storage emAssetSC #lightgreen [
+			 emAsset Digitial Assets
+			====
+			Stable Coins and Digital Assets stored on emAsset Chain 
+			powered by smart contract standards.
+			Similar to USDC, BUSD, DAI, TUSD.
+			....
+			Links: 
+			[[https://developers.circle.com/docs/what-is-usdc usdc]]\n[[https://github.com/paxosglobal/busd-contract BUSD]]\n[[https://github.com/trusttoken/true-currencies TUSD]]\n[[https://github.com/makerdao/sai DAI]]]
+	}	
+	rectangle emChain  #lightblue [
+		emasset Blockchain
+		====
+		Providing instant finality, digital asset storage and smart contract support. 
+		Similar to  substrate, tendermint, ethermint, harmony, ethereum 2.0
+		....
+		Links:
+		[[https://github.com/paritytech/substrate substrate]]\n[[https://github.com/tendermint/tendermint tendermint]]\n[[https://github.com/harmony-one/harmony harmony]]\n[[https://github.com/ethereum/eth2.0-specs ethereum 2.0]]]
+
+	emIBC -- emAssetSmartContractProtocol
+	liquidity -- atom
+	atom -- emAssetSC
+	emAssetSC -- emChain
+
+}
+
+rectangle AssetProviders #lightblue {
+
+	rectangle ethereum  #lightseagreen{
+		storage ethereumAssets #lightgreen [
+			Ethereum Assets
+			====
+			StableCoins (USDC, TUSD, DAI)
+			Ethereum
+			CryptoCurrencies
+			Non Fungible Tokens
+			]	
+ 
+		rectangle ethereumAPI #lightgrey
+		rectangle ethereumExplorerNode #lightgrey
+		database ethereumRawDB #lightgrey
+
+		ethereumAssets -- ethereumAPI
+		ethereumAPI -- ethereumExplorerNode
+		ethereumExplorerNode -- ethereumRawDB
+	}
+	rectangle bitcoin  #lightseagreen{
+		storage bitcoinAssets #lightgreen [
+			bitcoin Assets
+			====
+			bitcoin (BTC)
+			]	
+ 
+		rectangle bitcoinAPI #lightgrey
+		rectangle bitcoinExplorerNode #lightgrey
+		database bitcoinRawDB #lightgrey
+
+		bitcoinAssets --bitcoinAPI	
+		bitcoinAPI -- bitcoinExplorerNode
+		bitcoinExplorerNode -- bitcoinRawDB
+	}
+	rectangle stellar #lightseagreen{
+		storage stellarAssets #lightgreen [
+			Stellar Assets
+			====
+			StableCoins
+			Lumens (XLM)
+			]	
+ 
+		rectangle stellarAPI #lightgrey
+		rectangle stellarExplorerNode #lightgrey
+		database stellarRawDB #lightgrey
+	
+		stellarAssets -- stellarAPI
+		stellarAPI -- stellarExplorerNode
+		stellarExplorerNode -- stellarRawDB
+	}
+	rectangle libra  #lightseagreen{
+		storage libraAssets #lightgreen [
+			Libra Assets
+			====
+			Libra Coins
+			]	
+ 
+		rectangle libraAPI #lightgrey
+		rectangle libraExplorerNode #lightgrey
+		database libraRawDB #lightgrey
+	
+		libraAssets -- libraAPI
+		libraAPI -- libraExplorerNode
+		libraExplorerNode -- libraRawDB
+	}
+	rectangle cosmos  #lightseagreen{
+		storage cosmosAssets #lightgreen [
+			Cosmos Assets
+			====
+			Cosmos Atom (ATOM)
+			]	
+ 
+		rectangle cosmosAPI #lightgrey
+		rectangle cosmosExplorerNode #lightgrey
+		database cosmosRawDB #lightgrey
+
+		cosmosAssets -- cosmosAPI	
+		cosmosAPI -- cosmosExplorerNode
+		cosmosExplorerNode -- cosmosRawDB
+	}
+	rectangle polkadot  #lightseagreen{
+		storage polkadotAssets #lightgreen [
+			Polkadot Assets
+			====
+			StableCoins
+			Polkadot (DOT)
+			CryptoCurrencies
+			Non Fungible Tokens
+			]	
+ 
+		rectangle polkadotAPI #lightgrey
+		rectangle polkadotExplorerNode #lightgrey
+		database polkadotRawDB #lightgrey 
+	
+		polkadotAssets -- polkadotAPI
+		polkadotAPI -- polkadotExplorerNode
+		polkadotExplorerNode -- polkadotRawDB
+	}
+	rectangle harmony  #lightseagreen{
+		storage harmonyAssets #lightgreen [
+			Harmony Assets
+			====
+			StableCoins (BUSD)
+			Harmony Token (ONE)
+			CryptoCurrencies
+			Non Fungible Tokens
+			]	
+ 
+		rectangle harmonyAPI #lightgrey
+
+		rectangle harmonyExplorerNode #lightgrey
+
+		database harmonyRawDB #lightgrey [
+			Title: Harmony Raw Database
+			====
+			Description: Harmony Raw Database
+			....
+			Links:
+			[[https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go Schema]]\n[[https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go Schema2]]]
+
+		harmonyAssets -- harmonyAPI
+		harmonyAPI -- harmonyExplorerNode
+		harmonyExplorerNode -- harmonyRawDB
+
+	}
+
+	emChain -[hidden]right- fiat
+	fiat -[hidden]right- ethereum
+	ethereum -[hidden]right- bitcoin
+	bitcoin -[hidden]right- stellar
+	stellar -[hidden]right- libra
+	libra -[hidden]right- cosmos
+	cosmos -[hidden]right- polkadot
+	polkadot -[hidden]right- harmony
+
+}
+
+
+database emAssetDB #lightskyblue {
+
+	
+	database emAssetChainDB #lightBlue
+	database emAssetEthereumDB #cyan
+	database emAssetBitcoinDB #cyan
+	database emAssetStellarDB #cyan
+	database emAssetLibraDB #cyan
+	database emAssetCosmosDB #cyan
+	database emAssetPolkadotDB #cyan
+	database emAssetHarmonyDB #cyan
+
+	emAssetChainDB   -[hidden]right- emAssetEthereumDB 
+	emAssetEthereumDB -[hidden]right- emAssetBitcoinDB
+	emAssetBitcoinDB -[hidden]right- emAssetStellarDB
+	emAssetStellarDB -[hidden]right- emAssetLibraDB
+	emAssetLibraDB   -[hidden]right- emAssetCosmosDB 
+	emAssetCosmosDB   -[hidden]right- emAssetPolkadotDB
+	emAssetPolkadotDB -[hidden]right- emAssetHarmonyDB
+
+	rectangle emAssetAccumulator #lightskyblue {
+        	rectangle emAssetChainAccumulator #lightblue
+        	rectangle emEthereumAccumulator #cyan
+        	rectangle emBitcoinAccumulator #cyan
+        	rectangle emStellarAccumulator #cyan
+        	rectangle emAssetLibraAccumulator #cyan
+        	rectangle emAssetCosmosAccumulator #cyan
+        	rectangle emAssetPolkadotAccumulator #cyan
+        	rectangle emAssetHarmonyAccumulator #cyan
+
+        	emAssetChainAccumulator -[hidden]right- emEthereumAccumulator
+		emEthereumAccumulator -[hidden]right-  emBitcoinAccumulator
+        	emBitcoinAccumulator -[hidden]right- emStellarAccumulator
+        	emStellarAccumulator -[hidden]right- emAssetLibraAccumulator
+        	emAssetLibraAccumulator -[hidden]right- emAssetCosmosAccumulator
+        	emAssetCosmosAccumulator -[hidden]right- emAssetPolkadotAccumulator
+        	emAssetPolkadotAccumulator -[hidden]right- emAssetHarmonyAccumulator
+	}
+
+	emAssetChainDB -- emAssetChainAccumulator
+	emAssetEthereumDB -- emEthereumAccumulator
+	emAssetBitcoinDB -- emBitcoinAccumulator
+	emAssetStellarDB -- emStellarAccumulator
+	emAssetLibraDB -- emAssetLibraAccumulator
+	emAssetCosmosDB -- emAssetCosmosAccumulator
+	emAssetPolkadotDB --emAssetPolkadotAccumulator
+	emAssetHarmonyDB -- emAssetHarmonyAccumulator
+}
+emChain -[hidden]right- emAssetChainAccumulator
+ethereum -[hidden]right- emEthereumAccumulator
+bitcoin -[hidden]right- emBitcoinAccumulator
+stellar -[hidden]right- emStellarAccumulator
+libra -[hidden]right- emAssetLibraAccumulator
+cosmos -[hidden]right- emAssetCosmosAccumulator
+polkadot -[hidden]right- emAssetPolkadotAccumulator
+harmony -[hidden]right- emAssetHarmonyAccumulator
+
+
+complianceProviders -[hidden]right- fiatProviders
+fiatProviders -[hidden]right- AssetProviders
+AssetProviders -[hidden]right- emAssetTradingEngine
+emAssetTradingEngine -[hidden]right- emAssetDB
+
+@enduml

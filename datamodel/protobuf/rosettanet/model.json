@@ -1,0 +1,1216 @@
+{
+  "name": "Rosetta",
+  "types": [
+    {
+      "name": "NetworkIdentifier",
+      "fields": [
+        {
+          "name": "blockchain",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Blockchain",
+          "parameter_name": "blockchain"
+        },
+        {
+          "name": "network",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Network",
+          "parameter_name": "network"
+        },
+        {
+          "name": "sub_network_identifier",
+          "type": "SubNetworkIdentifier",
+          "kind": 3,
+          "native_type": "SubNetworkIdentifier",
+          "field_name": "SubNetworkIdentifier",
+          "parameter_name": "sub_network_identifier"
+        }
+      ],
+      "type_name": "NetworkIdentifier"
+    },
+    {
+      "name": "metadata",
+      "kind": 1,
+      "content_type": "interface{}",
+      "type_name": "Metadata"
+    },
+    {
+      "name": "SubNetworkIdentifier",
+      "fields": [
+        {
+          "name": "network",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Network",
+          "parameter_name": "network"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "SubNetworkIdentifier"
+    },
+    {
+      "name": "BlockIdentifier",
+      "fields": [
+        {
+          "name": "index",
+          "type": "integer",
+          "format": "int64",
+          "native_type": "int64",
+          "field_name": "Index",
+          "parameter_name": "index"
+        },
+        {
+          "name": "hash",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Hash",
+          "parameter_name": "hash"
+        }
+      ],
+      "type_name": "BlockIdentifier"
+    },
+    {
+      "name": "PartialBlockIdentifier",
+      "fields": [
+        {
+          "name": "index",
+          "type": "integer",
+          "format": "int64",
+          "native_type": "int64",
+          "field_name": "Index",
+          "parameter_name": "index"
+        },
+        {
+          "name": "hash",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Hash",
+          "parameter_name": "hash"
+        }
+      ],
+      "type_name": "PartialBlockIdentifier"
+    },
+    {
+      "name": "TransactionIdentifier",
+      "fields": [
+        {
+          "name": "hash",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Hash",
+          "parameter_name": "hash"
+        }
+      ],
+      "type_name": "TransactionIdentifier"
+    },
+    {
+      "name": "OperationIdentifier",
+      "fields": [
+        {
+          "name": "index",
+          "type": "integer",
+          "format": "int64",
+          "native_type": "int64",
+          "field_name": "Index",
+          "parameter_name": "index"
+        },
+        {
+          "name": "network_index",
+          "type": "integer",
+          "format": "int64",
+          "native_type": "int64",
+          "field_name": "NetworkIndex",
+          "parameter_name": "network_index"
+        }
+      ],
+      "type_name": "OperationIdentifier"
+    },
+    {
+      "name": "AccountIdentifier",
+      "fields": [
+        {
+          "name": "address",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Address",
+          "parameter_name": "address"
+        },
+        {
+          "name": "sub_account",
+          "type": "SubAccountIdentifier",
+          "kind": 3,
+          "native_type": "SubAccountIdentifier",
+          "field_name": "SubAccount",
+          "parameter_name": "sub_account"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "AccountIdentifier"
+    },
+    {
+      "name": "SubAccountIdentifier",
+      "fields": [
+        {
+          "name": "address",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Address",
+          "parameter_name": "address"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "SubAccountIdentifier"
+    },
+    {
+      "name": "Block",
+      "fields": [
+        {
+          "name": "block_identifier",
+          "type": "BlockIdentifier",
+          "kind": 3,
+          "native_type": "BlockIdentifier",
+          "field_name": "BlockIdentifier",
+          "parameter_name": "block_identifier"
+        },
+        {
+          "name": "parent_block_identifier",
+          "type": "BlockIdentifier",
+          "kind": 3,
+          "native_type": "BlockIdentifier",
+          "field_name": "ParentBlockIdentifier",
+          "parameter_name": "parent_block_identifier"
+        },
+        {
+          "name": "timestamp",
+          "type": "Timestamp",
+          "kind": 3,
+          "native_type": "Timestamp",
+          "field_name": "Timestamp",
+          "parameter_name": "timestamp"
+        },
+        {
+          "name": "transactions",
+          "type": "Transaction",
+          "kind": 2,
+          "native_type": "Transaction",
+          "field_name": "Transactions",
+          "parameter_name": "transactions"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "Block"
+    },
+    {
+      "name": "Transaction",
+      "fields": [
+        {
+          "name": "transaction_identifier",
+          "type": "TransactionIdentifier",
+          "kind": 3,
+          "native_type": "TransactionIdentifier",
+          "field_name": "TransactionIdentifier",
+          "parameter_name": "transaction_identifier"
+        },
+        {
+          "name": "operations",
+          "type": "Operation",
+          "kind": 2,
+          "native_type": "Operation",
+          "field_name": "Operations",
+          "parameter_name": "operations"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "Transaction"
+    },
+    {
+      "name": "Operation",
+      "fields": [
+        {
+          "name": "operation_identifier",
+          "type": "OperationIdentifier",
+          "kind": 3,
+          "native_type": "OperationIdentifier",
+          "field_name": "OperationIdentifier",
+          "parameter_name": "operation_identifier"
+        },
+        {
+          "name": "related_operations",
+          "type": "OperationIdentifier",
+          "kind": 2,
+          "native_type": "OperationIdentifier",
+          "field_name": "RelatedOperations",
+          "parameter_name": "related_operations"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Type",
+          "parameter_name": "myType"
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Status",
+          "parameter_name": "status"
+        },
+        {
+          "name": "account",
+          "type": "AccountIdentifier",
+          "kind": 3,
+          "native_type": "AccountIdentifier",
+          "field_name": "Account",
+          "parameter_name": "account"
+        },
+        {
+          "name": "amount",
+          "type": "Amount",
+          "kind": 3,
+          "native_type": "Amount",
+          "field_name": "Amount",
+          "parameter_name": "amount"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "Operation"
+    },
+    {
+      "name": "Amount",
+      "fields": [
+        {
+          "name": "value",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Value",
+          "parameter_name": "value"
+        },
+        {
+          "name": "currency",
+          "type": "Currency",
+          "kind": 3,
+          "native_type": "Currency",
+          "field_name": "Currency",
+          "parameter_name": "currency"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "Amount"
+    },
+    {
+      "name": "Currency",
+      "fields": [
+        {
+          "name": "symbol",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Symbol",
+          "parameter_name": "symbol"
+        },
+        {
+          "name": "decimals",
+          "type": "integer",
+          "format": "int32",
+          "native_type": "int32",
+          "field_name": "Decimals",
+          "parameter_name": "decimals"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "Currency"
+    },
+    {
+      "name": "Peer",
+      "fields": [
+        {
+          "name": "peer_id",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "PeerId",
+          "parameter_name": "peer_id"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "Peer"
+    },
+    {
+      "name": "Version",
+      "fields": [
+        {
+          "name": "rosetta_version",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "RosettaVersion",
+          "parameter_name": "rosetta_version"
+        },
+        {
+          "name": "node_version",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "NodeVersion",
+          "parameter_name": "node_version"
+        },
+        {
+          "name": "middleware_version",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "MiddlewareVersion",
+          "parameter_name": "middleware_version"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "Version"
+    },
+    {
+      "name": "Allow",
+      "fields": [
+        {
+          "name": "operation_statuses",
+          "type": "OperationStatus",
+          "kind": 2,
+          "native_type": "OperationStatus",
+          "field_name": "OperationStatuses",
+          "parameter_name": "operation_statuses"
+        },
+        {
+          "name": "operation_types",
+          "type": "string",
+          "kind": 2,
+          "native_type": "string",
+          "field_name": "OperationTypes",
+          "parameter_name": "operation_types"
+        },
+        {
+          "name": "errors",
+          "type": "Error",
+          "kind": 2,
+          "native_type": "Error",
+          "field_name": "Errors",
+          "parameter_name": "errors"
+        }
+      ],
+      "type_name": "Allow"
+    },
+    {
+      "name": "Error",
+      "fields": [
+        {
+          "name": "code",
+          "type": "integer",
+          "format": "int32",
+          "native_type": "int32",
+          "field_name": "Code",
+          "parameter_name": "code"
+        },
+        {
+          "name": "message",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Message",
+          "parameter_name": "message"
+        },
+        {
+          "name": "retriable",
+          "type": "boolean",
+          "native_type": "bool",
+          "field_name": "Retriable",
+          "parameter_name": "retriable"
+        }
+      ],
+      "type_name": "Error"
+    },
+    {
+      "name": "OperationStatus",
+      "fields": [
+        {
+          "name": "status",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "Status",
+          "parameter_name": "status"
+        },
+        {
+          "name": "successful",
+          "type": "boolean",
+          "native_type": "bool",
+          "field_name": "Successful",
+          "parameter_name": "successful"
+        }
+      ],
+      "type_name": "OperationStatus"
+    },
+    {
+      "name": "Timestamp",
+      "fields": [
+        {
+          "name": "value",
+          "type": "integer",
+          "format": "int64",
+          "native_type": "int64",
+          "field_name": "Value",
+          "parameter_name": "value"
+        }
+      ],
+      "type_name": "Timestamp"
+    },
+    {
+      "name": "AccountBalanceRequest",
+      "fields": [
+        {
+          "name": "network_identifier",
+          "type": "NetworkIdentifier",
+          "kind": 3,
+          "native_type": "NetworkIdentifier",
+          "field_name": "NetworkIdentifier",
+          "parameter_name": "network_identifier"
+        },
+        {
+          "name": "account_identifier",
+          "type": "AccountIdentifier",
+          "kind": 3,
+          "native_type": "AccountIdentifier",
+          "field_name": "AccountIdentifier",
+          "parameter_name": "account_identifier"
+        },
+        {
+          "name": "block_identifier",
+          "type": "PartialBlockIdentifier",
+          "kind": 3,
+          "native_type": "PartialBlockIdentifier",
+          "field_name": "BlockIdentifier",
+          "parameter_name": "block_identifier"
+        }
+      ],
+      "type_name": "AccountBalanceRequest"
+    },
+    {
+      "name": "AccountBalanceResponse",
+      "fields": [
+        {
+          "name": "block_identifier",
+          "type": "BlockIdentifier",
+          "kind": 3,
+          "native_type": "BlockIdentifier",
+          "field_name": "BlockIdentifier",
+          "parameter_name": "block_identifier"
+        },
+        {
+          "name": "balances",
+          "type": "Amount",
+          "kind": 2,
+          "native_type": "Amount",
+          "field_name": "Balances",
+          "parameter_name": "balances"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "AccountBalanceResponse"
+    },
+    {
+      "name": "BlockRequest",
+      "fields": [
+        {
+          "name": "network_identifier",
+          "type": "NetworkIdentifier",
+          "kind": 3,
+          "native_type": "NetworkIdentifier",
+          "field_name": "NetworkIdentifier",
+          "parameter_name": "network_identifier"
+        },
+        {
+          "name": "block_identifier",
+          "type": "PartialBlockIdentifier",
+          "kind": 3,
+          "native_type": "PartialBlockIdentifier",
+          "field_name": "BlockIdentifier",
+          "parameter_name": "block_identifier"
+        }
+      ],
+      "type_name": "BlockRequest"
+    },
+    {
+      "name": "BlockResponse",
+      "fields": [
+        {
+          "name": "block",
+          "type": "Block",
+          "kind": 3,
+          "native_type": "Block",
+          "field_name": "Block",
+          "parameter_name": "block"
+        },
+        {
+          "name": "other_transactions",
+          "type": "TransactionIdentifier",
+          "kind": 2,
+          "native_type": "TransactionIdentifier",
+          "field_name": "OtherTransactions",
+          "parameter_name": "other_transactions"
+        }
+      ],
+      "type_name": "BlockResponse"
+    },
+    {
+      "name": "BlockTransactionRequest",
+      "fields": [
+        {
+          "name": "network_identifier",
+          "type": "NetworkIdentifier",
+          "kind": 3,
+          "native_type": "NetworkIdentifier",
+          "field_name": "NetworkIdentifier",
+          "parameter_name": "network_identifier"
+        },
+        {
+          "name": "block_identifier",
+          "type": "BlockIdentifier",
+          "kind": 3,
+          "native_type": "BlockIdentifier",
+          "field_name": "BlockIdentifier",
+          "parameter_name": "block_identifier"
+        },
+        {
+          "name": "transaction_identifier",
+          "type": "TransactionIdentifier",
+          "kind": 3,
+          "native_type": "TransactionIdentifier",
+          "field_name": "TransactionIdentifier",
+          "parameter_name": "transaction_identifier"
+        }
+      ],
+      "type_name": "BlockTransactionRequest"
+    },
+    {
+      "name": "BlockTransactionResponse",
+      "fields": [
+        {
+          "name": "transaction",
+          "type": "Transaction",
+          "kind": 3,
+          "native_type": "Transaction",
+          "field_name": "Transaction",
+          "parameter_name": "transaction"
+        }
+      ],
+      "type_name": "BlockTransactionResponse"
+    },
+    {
+      "name": "MempoolRequest",
+      "fields": [
+        {
+          "name": "network_identifier",
+          "type": "NetworkIdentifier",
+          "kind": 3,
+          "native_type": "NetworkIdentifier",
+          "field_name": "NetworkIdentifier",
+          "parameter_name": "network_identifier"
+        }
+      ],
+      "type_name": "MempoolRequest"
+    },
+    {
+      "name": "MempoolResponse",
+      "fields": [
+        {
+          "name": "transaction_identifiers",
+          "type": "TransactionIdentifier",
+          "kind": 2,
+          "native_type": "TransactionIdentifier",
+          "field_name": "TransactionIdentifiers",
+          "parameter_name": "transaction_identifiers"
+        }
+      ],
+      "type_name": "MempoolResponse"
+    },
+    {
+      "name": "MempoolTransactionRequest",
+      "fields": [
+        {
+          "name": "network_identifier",
+          "type": "NetworkIdentifier",
+          "kind": 3,
+          "native_type": "NetworkIdentifier",
+          "field_name": "NetworkIdentifier",
+          "parameter_name": "network_identifier"
+        },
+        {
+          "name": "transaction_identifier",
+          "type": "TransactionIdentifier",
+          "kind": 3,
+          "native_type": "TransactionIdentifier",
+          "field_name": "TransactionIdentifier",
+          "parameter_name": "transaction_identifier"
+        }
+      ],
+      "type_name": "MempoolTransactionRequest"
+    },
+    {
+      "name": "MempoolTransactionResponse",
+      "fields": [
+        {
+          "name": "transaction",
+          "type": "Transaction",
+          "kind": 3,
+          "native_type": "Transaction",
+          "field_name": "Transaction",
+          "parameter_name": "transaction"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "MempoolTransactionResponse"
+    },
+    {
+      "name": "MetadataRequest",
+      "fields": [
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "MetadataRequest"
+    },
+    {
+      "name": "NetworkListResponse",
+      "fields": [
+        {
+          "name": "network_identifiers",
+          "type": "NetworkIdentifier",
+          "kind": 2,
+          "native_type": "NetworkIdentifier",
+          "field_name": "NetworkIdentifiers",
+          "parameter_name": "network_identifiers"
+        }
+      ],
+      "type_name": "NetworkListResponse"
+    },
+    {
+      "name": "NetworkRequest",
+      "fields": [
+        {
+          "name": "network_identifier",
+          "type": "NetworkIdentifier",
+          "kind": 3,
+          "native_type": "NetworkIdentifier",
+          "field_name": "NetworkIdentifier",
+          "parameter_name": "network_identifier"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "NetworkRequest"
+    },
+    {
+      "name": "NetworkStatusResponse",
+      "fields": [
+        {
+          "name": "current_block_identifier",
+          "type": "BlockIdentifier",
+          "kind": 3,
+          "native_type": "BlockIdentifier",
+          "field_name": "CurrentBlockIdentifier",
+          "parameter_name": "current_block_identifier"
+        },
+        {
+          "name": "current_block_timestamp",
+          "type": "Timestamp",
+          "kind": 3,
+          "native_type": "Timestamp",
+          "field_name": "CurrentBlockTimestamp",
+          "parameter_name": "current_block_timestamp"
+        },
+        {
+          "name": "genesis_block_identifier",
+          "type": "BlockIdentifier",
+          "kind": 3,
+          "native_type": "BlockIdentifier",
+          "field_name": "GenesisBlockIdentifier",
+          "parameter_name": "genesis_block_identifier"
+        },
+        {
+          "name": "peers",
+          "type": "Peer",
+          "kind": 2,
+          "native_type": "Peer",
+          "field_name": "Peers",
+          "parameter_name": "peers"
+        }
+      ],
+      "type_name": "NetworkStatusResponse"
+    },
+    {
+      "name": "NetworkOptionsResponse",
+      "fields": [
+        {
+          "name": "version",
+          "type": "Version",
+          "kind": 3,
+          "native_type": "Version",
+          "field_name": "Version",
+          "parameter_name": "version"
+        },
+        {
+          "name": "allow",
+          "type": "Allow",
+          "kind": 3,
+          "native_type": "Allow",
+          "field_name": "Allow",
+          "parameter_name": "allow"
+        }
+      ],
+      "type_name": "NetworkOptionsResponse"
+    },
+    {
+      "name": "options",
+      "kind": 1,
+      "content_type": "interface{}",
+      "type_name": "Options"
+    },
+    {
+      "name": "ConstructionMetadataRequest",
+      "fields": [
+        {
+          "name": "network_identifier",
+          "type": "NetworkIdentifier",
+          "kind": 3,
+          "native_type": "NetworkIdentifier",
+          "field_name": "NetworkIdentifier",
+          "parameter_name": "network_identifier"
+        },
+        {
+          "name": "options",
+          "type": "options",
+          "kind": 3,
+          "native_type": "Options",
+          "field_name": "Options",
+          "parameter_name": "options"
+        }
+      ],
+      "type_name": "ConstructionMetadataRequest"
+    },
+    {
+      "name": "ConstructionMetadataResponse",
+      "fields": [
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "ConstructionMetadataResponse"
+    },
+    {
+      "name": "ConstructionSubmitRequest",
+      "fields": [
+        {
+          "name": "network_identifier",
+          "type": "NetworkIdentifier",
+          "kind": 3,
+          "native_type": "NetworkIdentifier",
+          "field_name": "NetworkIdentifier",
+          "parameter_name": "network_identifier"
+        },
+        {
+          "name": "signed_transaction",
+          "type": "string",
+          "native_type": "string",
+          "field_name": "SignedTransaction",
+          "parameter_name": "signed_transaction"
+        }
+      ],
+      "type_name": "ConstructionSubmitRequest"
+    },
+    {
+      "name": "ConstructionSubmitResponse",
+      "fields": [
+        {
+          "name": "transaction_identifier",
+          "type": "TransactionIdentifier",
+          "kind": 3,
+          "native_type": "TransactionIdentifier",
+          "field_name": "TransactionIdentifier",
+          "parameter_name": "transaction_identifier"
+        },
+        {
+          "name": "metadata",
+          "type": "metadata",
+          "kind": 3,
+          "native_type": "Metadata",
+          "field_name": "Metadata",
+          "parameter_name": "metadata"
+        }
+      ],
+      "type_name": "ConstructionSubmitResponse"
+    },
+    {
+      "name": "NetworkListParameters",
+      "description": "NetworkListParameters holds parameters to NetworkList",
+      "fields": [
+        {
+          "name": "request_body",
+          "type": "networkListRequestBody",
+          "kind": 3,
+          "native_type": "MetadataRequest",
+          "field_name": "MetadataRequest",
+          "parameter_name": "request_body"
+        }
+      ],
+      "type_name": "NetworkListParameters"
+    },
+    {
+      "name": "NetworkStatusParameters",
+      "description": "NetworkStatusParameters holds parameters to NetworkStatus",
+      "fields": [
+        {
+          "name": "request_body",
+          "type": "networkStatusRequestBody",
+          "kind": 3,
+          "native_type": "NetworkRequest",
+          "field_name": "NetworkRequest",
+          "parameter_name": "request_body"
+        }
+      ],
+      "type_name": "NetworkStatusParameters"
+    },
+    {
+      "name": "NetworkOptionsParameters",
+      "description": "NetworkOptionsParameters holds parameters to NetworkOptions",
+      "fields": [
+        {
+          "name": "request_body",
+          "type": "networkOptionsRequestBody",
+          "kind": 3,
+          "native_type": "NetworkRequest",
+          "field_name": "NetworkRequest",
+          "parameter_name": "request_body"
+        }
+      ],
+      "type_name": "NetworkOptionsParameters"
+    },
+    {
+      "name": "BlockParameters",
+      "description": "BlockParameters holds parameters to Block",
+      "fields": [
+        {
+          "name": "request_body",
+          "type": "blockRequestBody",
+          "kind": 3,
+          "native_type": "BlockRequest",
+          "field_name": "BlockRequest",
+          "parameter_name": "request_body"
+        }
+      ],
+      "type_name": "BlockParameters"
+    },
+    {
+      "name": "BlockTransactionParameters",
+      "description": "BlockTransactionParameters holds parameters to BlockTransaction",
+      "fields": [
+        {
+          "name": "request_body",
+          "type": "blockTransactionRequestBody",
+          "kind": 3,
+          "native_type": "BlockTransactionRequest",
+          "field_name": "BlockTransactionRequest",
+          "parameter_name": "request_body"
+        }
+      ],
+      "type_name": "BlockTransactionParameters"
+    },
+    {
+      "name": "MempoolParameters",
+      "description": "MempoolParameters holds parameters to Mempool",
+      "fields": [
+        {
+          "name": "request_body",
+          "type": "mempoolRequestBody",
+          "kind": 3,
+          "native_type": "MempoolRequest",
+          "field_name": "MempoolRequest",
+          "parameter_name": "request_body"
+        }
+      ],
+      "type_name": "MempoolParameters"
+    },
+    {
+      "name": "MempoolTransactionParameters",
+      "description": "MempoolTransactionParameters holds parameters to MempoolTransaction",
+      "fields": [
+        {
+          "name": "request_body",
+          "type": "mempoolTransactionRequestBody",
+          "kind": 3,
+          "native_type": "MempoolTransactionRequest",
+          "field_name": "MempoolTransactionRequest",
+          "parameter_name": "request_body"
+        }
+      ],
+      "type_name": "MempoolTransactionParameters"
+    },
+    {
+      "name": "AccountBalanceParameters",
+      "description": "AccountBalanceParameters holds parameters to AccountBalance",
+      "fields": [
+        {
+          "name": "request_body",
+          "type": "accountBalanceRequestBody",
+          "kind": 3,
+          "native_type": "AccountBalanceRequest",
+          "field_name": "AccountBalanceRequest",
+          "parameter_name": "request_body"
+        }
+      ],
+      "type_name": "AccountBalanceParameters"
+    },
+    {
+      "name": "ConstructionMetadataParameters",
+      "description": "ConstructionMetadataParameters holds parameters to ConstructionMetadata",
+      "fields": [
+        {
+          "name": "request_body",
+          "type": "constructionMetadataRequestBody",
+          "kind": 3,
+          "native_type": "ConstructionMetadataRequest",
+          "field_name": "ConstructionMetadataRequest",
+          "parameter_name": "request_body"
+        }
+      ],
+      "type_name": "ConstructionMetadataParameters"
+    },
+    {
+      "name": "ConstructionSubmitParameters",
+      "description": "ConstructionSubmitParameters holds parameters to ConstructionSubmit",
+      "fields": [
+        {
+          "name": "request_body",
+          "type": "constructionSubmitRequestBody",
+          "kind": 3,
+          "native_type": "ConstructionSubmitRequest",
+          "field_name": "ConstructionSubmitRequest",
+          "parameter_name": "request_body"
+        }
+      ],
+      "type_name": "ConstructionSubmitParameters"
+    }
+  ],
+  "methods": [
+    {
+      "operation": "networkList",
+      "path": "/network/list",
+      "method": "POST",
+      "description": "This endpoint returns a list of NetworkIdentifiers that the Rosetta\nserver can handle.\n",
+      "name": "NetworkList",
+      "handler_name": "HandleNetworkList",
+      "processor_name": "NetworkList",
+      "client_name": "NetworkList",
+      "parameters_type_name": "NetworkListParameters",
+      "responses_type_name": "NetworkListResponse"
+    },
+    {
+      "operation": "networkStatus",
+      "path": "/network/status",
+      "method": "POST",
+      "description": "This endpoint returns the current status of the network requested. Any\nNetworkIdentifier returned by /network/list should be accessible here.\n",
+      "name": "NetworkStatus",
+      "handler_name": "HandleNetworkStatus",
+      "processor_name": "NetworkStatus",
+      "client_name": "NetworkStatus",
+      "parameters_type_name": "NetworkStatusParameters",
+      "responses_type_name": "NetworkStatusResponse"
+    },
+    {
+      "operation": "networkOptions",
+      "path": "/network/options",
+      "method": "POST",
+      "description": "This endpoint returns the version information and allowed\nnetwork-specific types for a NetworkIdentifier. Any\nNetworkIdentifier returned by /network/list should be accessible here.\n\nBecause options are retrievable in the context of a NetworkIdentifier,\nit is possible to define unique options for each network.\n",
+      "name": "NetworkOptions",
+      "handler_name": "HandleNetworkOptions",
+      "processor_name": "NetworkOptions",
+      "client_name": "NetworkOptions",
+      "parameters_type_name": "NetworkOptionsParameters",
+      "responses_type_name": "NetworkOptionsResponse"
+    },
+    {
+      "operation": "block",
+      "path": "/block",
+      "method": "POST",
+      "description": "Get a block by its Block Identifier. If transactions are returned in\nthe same call to the node as fetching the block, the response should\ninclude these transactions in the Block object. If not, an array of\nTransaction Identifiers should be returned so /block/transaction\nfetches can be done to get all transaction information.\n",
+      "name": "Block",
+      "handler_name": "HandleBlock",
+      "processor_name": "Block",
+      "client_name": "Block",
+      "parameters_type_name": "BlockParameters",
+      "responses_type_name": "BlockResponse"
+    },
+    {
+      "operation": "blockTransaction",
+      "path": "/block/transaction",
+      "method": "POST",
+      "description": "Get a transaction in a block by its Transaction Identifier. This endpoint\nshould only be used when querying a node for a block does not return all\ntransactions contained within it.\n\nAll transactions returned by this endpoint must be appended to any\ntransactions returned by the /block method by consumers of this data.\nFetching a transaction by hash is considered an Explorer Method\n(which is classified under the Future Work section).\n\nCalling this endpoint requires reference to a BlockIdentifier because\ntransaction parsing can change depending on which block contains the\ntransaction. For example, in Bitcoin it is necessary to know which block\ncontains a transaction to determine the destination of fee payments.\nWithout specifying a block identifier, the node\nwould have to infer which block to use (which could change during a re-org).\n\nImplementations that require fetching previous transactions to populate\nthe response (ex: Previous UTXOs in Bitcoin) may find it useful to run a\ncache within the Rosetta server in the /data directory\n(on a path that does not conflict with the node).\n",
+      "name": "BlockTransaction",
+      "handler_name": "HandleBlockTransaction",
+      "processor_name": "BlockTransaction",
+      "client_name": "BlockTransaction",
+      "parameters_type_name": "BlockTransactionParameters",
+      "responses_type_name": "BlockTransactionResponse"
+    },
+    {
+      "operation": "mempool",
+      "path": "/mempool",
+      "method": "POST",
+      "description": "Get all Transaction Identifiers in the mempool",
+      "name": "Mempool",
+      "handler_name": "HandleMempool",
+      "processor_name": "Mempool",
+      "client_name": "Mempool",
+      "parameters_type_name": "MempoolParameters",
+      "responses_type_name": "MempoolResponse"
+    },
+    {
+      "operation": "mempoolTransaction",
+      "path": "/mempool/transaction",
+      "method": "POST",
+      "description": "Get a transaction in the mempool by its Transaction Identifier. This is\na separate request than fetching a block transaction (/block/transaction)\nbecause some blockchain nodes need to know that a transaction query is\nfor something in the mempool instead of a transaction in a block.\n\nTransactions may not be fully parsable until they are in a block (ex: may\nnot be possible to determine the fee to pay before a transaction is\nexecuted). On this endpoint, it is ok that returned transactions are\nonly estimates of what may actually be included in a block.\n",
+      "name": "MempoolTransaction",
+      "handler_name": "HandleMempoolTransaction",
+      "processor_name": "MempoolTransaction",
+      "client_name": "MempoolTransaction",
+      "parameters_type_name": "MempoolTransactionParameters",
+      "responses_type_name": "MempoolTransactionResponse"
+    },
+    {
+      "operation": "accountBalance",
+      "path": "/account/balance",
+      "method": "POST",
+      "description": "Get an array of all Account Balances for an Account Identifier and the\nBlock Identifier at which the balance lookup was performed.\n\nSome consumers of account balance data need to know at which block the\nbalance was calculated to reconcile account balance changes.\n\nTo get all balances associated with an account, it may be necessary to\nperform multiple balance requests with unique Account Identifiers.\n\nIf the client supports it, passing nil AccountIdentifier metadata to\nthe request should fetch all balances (if applicable).\n\nIt is also possible to perform a historical balance lookup (if the server\nsupports it) by passing in an optional BlockIdentifier.\n",
+      "name": "AccountBalance",
+      "handler_name": "HandleAccountBalance",
+      "processor_name": "AccountBalance",
+      "client_name": "AccountBalance",
+      "parameters_type_name": "AccountBalanceParameters",
+      "responses_type_name": "AccountBalanceResponse"
+    },
+    {
+      "operation": "constructionMetadata",
+      "path": "/construction/metadata",
+      "method": "POST",
+      "description": "Get any information required to construct a transaction for a specific\nnetwork. Metadata returned here could be a recent hash to use, an\naccount sequence number, or even arbitrary chain state. It is up to the\nclient to correctly populate the options object with any\nnetwork-specific details to ensure the correct metadata is retrieved.\n\nIt is important to clarify that this endpoint should not pre-construct\nany transactions for the client (this should happen in the SDK). This\nendpoint is left purposely unstructured because of the wide scope\nof metadata that could be required.\n\nIn a future version of the spec, we plan to pass an array of Rosetta\nOperations to specify which metadata should be received and to create\na transaction in an accompanying SDK. This will help to insulate the\nclient from chain-specific details that are currently required here.\n",
+      "name": "ConstructionMetadata",
+      "handler_name": "HandleConstructionMetadata",
+      "processor_name": "ConstructionMetadata",
+      "client_name": "ConstructionMetadata",
+      "parameters_type_name": "ConstructionMetadataParameters",
+      "responses_type_name": "ConstructionMetadataResponse"
+    },
+    {
+      "operation": "constructionSubmit",
+      "path": "/construction/submit",
+      "method": "POST",
+      "description": "Submit a pre-signed transaction to the node. This call should not block\non the transaction being included in a block. Rather, it should return\nimmediately with an indication of whether or not the transaction was\nincluded in the mempool.\n\nThe transaction submission response should only return a 200 status\nif the submitted transaction could be included in the mempool.\nOtherwise, it should return an error.\n",
+      "name": "ConstructionSubmit",
+      "handler_name": "HandleConstructionSubmit",
+      "processor_name": "ConstructionSubmit",
+      "client_name": "ConstructionSubmit",
+      "parameters_type_name": "ConstructionSubmitParameters",
+      "responses_type_name": "ConstructionSubmitResponse"
+    }
+  ]
+}

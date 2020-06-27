@@ -1,0 +1,352 @@
+syntax = "proto3";
+
+package rosetta;
+
+import "google/api/annotations.proto";
+
+import "google/protobuf/descriptor.proto";
+
+message NetworkIdentifier {
+  string blockchain = 1;
+
+  string network = 2;
+
+  SubNetworkIdentifier sub_network_identifier = 3;
+}
+
+message Metadata {
+}
+
+message SubNetworkIdentifier {
+  string network = 1;
+
+  Metadata metadata = 2;
+}
+
+message BlockIdentifier {
+  int64 index = 1;
+
+  string hash = 2;
+}
+
+message PartialBlockIdentifier {
+  int64 index = 1;
+
+  string hash = 2;
+}
+
+message TransactionIdentifier {
+  string hash = 1;
+}
+
+message OperationIdentifier {
+  int64 index = 1;
+
+  int64 network_index = 2;
+}
+
+message AccountIdentifier {
+  string address = 1;
+
+  SubAccountIdentifier sub_account = 2;
+
+  Metadata metadata = 3;
+}
+
+message SubAccountIdentifier {
+  string address = 1;
+
+  Metadata metadata = 2;
+}
+
+message Block {
+  BlockIdentifier block_identifier = 1;
+
+  BlockIdentifier parent_block_identifier = 2;
+
+  Timestamp timestamp = 3;
+
+  repeated Transaction transactions = 4;
+
+  Metadata metadata = 5;
+}
+
+message Transaction {
+  TransactionIdentifier transaction_identifier = 1;
+
+  repeated Operation operations = 2;
+
+  Metadata metadata = 3;
+}
+
+message Operation {
+  OperationIdentifier operation_identifier = 1;
+
+  repeated OperationIdentifier related_operations = 2;
+
+  string type = 3;
+
+  string status = 4;
+
+  AccountIdentifier account = 5;
+
+  Amount amount = 6;
+
+  Metadata metadata = 7;
+}
+
+message Amount {
+  string value = 1;
+
+  Currency currency = 2;
+
+  Metadata metadata = 3;
+}
+
+message Currency {
+  string symbol = 1;
+
+  int32 decimals = 2;
+
+  Metadata metadata = 3;
+}
+
+message Peer {
+  string peer_id = 1;
+
+  Metadata metadata = 2;
+}
+
+message Version {
+  string rosetta_version = 1;
+
+  string node_version = 2;
+
+  string middleware_version = 3;
+
+  Metadata metadata = 4;
+}
+
+message Allow {
+  repeated OperationStatus operation_statuses = 1;
+
+  repeated string operation_types = 2;
+
+  repeated Error errors = 3;
+}
+
+message Error {
+  int32 code = 1;
+
+  string message = 2;
+
+  bool retriable = 3;
+}
+
+message OperationStatus {
+  string status = 1;
+
+  bool successful = 2;
+}
+
+message Timestamp {
+  int64 value = 1;
+}
+
+message AccountBalanceRequest {
+  NetworkIdentifier network_identifier = 1;
+
+  AccountIdentifier account_identifier = 2;
+
+  PartialBlockIdentifier block_identifier = 3;
+}
+
+message AccountBalanceResponse {
+  BlockIdentifier block_identifier = 1;
+
+  repeated Amount balances = 2;
+
+  Metadata metadata = 3;
+}
+
+message BlockRequest {
+  NetworkIdentifier network_identifier = 1;
+
+  PartialBlockIdentifier block_identifier = 2;
+}
+
+message BlockResponse {
+  Block block = 1;
+
+  repeated TransactionIdentifier other_transactions = 2;
+}
+
+message BlockTransactionRequest {
+  NetworkIdentifier network_identifier = 1;
+
+  BlockIdentifier block_identifier = 2;
+
+  TransactionIdentifier transaction_identifier = 3;
+}
+
+message BlockTransactionResponse {
+  Transaction transaction = 1;
+}
+
+message MempoolRequest {
+  NetworkIdentifier network_identifier = 1;
+}
+
+message MempoolResponse {
+  repeated TransactionIdentifier transaction_identifiers = 1;
+}
+
+message MempoolTransactionRequest {
+  NetworkIdentifier network_identifier = 1;
+
+  TransactionIdentifier transaction_identifier = 2;
+}
+
+message MempoolTransactionResponse {
+  Transaction transaction = 1;
+
+  Metadata metadata = 2;
+}
+
+message MetadataRequest {
+  Metadata metadata = 1;
+}
+
+message NetworkListResponse {
+  repeated NetworkIdentifier network_identifiers = 1;
+}
+
+message NetworkRequest {
+  NetworkIdentifier network_identifier = 1;
+
+  Metadata metadata = 2;
+}
+
+message NetworkStatusResponse {
+  BlockIdentifier current_block_identifier = 1;
+
+  Timestamp current_block_timestamp = 2;
+
+  BlockIdentifier genesis_block_identifier = 3;
+
+  repeated Peer peers = 4;
+}
+
+message NetworkOptionsResponse {
+  Version version = 1;
+
+  Allow allow = 2;
+}
+
+message Options {
+}
+
+message ConstructionMetadataRequest {
+  NetworkIdentifier network_identifier = 1;
+
+  Options options = 2;
+}
+
+message ConstructionMetadataResponse {
+  Metadata metadata = 1;
+}
+
+message ConstructionSubmitRequest {
+  NetworkIdentifier network_identifier = 1;
+
+  string signed_transaction = 2;
+}
+
+message ConstructionSubmitResponse {
+  TransactionIdentifier transaction_identifier = 1;
+
+  Metadata metadata = 2;
+}
+
+message NetworkListParameters {
+  MetadataRequest metadata_request = 1;
+}
+
+message NetworkStatusParameters {
+  NetworkRequest network_request = 1;
+}
+
+message NetworkOptionsParameters {
+  NetworkRequest network_request = 1;
+}
+
+message BlockParameters {
+  BlockRequest block_request = 1;
+}
+
+message BlockTransactionParameters {
+  BlockTransactionRequest block_transaction_request = 1;
+}
+
+message MempoolParameters {
+  MempoolRequest mempool_request = 1;
+}
+
+message MempoolTransactionParameters {
+  MempoolTransactionRequest mempool_transaction_request = 1;
+}
+
+message AccountBalanceParameters {
+  AccountBalanceRequest account_balance_request = 1;
+}
+
+message ConstructionMetadataParameters {
+  ConstructionMetadataRequest construction_metadata_request = 1;
+}
+
+message ConstructionSubmitParameters {
+  ConstructionSubmitRequest construction_submit_request = 1;
+}
+
+service Rosetta {
+  rpc NetworkList ( NetworkListParameters ) returns ( NetworkListResponse ) {
+    option (google.api.http) = { post:"/network/list" body:"metadata_request"  };
+  }
+
+  rpc NetworkStatus ( NetworkStatusParameters ) returns ( NetworkStatusResponse ) {
+    option (google.api.http) = { post:"/network/status" body:"network_request"  };
+  }
+
+  rpc NetworkOptions ( NetworkOptionsParameters ) returns ( NetworkOptionsResponse ) {
+    option (google.api.http) = { post:"/network/options" body:"network_request"  };
+  }
+
+  rpc Block ( BlockParameters ) returns ( BlockResponse ) {
+    option (google.api.http) = { post:"/block" body:"block_request"  };
+  }
+
+  rpc BlockTransaction ( BlockTransactionParameters ) returns ( BlockTransactionResponse ) {
+    option (google.api.http) = { post:"/block/transaction" body:"block_transaction_request"  };
+  }
+
+  rpc Mempool ( MempoolParameters ) returns ( MempoolResponse ) {
+    option (google.api.http) = { post:"/mempool" body:"mempool_request"  };
+  }
+
+  rpc MempoolTransaction ( MempoolTransactionParameters ) returns ( MempoolTransactionResponse ) {
+    option (google.api.http) = { post:"/mempool/transaction" body:"mempool_transaction_request"  };
+  }
+
+  rpc AccountBalance ( AccountBalanceParameters ) returns ( AccountBalanceResponse ) {
+    option (google.api.http) = { post:"/account/balance" body:"account_balance_request"  };
+  }
+
+  rpc ConstructionMetadata ( ConstructionMetadataParameters ) returns ( ConstructionMetadataResponse ) {
+    option (google.api.http) = { post:"/construction/metadata" body:"construction_metadata_request"  };
+  }
+
+  rpc ConstructionSubmit ( ConstructionSubmitParameters ) returns ( ConstructionSubmitResponse ) {
+    option (google.api.http) = { post:"/construction/submit" body:"construction_submit_request"  };
+  }
+}
+

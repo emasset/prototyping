@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2257px" preserveAspectRatio="none" style="width:5251px;height:2257px;" version="1.1" viewBox="0 0 5251 2257" width="5251px" zoomAndPan="magnify"><defs><filter height="300%" id="f140r7ukkpwweq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[84684c068aa47f177770400762020bb2]
+cluster emAssetApplications--><rect fill="#87CEFA" filter="url(#f140r7ukkpwweq)" height="235" style="stroke: #000000; stroke-width: 1.5;" width="1193" x="295" y="32"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="152" x="815.5" y="47.5352">emAssetApplications</text><!--MD5=[9fe8e20141e788842d5e69a91603700d]
+cluster api.emasset.com--><rect fill="#87CEFA" filter="url(#f140r7ukkpwweq)" height="218" style="stroke: #000000; stroke-width: 1.5;" width="2155" x="295" y="307"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="1313.5" y="322.5352">api.emasset.com</text><!--MD5=[0c8f29fcca5bd1295ae891273fa846d9]
+cluster complianceProviders--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="202" style="stroke: #000000; stroke-width: 1.5;" width="467" x="432" y="573"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="149" x="591" y="588.5352">complianceProviders</text><!--MD5=[0860a88a7e51435e9083c658af7f86ab]
+cluster fiatProviders--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="689" style="stroke: #000000; stroke-width: 1.5;" width="418" x="30" y="1096.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="93" x="192.5" y="1112.0352">fiatProviders</text><!--MD5=[c88c6f7424bb7a3851feb7458a6e8865]
+cluster emAssetTradingEngine--><rect fill="#87CEFA" filter="url(#f140r7ukkpwweq)" height="1262" style="stroke: #000000; stroke-width: 1.5;" width="601" x="2631" y="565"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="166" x="2848.5" y="580.5352">emAssetTradingEngine</text><!--MD5=[b0521bb9fecd03a05993c9cadefb0d75]
+cluster emAssetSmartContractProtocol--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="707" style="stroke: #000000; stroke-width: 1.5;" width="513" x="2679" y="815"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="225" x="2823" y="830.5352">emAssetSmartContractProtocol</text><!--MD5=[1abcb66f1bf32f1d1b15c348a121f76f]
+cluster AssetProviders--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="684" style="stroke: #000000; stroke-width: 1.5;" width="2103" x="488" y="1562"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="1485.5" y="1577.5352">AssetProviders</text><!--MD5=[ed9d6f6c31c7886d0ebbe3e47e7266f1]
+cluster ethereum--><rect fill="#20B2AA" filter="url(#f140r7ukkpwweq)" height="544" style="stroke: #000000; stroke-width: 1.5;" width="309" x="2242" y="1621"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="2362.5" y="1636.5352">ethereum</text><!--MD5=[d4db5999e5723f51d37a6ec516bb3942]
+cluster bitcoin--><rect fill="#20B2AA" filter="url(#f140r7ukkpwweq)" height="519.5" style="stroke: #000000; stroke-width: 1.5;" width="218" x="1984" y="1645.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="50" x="2068" y="1661.0352">bitcoin</text><!--MD5=[e0b0a1da3581ac40038e243e2b14b73e]
+cluster stellar--><rect fill="#20B2AA" filter="url(#f140r7ukkpwweq)" height="527.5" style="stroke: #000000; stroke-width: 1.5;" width="214" x="1730" y="1637.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="46" x="1814" y="1653.0352">stellar</text><!--MD5=[3257c91409d90ca7b74a4a214ca25d78]
+cluster libra--><rect fill="#20B2AA" filter="url(#f140r7ukkpwweq)" height="519.5" style="stroke: #000000; stroke-width: 1.5;" width="202" x="1488" y="1645.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="1572.5" y="1661.0352">libra</text><!--MD5=[27c926ddd05098c21a3969e3bed55c48]
+cluster cosmos--><rect fill="#20B2AA" filter="url(#f140r7ukkpwweq)" height="519.5" style="stroke: #000000; stroke-width: 1.5;" width="251" x="1197" y="1645.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="55" x="1295" y="1661.0352">cosmos</text><!--MD5=[9e74db7059f1535d9c8e690b5d6a567e]
+cluster polkadot--><rect fill="#20B2AA" filter="url(#f140r7ukkpwweq)" height="544" style="stroke: #000000; stroke-width: 1.5;" width="245" x="912" y="1621"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="64" x="1002.5" y="1636.5352">polkadot</text><!--MD5=[3f449606c3a4cc966200796b3e8d0829]
+cluster harmony--><rect fill="#20B2AA" filter="url(#f140r7ukkpwweq)" height="585" style="stroke: #000000; stroke-width: 1.5;" width="336" x="536" y="1621"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="63" x="672.5" y="1636.5352">harmony</text><!--MD5=[4c25348e949de40a5514eff3cb93b6d0]
+cluster emAssetDB--><path d="M3272,1335.5 C3272,1325.5 4255.5,1325.5 4255.5,1325.5 C4255.5,1325.5 5239,1325.5 5239,1335.5 L5239,1775 C5239,1785 4255.5,1785 4255.5,1785 C4255.5,1785 3272,1785 3272,1775 L3272,1335.5 " fill="#87CEFA" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M3272,1335.5 C3272,1345.5 4255.5,1345.5 4255.5,1345.5 C4255.5,1345.5 5239,1345.5 5239,1335.5 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="4214.5" y="1361.0352">emAssetDB</text><!--MD5=[8af7f7aac7d1214c21863f4779140185]
+cluster emAssetAccumulator--><rect fill="#87CEFA" filter="url(#f140r7ukkpwweq)" height="87" style="stroke: #000000; stroke-width: 1.5;" width="1895" x="3312" y="1666"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="152" x="4183.5" y="1681.5352">emAssetAccumulator</text><!--MD5=[0ecdaa7dd636c84430b86f5cfbaba888]
+entity emAsset.com--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="167.9063" style="stroke: #000000; stroke-width: 1.5;" width="342" x="338" y="75"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="348" y="98.5352">emAsset.com</text><line style="stroke: #000000; stroke-width: 1.0;" x1="339" x2="679" y1="101.4883" y2="101.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="339" x2="679" y1="103.4883" y2="103.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="310" x="354" y="119.0234">Payment Application similar to Venmo for fiat</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="177" x="354" y="135.5117">plus digital asset transfer.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="296" x="354" y="152">(stablecoins, native tokens, erc20 and nft's)</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="339" x2="679" y1="158.9531" y2="158.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="354" y="176.4883">Links:</text><a href="https://venmo.com/" target="_top" title="https://venmo.com/" xlink:actuate="onRequest" xlink:href="https://venmo.com/" xlink:show="new" xlink:title="https://venmo.com/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="48" x="354" y="192.9766">Venmo</text></a><a href="https://blog.abuiles.com/building-your-own-venmo-with-stellar/" target="_top" title="https://blog.abuiles.com/building-your-own-venmo-with-stellar/" xlink:actuate="onRequest" xlink:href="https://blog.abuiles.com/building-your-own-venmo-with-stellar/" xlink:show="new" xlink:title="https://blog.abuiles.com/building-your-own-venmo-with-stellar/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="95" x="354" y="209.4648">Stellar Venmo</text></a><a href="https://metamask.io/" target="_top" title="https://metamask.io/" xlink:actuate="onRequest" xlink:href="https://metamask.io/" xlink:show="new" xlink:title="https://metamask.io/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="69" x="354" y="225.9531">Metamask</text></a><!--MD5=[fb8e4fc025122877bfb35857cd5fa578]
+entity emAssetX.com--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="167.9063" style="stroke: #000000; stroke-width: 1.5;" width="328" x="715" y="75"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="100" x="725" y="98.5352">emAssetX.com</text><line style="stroke: #000000; stroke-width: 1.0;" x1="716" x2="1042" y1="101.4883" y2="101.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="716" x2="1042" y1="103.4883" y2="103.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="241" x="731" y="119.0234">Trading Platform similar to Binance</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="262" x="731" y="135.5117">supporting fiat and digital assets from</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="731" y="152">multiple layer 1 protocols.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="296" x="731" y="168.4883">(stablecoins, native tokens, erc20 and nft's)</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="716" x2="1042" y1="175.4414" y2="175.4414"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="731" y="192.9766">Links:</text><a href="https://www.binance.com" target="_top" title="https://www.binance.com" xlink:actuate="onRequest" xlink:href="https://www.binance.com" xlink:show="new" xlink:title="https://www.binance.com" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="60" x="731" y="209.4648">BINANCE</text></a><a href="https://www.stellarx.com/" target="_top" title="https://www.stellarx.com/" xlink:actuate="onRequest" xlink:href="https://www.stellarx.com/" xlink:show="new" xlink:title="https://www.stellarx.com/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="51" x="731" y="225.9531">stellarX</text></a><!--MD5=[ccbd5d0e971ad58fa68af2bce6eee959]
+entity trust.emAsset.com--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="118.4414" style="stroke: #000000; stroke-width: 1.5;" width="386" x="1078" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="127" x="1088" y="123.5352">trust.emAsset.com</text><line style="stroke: #000000; stroke-width: 1.0;" x1="1079" x2="1463" y1="126.4883" y2="126.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1079" x2="1463" y1="128.4883" y2="128.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="354" x="1094" y="144.0234">Analytics and Transaction Explorer with compliance</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="1094" y="160.5117">similar to etherscan.</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="1079" x2="1463" y1="167.4648" y2="167.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="1094" y="185">Links:</text><a href="https://etherscan.io/" target="_top" title="https://etherscan.io/" xlink:actuate="onRequest" xlink:href="https://etherscan.io/" xlink:show="new" xlink:title="https://etherscan.io/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="67" x="1094" y="201.4883">etherscan</text></a><!--MD5=[5338d7627e4533e1fbab67984e731a07]
+entity complianceAPI--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="134.9297" style="stroke: #000000; stroke-width: 1.5;" width="400" x="338" y="358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="100" x="348" y="381.5352">complianceAPI</text><line style="stroke: #000000; stroke-width: 1.0;" x1="339" x2="737" y1="384.4883" y2="384.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="339" x2="737" y1="386.4883" y2="386.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="368" x="354" y="402.0234">Account management with know your Customer(KYC)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="314" x="354" y="418.5117">and Anti Money Laundering (AML) compliance</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="105" x="354" y="435">similar to Plaid.</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="339" x2="737" y1="441.9531" y2="441.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="354" y="459.4883">Links:</text><a href="https://plaid.com/docs/" target="_top" title="https://plaid.com/docs/" xlink:actuate="onRequest" xlink:href="https://plaid.com/docs/" xlink:show="new" xlink:title="https://plaid.com/docs/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="34" x="354" y="475.9766">plaid</text></a><!--MD5=[33d15e03262ecebc28094a2071304679]
+entity fiatAPI--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="151.418" style="stroke: #000000; stroke-width: 1.5;" width="336" x="773" y="350"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="116" x="783" y="373.5352">fiat management</text><line style="stroke: #000000; stroke-width: 1.0;" x1="774" x2="1108" y1="376.4883" y2="376.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="774" x2="1108" y1="378.4883" y2="378.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="304" x="789" y="394.0234">Deposit, withdrawal and transfer capabilities</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="789" y="410.5117">similar to primetrust.</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="774" x2="1108" y1="417.4648" y2="417.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="789" y="435">Links:</text><a href="https://documentation.primetrust.com/" target="_top" title="https://documentation.primetrust.com/" xlink:actuate="onRequest" xlink:href="https://documentation.primetrust.com/" xlink:show="new" xlink:title="https://documentation.primetrust.com/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="79" x="789" y="451.4883">Prime Trust</text></a><a href="https://developers.braintreepayments.com/reference/overview" target="_top" title="https://developers.braintreepayments.com/reference/overview" xlink:actuate="onRequest" xlink:href="https://developers.braintreepayments.com/reference/overview" xlink:show="new" xlink:title="https://developers.braintreepayments.com/reference/overview" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="62" x="789" y="467.9766">Braintree</text></a><a href="https://stripe.com/docs/api" target="_top" title="https://stripe.com/docs/api" xlink:actuate="onRequest" xlink:href="https://stripe.com/docs/api" xlink:show="new" xlink:title="https://stripe.com/docs/api" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="39" x="789" y="484.4648">stripe</text></a><!--MD5=[cdf017788bf7bac083baf5e9a857950d]
+entity digitalAssetAPI--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="134.9297" style="stroke: #000000; stroke-width: 1.5;" width="619" x="1144.5" y="358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="92" x="1154.5" y="381.5352">Digital Assets</text><line style="stroke: #000000; stroke-width: 1.0;" x1="1145.5" x2="1762.5" y1="384.4883" y2="384.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1145.5" x2="1762.5" y1="386.4883" y2="386.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="512" x="1160.5" y="402.0234">Deposit, withdrawal and transfer capabilities for multiple layer 1 platforms.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="460" x="1160.5" y="418.5117">Multichain capabilities powered by emAsset Inter Block Chain eIBC..</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="587" x="1160.5" y="435">Digital assets  powered by smart contract standards similar to openzepplin standards.</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="1145.5" x2="1762.5" y1="441.9531" y2="441.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="1160.5" y="459.4883">Links:</text><a href="https://openzeppelin.com/sdk/" target="_top" title="https://openzeppelin.com/sdk/" xlink:actuate="onRequest" xlink:href="https://openzeppelin.com/sdk/" xlink:show="new" xlink:title="https://openzeppelin.com/sdk/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="96" x="1160.5" y="475.9766">OpenZeppelin</text></a><!--MD5=[180357e53e4adeb4f573d080450811fb]
+entity emAssetTradeAPI--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="134.9297" style="stroke: #000000; stroke-width: 1.5;" width="333" x="1798.5" y="358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="1808.5" y="381.5352">Trading API</text><line style="stroke: #000000; stroke-width: 1.0;" x1="1799.5" x2="2130.5" y1="384.4883" y2="384.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1799.5" x2="2130.5" y1="386.4883" y2="386.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="301" x="1814.5" y="402.0234">Digital Asset Trading for multiple platforms.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="224" x="1814.5" y="418.5117">Similar to Coinbase and Binance.</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="1799.5" x2="2130.5" y1="425.4648" y2="425.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="1814.5" y="443">Links:</text><a href="https://developers.coinbase.com/api/v2" target="_top" title="https://developers.coinbase.com/api/v2" xlink:actuate="onRequest" xlink:href="https://developers.coinbase.com/api/v2" xlink:show="new" xlink:title="https://developers.coinbase.com/api/v2" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="90" x="1814.5" y="459.4883">Coinbase API</text></a><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1908.5" y="459.4883"/><a href="https://www.rosetta-api.org/docs/welcome.html" target="_top" title="https://www.rosetta-api.org/docs/welcome.html" xlink:actuate="onRequest" xlink:href="https://www.rosetta-api.org/docs/welcome.html" xlink:show="new" xlink:title="https://www.rosetta-api.org/docs/welcome.html" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="51" x="1908.5" y="459.4883">Rosetta</text></a><a href="https://binance-docs.github.io/apidocs/spot/en/#introduction" target="_top" title="https://binance-docs.github.io/apidocs/spot/en/#introduction" xlink:actuate="onRequest" xlink:href="https://binance-docs.github.io/apidocs/spot/en/#introduction" xlink:show="new" xlink:title="https://binance-docs.github.io/apidocs/spot/en/#introduction" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="79" x="1814.5" y="475.9766">Binance API</text></a><!--MD5=[b1691dc6da4e0f257f24e22c6aed5649]
+entity emAssetAnalyticsAPI--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="134.9297" style="stroke: #000000; stroke-width: 1.5;" width="259" x="2166.5" y="358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="2176.5" y="381.5352">Analytics API</text><line style="stroke: #000000; stroke-width: 1.0;" x1="2167.5" x2="2424.5" y1="384.4883" y2="384.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="2167.5" x2="2424.5" y1="386.4883" y2="386.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="221" x="2182.5" y="402.0234">Enhanced reporting capabilities.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="227" x="2182.5" y="418.5117">Similar to Covalent and GraphQL.</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="2167.5" x2="2424.5" y1="425.4648" y2="425.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="2182.5" y="443">Links:</text><a href="https://www.covalenthq.com/docs/api/#overview" target="_top" title="https://www.covalenthq.com/docs/api/#overview" xlink:actuate="onRequest" xlink:href="https://www.covalenthq.com/docs/api/#overview" xlink:show="new" xlink:title="https://www.covalenthq.com/docs/api/#overview" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="57" x="2182.5" y="459.4883">covalent</text></a><a href="https://thegraph.com/docs/graphql-api#queries" target="_top" title="https://thegraph.com/docs/graphql-api#queries" xlink:actuate="onRequest" xlink:href="https://thegraph.com/docs/graphql-api#queries" xlink:show="new" xlink:title="https://thegraph.com/docs/graphql-api#queries" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="60" x="2182.5" y="475.9766">GraphQL</text></a><!--MD5=[86d632cc19e08c5353da300543cc76eb]
+entity plaid--><rect fill="#20B2AA" filter="url(#f140r7ukkpwweq)" height="134.9297" style="stroke: #000000; stroke-width: 1.5;" width="400" x="475" y="616"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="485" y="639.5352">compliance Providers</text><line style="stroke: #000000; stroke-width: 1.0;" x1="476" x2="874" y1="642.4883" y2="642.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="476" x2="874" y1="644.4883" y2="644.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="368" x="491" y="660.0234">Account management with know your Customer(KYC)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="314" x="491" y="676.5117">and Anti Money Laundering (AML) compliance</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="105" x="491" y="693">similar to Plaid.</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="476" x2="874" y1="699.9531" y2="699.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="491" y="717.4883">Links:</text><a href="https://plaid.com/docs/" target="_top" title="https://plaid.com/docs/" xlink:actuate="onRequest" xlink:href="https://plaid.com/docs/" xlink:show="new" xlink:title="https://plaid.com/docs/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="34" x="491" y="733.9766">plaid</text></a><!--MD5=[844600b9a9e16913ba9c6d999ebba6e1]
+entity fiatAssets--><rect fill="#90EE90" filter="url(#f140r7ukkpwweq)" height="60.9766" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="141" x="164.5" y="1139.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="174.5" y="1163.0352">fiat Assets</text><line style="stroke: #000000; stroke-width: 1.0;" x1="165.5" x2="304.5" y1="1165.9883" y2="1165.9883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="165.5" x2="304.5" y1="1167.9883" y2="1167.9883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="180.5" y="1183.5234">$USD, €EUR, etc</text><!--MD5=[bec241e59939230dc57a877f66851dab]
+entity primetrust--><rect fill="#20B2AA" filter="url(#f140r7ukkpwweq)" height="134.9297" style="stroke: #000000; stroke-width: 1.5;" width="362" x="54" y="1338.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="64" y="1362.0352">Fiat Providers</text><line style="stroke: #000000; stroke-width: 1.0;" x1="55" x2="415" y1="1364.9883" y2="1364.9883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="55" x2="415" y1="1366.9883" y2="1366.9883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="330" x="70" y="1382.5234">Finaincial Institutions integrated with primetrust</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="55" x2="415" y1="1389.4766" y2="1389.4766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="70" y="1407.0117">Links:</text><a href="https://documentation.primetrust.com/" target="_top" title="https://documentation.primetrust.com/" xlink:actuate="onRequest" xlink:href="https://documentation.primetrust.com/" xlink:show="new" xlink:title="https://documentation.primetrust.com/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="79" x="70" y="1423.5">Prime Trust</text></a><a href="https://developers.braintreepayments.com/reference/overview" target="_top" title="https://developers.braintreepayments.com/reference/overview" xlink:actuate="onRequest" xlink:href="https://developers.braintreepayments.com/reference/overview" xlink:show="new" xlink:title="https://developers.braintreepayments.com/reference/overview" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="62" x="70" y="1439.9883">Braintree</text></a><a href="https://stripe.com/docs/api" target="_top" title="https://stripe.com/docs/api" xlink:actuate="onRequest" xlink:href="https://stripe.com/docs/api" xlink:show="new" xlink:title="https://stripe.com/docs/api" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="39" x="70" y="1456.4766">stripe</text></a><!--MD5=[9fef2aaf55c7444ae0b4854ce1379bcb]
+entity fiat--><rect fill="#20B2AA" filter="url(#f140r7ukkpwweq)" height="85.4648" style="stroke: #000000; stroke-width: 1.5;" width="311" x="104.5" y="1676.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="114.5" y="1700.0352">Financial Institutions</text><line style="stroke: #000000; stroke-width: 1.0;" x1="105.5" x2="414.5" y1="1702.9883" y2="1702.9883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="105.5" x2="414.5" y1="1704.9883" y2="1704.9883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="279" x="120.5" y="1720.5234">Providing banking and finanical services.</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="105.5" x2="414.5" y1="1727.4766" y2="1727.4766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="120.5" y="1745.0117">Links:</text><!--MD5=[b2e4774da4009308d9b06751f55b18ac]
+entity emIBC--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="151.418" style="stroke: #000000; stroke-width: 1.5;" width="387" x="2674.5" y="608"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="300" x="2684.5" y="631.5352">emiIBC emAsset Inter Blockchain framework</text><line style="stroke: #000000; stroke-width: 1.0;" x1="2675.5" x2="3060.5" y1="634.4883" y2="634.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="2675.5" x2="3060.5" y1="636.4883" y2="636.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="355" x="2690.5" y="652.0234">Multichain and fiat interoperability and connectivity.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="215" x="2690.5" y="668.5117">Similar to Interchain Standards.</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="2675.5" x2="3060.5" y1="675.4648" y2="675.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="2690.5" y="693">Links:</text><a href="https://github.com/cosmos/ics" target="_top" title="https://github.com/cosmos/ics" xlink:actuate="onRequest" xlink:href="https://github.com/cosmos/ics" xlink:show="new" xlink:title="https://github.com/cosmos/ics" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="142" x="2690.5" y="709.4883">Interchain Standards</text></a><a href="https://medium.com/web3foundation/polkadots-messaging-scheme-b1ec560908b7" target="_top" title="https://medium.com/web3foundation/polkadots-messaging-scheme-b1ec560908b7" xlink:actuate="onRequest" xlink:href="https://medium.com/web3foundation/polkadots-messaging-scheme-b1ec560908b7" xlink:show="new" xlink:title="https://medium.com/web3foundation/polkadots-messaging-scheme-b1ec560908b7" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="139" x="2690.5" y="725.9766">polkadot messaging</text></a><a href="https://libp2p.io/" target="_top" title="https://libp2p.io/" xlink:actuate="onRequest" xlink:href="https://libp2p.io/" xlink:show="new" xlink:title="https://libp2p.io/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="44" x="2690.5" y="742.4648">libp2p</text></a><!--MD5=[fd7b586b49e07615754be183f8a9a566]
+entity emChain--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="167.9063" style="stroke: #000000; stroke-width: 1.5;" width="539" x="2668.5" y="1635"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="2678.5" y="1658.5352">emasset Blockchain</text><line style="stroke: #000000; stroke-width: 1.0;" x1="2669.5" x2="3206.5" y1="1661.4883" y2="1661.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="2669.5" x2="3206.5" y1="1663.4883" y2="1663.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="507" x="2684.5" y="1679.0234">Providing instant finality, digital asset storage and smart contract support.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="465" x="2684.5" y="1695.5117">Similar to  substrate, tendermint, ethermint, harmony, ethereum 2.0</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="2669.5" x2="3206.5" y1="1702.4648" y2="1702.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="2684.5" y="1720">Links:</text><a href="https://github.com/paritytech/substrate" target="_top" title="https://github.com/paritytech/substrate" xlink:actuate="onRequest" xlink:href="https://github.com/paritytech/substrate" xlink:show="new" xlink:title="https://github.com/paritytech/substrate" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="64" x="2684.5" y="1736.4883">substrate</text></a><a href="https://github.com/tendermint/tendermint" target="_top" title="https://github.com/tendermint/tendermint" xlink:actuate="onRequest" xlink:href="https://github.com/tendermint/tendermint" xlink:show="new" xlink:title="https://github.com/tendermint/tendermint" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="76" x="2684.5" y="1752.9766">tendermint</text></a><a href="https://github.com/harmony-one/harmony" target="_top" title="https://github.com/harmony-one/harmony" xlink:actuate="onRequest" xlink:href="https://github.com/harmony-one/harmony" xlink:show="new" xlink:title="https://github.com/harmony-one/harmony" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="61" x="2684.5" y="1769.4648">harmony</text></a><a href="https://github.com/ethereum/eth2.0-specs" target="_top" title="https://github.com/ethereum/eth2.0-specs" xlink:actuate="onRequest" xlink:href="https://github.com/ethereum/eth2.0-specs" xlink:show="new" xlink:title="https://github.com/ethereum/eth2.0-specs" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="92" x="2684.5" y="1785.9531">ethereum 2.0</text></a><!--MD5=[0c096deecdfa0cc4f97a1ca1abae870c]
+entity liquidity--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="167.9063" style="stroke: #000000; stroke-width: 1.5;" width="445" x="2722.5" y="858"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="119" x="2732.5" y="881.5352">Liquidity Protocol</text><line style="stroke: #000000; stroke-width: 1.0;" x1="2723.5" x2="3166.5" y1="884.4883" y2="884.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="2723.5" x2="3166.5" y1="886.4883" y2="886.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="352" x="2738.5" y="902.0234">Provides multi-chain liquidity pools for stable coins</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="164" x="2738.5" y="918.5117">and other digital assets.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="413" x="2738.5" y="935">Similar to uniswap, 0x and Cowri but across multiple chains.</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="2723.5" x2="3166.5" y1="941.9531" y2="941.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="2738.5" y="959.4883">Links:</text><a href="https://0x.org/docs/api" target="_top" title="https://0x.org/docs/api" xlink:actuate="onRequest" xlink:href="https://0x.org/docs/api" xlink:show="new" xlink:title="https://0x.org/docs/api" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="18" x="2738.5" y="975.9766">0X</text></a><a href="https://uniswap.org/docs/v2/" target="_top" title="https://uniswap.org/docs/v2/" xlink:actuate="onRequest" xlink:href="https://uniswap.org/docs/v2/" xlink:show="new" xlink:title="https://uniswap.org/docs/v2/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="58" x="2738.5" y="992.4648">Uniswap</text></a><a href="https://github.com/cowri/loihi" target="_top" title="https://github.com/cowri/loihi" xlink:actuate="onRequest" xlink:href="https://github.com/cowri/loihi" xlink:show="new" xlink:title="https://github.com/cowri/loihi" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="40" x="2738.5" y="1008.9531">Cowri</text></a><!--MD5=[05cc4b31965ee2b1594ddd2d10393c52]
+entity atom--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="167.9063" style="stroke: #000000; stroke-width: 1.5;" width="445" x="2722.5" y="1086"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="2732.5" y="1109.5352">Atomic Swaps</text><line style="stroke: #000000; stroke-width: 1.0;" x1="2723.5" x2="3166.5" y1="1112.4883" y2="1112.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="2723.5" x2="3166.5" y1="1114.4883" y2="1114.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="384" x="2738.5" y="1130.0234">Multichain swap of digital assets without intermediaries.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="413" x="2738.5" y="1146.5117">Similar to uniswap, 0x and Cowri but across multiple chains.</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="2723.5" x2="3166.5" y1="1153.4648" y2="1153.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="2738.5" y="1171">Links:</text><a href="https://github.com/cosmos/peggy" target="_top" title="https://github.com/cosmos/peggy" xlink:actuate="onRequest" xlink:href="https://github.com/cosmos/peggy" xlink:show="new" xlink:title="https://github.com/cosmos/peggy" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="42" x="2738.5" y="1187.4883">peggy</text></a><a href="https://0x.org/docs/api" target="_top" title="https://0x.org/docs/api" xlink:actuate="onRequest" xlink:href="https://0x.org/docs/api" xlink:show="new" xlink:title="https://0x.org/docs/api" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="18" x="2738.5" y="1203.9766">0X</text></a><a href="https://uniswap.org/docs/v2/" target="_top" title="https://uniswap.org/docs/v2/" xlink:actuate="onRequest" xlink:href="https://uniswap.org/docs/v2/" xlink:show="new" xlink:title="https://uniswap.org/docs/v2/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="58" x="2738.5" y="1220.4648">Uniswap</text></a><a href="https://github.com/cowri/loihi" target="_top" title="https://github.com/cowri/loihi" xlink:actuate="onRequest" xlink:href="https://github.com/cowri/loihi" xlink:show="new" xlink:title="https://github.com/cowri/loihi" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="40" x="2738.5" y="1236.9531">Cowri</text></a><!--MD5=[036717b825d73e71a82439110a9ce12f]
+entity emAssetSC--><rect fill="#90EE90" filter="url(#f140r7ukkpwweq)" height="184.3945" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="419" x="2731.5" y="1314"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="2741.5" y="1337.5352">emAsset Digitial Assets</text><line style="stroke: #000000; stroke-width: 1.0;" x1="2732.5" x2="3149.5" y1="1340.4883" y2="1340.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="2732.5" x2="3149.5" y1="1342.4883" y2="1342.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="387" x="2747.5" y="1358.0234">Stable Coins and Digital Assets stored on emAsset Chain</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="259" x="2747.5" y="1374.5117">powered by smart contract standards.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="232" x="2747.5" y="1391">Similar to USDC, BUSD, DAI, TUSD.</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="2732.5" x2="3149.5" y1="1397.9531" y2="1397.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="2747.5" y="1415.4883">Links:</text><a href="https://developers.circle.com/docs/what-is-usdc" target="_top" title="https://developers.circle.com/docs/what-is-usdc" xlink:actuate="onRequest" xlink:href="https://developers.circle.com/docs/what-is-usdc" xlink:show="new" xlink:title="https://developers.circle.com/docs/what-is-usdc" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="32" x="2747.5" y="1431.9766">usdc</text></a><a href="https://github.com/paxosglobal/busd-contract" target="_top" title="https://github.com/paxosglobal/busd-contract" xlink:actuate="onRequest" xlink:href="https://github.com/paxosglobal/busd-contract" xlink:show="new" xlink:title="https://github.com/paxosglobal/busd-contract" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="36" x="2747.5" y="1448.4648">BUSD</text></a><a href="https://github.com/trusttoken/true-currencies" target="_top" title="https://github.com/trusttoken/true-currencies" xlink:actuate="onRequest" xlink:href="https://github.com/trusttoken/true-currencies" xlink:show="new" xlink:title="https://github.com/trusttoken/true-currencies" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="37" x="2747.5" y="1464.9531">TUSD</text></a><a href="https://github.com/makerdao/sai" target="_top" title="https://github.com/makerdao/sai" xlink:actuate="onRequest" xlink:href="https://github.com/makerdao/sai" xlink:show="new" xlink:title="https://github.com/makerdao/sai" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="24" x="2747.5" y="1481.4414">DAI</text></a><!--MD5=[266033309c6a45cbc4a3026872043aa3]
+entity ethereumAssets--><rect fill="#90EE90" filter="url(#f140r7ukkpwweq)" height="110.4414" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="242" x="2285" y="1664"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="114" x="2295" y="1687.5352">Ethereum Assets</text><line style="stroke: #000000; stroke-width: 1.0;" x1="2286" x2="2526" y1="1690.4883" y2="1690.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="2286" x2="2526" y1="1692.4883" y2="1692.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="210" x="2301" y="1708.0234">StableCoins (USDC, TUSD, DAI)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="2301" y="1724.5117">Ethereum</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="120" x="2301" y="1741">CryptoCurrencies</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="2301" y="1757.4883">Non Fungible Tokens</text><!--MD5=[c0a738d400e592d7edd5012600d0cf54]
+entity ethereumAPI--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="108" x="2352" y="1863"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="88" x="2362" y="1886.5352">ethereumAPI</text><!--MD5=[7d1212e3f6608a35f65518244866e0ba]
+entity ethereumExplorerNode--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="181" x="2315.5" y="1959"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="161" x="2325.5" y="1982.5352">ethereumExplorerNode</text><!--MD5=[6b3be8c72380aee6f62c8ccd77dcec8e]
+entity ethereumRawDB--><path d="M2340,2106 C2340,2096 2406,2096 2406,2096 C2406,2096 2472,2096 2472,2106 L2472,2131.4883 C2472,2141.4883 2406,2141.4883 2406,2141.4883 C2406,2141.4883 2340,2141.4883 2340,2131.4883 L2340,2106 " fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M2340,2106 C2340,2116 2406,2116 2406,2116 C2406,2116 2472,2116 2472,2106 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="112" x="2350" y="2133.5352">ethereumRawDB</text><!--MD5=[5f2ebd9b83b7b26c729b32387bcaca05]
+entity bitcoinAssets--><rect fill="#90EE90" filter="url(#f140r7ukkpwweq)" height="60.9766" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="120" x="2037" y="1688.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="2047" y="1712.0352">bitcoin Assets</text><line style="stroke: #000000; stroke-width: 1.0;" x1="2038" x2="2156" y1="1714.9883" y2="1714.9883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="2038" x2="2156" y1="1716.9883" y2="1716.9883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="88" x="2053" y="1732.5234">bitcoin (BTC)</text><!--MD5=[eff5a82aa6a82bd421dd228af56b608b]
+entity bitcoinAPI--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="89" x="2052.5" y="1863"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="2062.5" y="1886.5352">bitcoinAPI</text><!--MD5=[a615017d3a6b1d8c224d084a0c333e6a]
+entity bitcoinExplorerNode--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="162" x="2016" y="1959"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="2026" y="1982.5352">bitcoinExplorerNode</text><!--MD5=[faef17c17fbd6ec18bc128362db46081]
+entity bitcoinRawDB--><path d="M2040.5,2106 C2040.5,2096 2097,2096 2097,2096 C2097,2096 2153.5,2096 2153.5,2106 L2153.5,2131.4883 C2153.5,2141.4883 2097,2141.4883 2097,2141.4883 C2097,2141.4883 2040.5,2141.4883 2040.5,2131.4883 L2040.5,2106 " fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M2040.5,2106 C2040.5,2116 2097,2116 2097,2116 C2097,2116 2153.5,2116 2153.5,2106 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="2050.5" y="2133.5352">bitcoinRawDB</text><!--MD5=[0dded674873613fcabf6210346a87ae2]
+entity stellarAssets--><rect fill="#90EE90" filter="url(#f140r7ukkpwweq)" height="77.4648" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="127" x="1777.5" y="1680.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="1787.5" y="1704.0352">Stellar Assets</text><line style="stroke: #000000; stroke-width: 1.0;" x1="1778.5" x2="1903.5" y1="1706.9883" y2="1706.9883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1778.5" x2="1903.5" y1="1708.9883" y2="1708.9883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="1793.5" y="1724.5234">StableCoins</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="1793.5" y="1741.0117">Lumens (XLM)</text><!--MD5=[a0bd6d56538f3b314047b71c6849ee4c]
+entity stellarAPI--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="84" x="1799" y="1863"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="1809" y="1886.5352">stellarAPI</text><!--MD5=[7a05b19ae62fab7dd9a8bfd157502c96]
+entity stellarExplorerNode--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="157" x="1762.5" y="1959"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="137" x="1772.5" y="1982.5352">stellarExplorerNode</text><!--MD5=[9c803a56e68c869a1c5ce21861beb338]
+entity stellarRawDB--><path d="M1787,2106 C1787,2096 1841,2096 1841,2096 C1841,2096 1895,2096 1895,2106 L1895,2131.4883 C1895,2141.4883 1841,2141.4883 1841,2141.4883 C1841,2141.4883 1787,2141.4883 1787,2131.4883 L1787,2106 " fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M1787,2106 C1787,2116 1841,2116 1841,2116 C1841,2116 1895,2116 1895,2106 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="88" x="1797" y="2133.5352">stellarRawDB</text><!--MD5=[90cbdce59fa5daa72c3204fd3e06efbe]
+entity libraAssets--><rect fill="#90EE90" filter="url(#f140r7ukkpwweq)" height="60.9766" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="109" x="1538.5" y="1688.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="1548.5" y="1712.0352">Libra Assets</text><line style="stroke: #000000; stroke-width: 1.0;" x1="1539.5" x2="1646.5" y1="1714.9883" y2="1714.9883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1539.5" x2="1646.5" y1="1716.9883" y2="1716.9883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="1554.5" y="1732.5234">Libra Coins</text><!--MD5=[7107adaab6cc8cefac24947ada12c9bb]
+entity libraAPI--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="73" x="1556.5" y="1863"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="53" x="1566.5" y="1886.5352">libraAPI</text><!--MD5=[d550116be5d1b3e4fa5d167a60c008a4]
+entity libraExplorerNode--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="146" x="1520" y="1959"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="126" x="1530" y="1982.5352">libraExplorerNode</text><!--MD5=[5d6eb208305f1dfeda9b59a95dace4d8]
+entity libraRawDB--><path d="M1544.5,2106 C1544.5,2096 1593,2096 1593,2096 C1593,2096 1641.5,2096 1641.5,2106 L1641.5,2131.4883 C1641.5,2141.4883 1593,2141.4883 1593,2141.4883 C1593,2141.4883 1544.5,2141.4883 1544.5,2131.4883 L1544.5,2106 " fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M1544.5,2106 C1544.5,2116 1593,2116 1593,2116 C1593,2116 1641.5,2116 1641.5,2106 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="1554.5" y="2133.5352">libraRawDB</text><!--MD5=[752c6ac7a37ffba941505f049f795654]
+entity cosmosAssets--><rect fill="#90EE90" filter="url(#f140r7ukkpwweq)" height="60.9766" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="184" x="1240" y="1688.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="103" x="1250" y="1712.0352">Cosmos Assets</text><line style="stroke: #000000; stroke-width: 1.0;" x1="1241" x2="1423" y1="1714.9883" y2="1714.9883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1241" x2="1423" y1="1716.9883" y2="1716.9883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="1256" y="1732.5234">Cosmos Atom (ATOM)</text><!--MD5=[2a388980fa1b31a3e4b015d1073911e9]
+entity cosmosAPI--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="94" x="1285" y="1863"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="1295" y="1886.5352">cosmosAPI</text><!--MD5=[3dabcd8d61387ac8a0e5870d5f478726]
+entity cosmosExplorerNode--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="167" x="1248.5" y="1959"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="1258.5" y="1982.5352">cosmosExplorerNode</text><!--MD5=[42b9a57b666971e3017397653fdb440a]
+entity cosmosRawDB--><path d="M1273,2106 C1273,2096 1332,2096 1332,2096 C1332,2096 1391,2096 1391,2106 L1391,2131.4883 C1391,2141.4883 1332,2141.4883 1332,2141.4883 C1332,2141.4883 1273,2141.4883 1273,2131.4883 L1273,2106 " fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M1273,2106 C1273,2116 1332,2116 1332,2116 C1332,2116 1391,2116 1391,2106 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="1283" y="2133.5352">cosmosRawDB</text><!--MD5=[db743ac2968c000dd041f11b81be1048]
+entity polkadotAssets--><rect fill="#90EE90" filter="url(#f140r7ukkpwweq)" height="110.4414" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="178" x="955" y="1664"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="965" y="1687.5352">Polkadot Assets</text><line style="stroke: #000000; stroke-width: 1.0;" x1="956" x2="1132" y1="1690.4883" y2="1690.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="956" x2="1132" y1="1692.4883" y2="1692.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="971" y="1708.0234">StableCoins</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="104" x="971" y="1724.5117">Polkadot (DOT)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="120" x="971" y="1741">CryptoCurrencies</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="971" y="1757.4883">Non Fungible Tokens</text><!--MD5=[cb2de6b08a0886fa5dbb9324bfc611e4]
+entity polkadotAPI--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="103" x="992.5" y="1863"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="1002.5" y="1886.5352">polkadotAPI</text><!--MD5=[ef798c95e54a721f80cf5bf2f89702cc]
+entity polkadotExplorerNode--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="176" x="956" y="1959"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="966" y="1982.5352">polkadotExplorerNode</text><!--MD5=[7048c0ab867c769d98a561c3e92382d4]
+entity polkadotRawDB--><path d="M980.5,2106 C980.5,2096 1044,2096 1044,2096 C1044,2096 1107.5,2096 1107.5,2106 L1107.5,2131.4883 C1107.5,2141.4883 1044,2141.4883 1044,2141.4883 C1044,2141.4883 980.5,2141.4883 980.5,2131.4883 L980.5,2106 " fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M980.5,2106 C980.5,2116 1044,2116 1044,2116 C1044,2116 1107.5,2116 1107.5,2106 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="107" x="990.5" y="2133.5352">polkadotRawDB</text><!--MD5=[0e471ad8aaec3d193af10a26c446f23b]
+entity harmonyAssets--><rect fill="#90EE90" filter="url(#f140r7ukkpwweq)" height="110.4414" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="184" x="608" y="1664"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="618" y="1687.5352">Harmony Assets</text><line style="stroke: #000000; stroke-width: 1.0;" x1="609" x2="791" y1="1690.4883" y2="1690.4883"/><line style="stroke: #000000; stroke-width: 1.0;" x1="609" x2="791" y1="1692.4883" y2="1692.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="131" x="624" y="1708.0234">StableCoins (BUSD)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="624" y="1724.5117">Harmony Token (ONE)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="120" x="624" y="1741">CryptoCurrencies</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="624" y="1757.4883">Non Fungible Tokens</text><!--MD5=[8455d9a1df79d67c0fc767a840a527d1]
+entity harmonyAPI--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="103" x="648.5" y="1863"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="658.5" y="1886.5352">harmonyAPI</text><!--MD5=[0b8cc06a5a3e214362e0228922700d6c]
+entity harmonyExplorerNode--><rect fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="176" x="612" y="1959"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="622" y="1982.5352">harmonyExplorerNode</text><!--MD5=[ba63a3eeb4eacee57b1224f6de215178]
+entity harmonyRawDB--><path d="M560.5,2065 C560.5,2055 700,2055 700,2055 C700,2055 839.5,2055 839.5,2065 L839.5,2172.4414 C839.5,2182.4414 700,2182.4414 700,2182.4414 C700,2182.4414 560.5,2182.4414 560.5,2172.4414 L560.5,2065 " fill="#D3D3D3" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M560.5,2065 C560.5,2075 700,2075 700,2075 C700,2075 839.5,2075 839.5,2065 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="570.5" y="2092.5352">Title: Harmony Raw Database</text><path d="M560.5,2090.4883 C560.5,2100.4883 700,2100.4883 700,2100.4883 C700,2100.4883 839.5,2100.4883 839.5,2090.4883 " fill="none" style="stroke: #000000; stroke-width: 1.0;"/><path d="M560.5,2092.4883 C560.5,2102.4883 700,2102.4883 700,2102.4883 C700,2102.4883 839.5,2102.4883 839.5,2092.4883 " fill="none" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="247" x="576.5" y="2113.0234">Description: Harmony Raw Database</text><path d="M560.5,2114.9766 C560.5,2124.9766 700,2124.9766 700,2124.9766 C700,2124.9766 839.5,2124.9766 839.5,2114.9766 " fill="none" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="576.5" y="2137.5117">Links:</text><a href="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" target="_top" title="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" xlink:actuate="onRequest" xlink:href="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" xlink:show="new" xlink:title="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="53" x="576.5" y="2154">Schema</text></a><a href="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" target="_top" title="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" xlink:actuate="onRequest" xlink:href="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" xlink:show="new" xlink:title="https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="62" x="576.5" y="2170.4883">Schema2</text></a><!--MD5=[2f79d8f89c853f8d7a5d05437e3a3c8e]
+entity emAssetChainDB--><path d="M3388,1393.5 C3388,1383.5 3456,1383.5 3456,1383.5 C3456,1383.5 3524,1383.5 3524,1393.5 L3524,1418.9883 C3524,1428.9883 3456,1428.9883 3456,1428.9883 C3456,1428.9883 3388,1428.9883 3388,1418.9883 L3388,1393.5 " fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M3388,1393.5 C3388,1403.5 3456,1403.5 3456,1403.5 C3456,1403.5 3524,1403.5 3524,1393.5 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="116" x="3398" y="1421.0352">emAssetChainDB</text><!--MD5=[6344d50a9db0ec368ee68860ea0777b5]
+entity emAssetEthereumDB--><path d="M3585,1393.5 C3585,1383.5 3666,1383.5 3666,1383.5 C3666,1383.5 3747,1383.5 3747,1393.5 L3747,1418.9883 C3747,1428.9883 3666,1428.9883 3666,1428.9883 C3666,1428.9883 3585,1428.9883 3585,1418.9883 L3585,1393.5 " fill="#00FFFF" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M3585,1393.5 C3585,1403.5 3666,1403.5 3666,1403.5 C3666,1403.5 3747,1403.5 3747,1393.5 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="3595" y="1421.0352">emAssetEthereumDB</text><!--MD5=[e893a4795f8a8de47fe8cbc9dfb70679]
+entity emAssetBitcoinDB--><path d="M3814,1393.5 C3814,1383.5 3885,1383.5 3885,1383.5 C3885,1383.5 3956,1383.5 3956,1393.5 L3956,1418.9883 C3956,1428.9883 3885,1428.9883 3885,1428.9883 C3885,1428.9883 3814,1428.9883 3814,1418.9883 L3814,1393.5 " fill="#00FFFF" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M3814,1393.5 C3814,1403.5 3885,1403.5 3885,1403.5 C3885,1403.5 3956,1403.5 3956,1393.5 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="3824" y="1421.0352">emAssetBitcoinDB</text><!--MD5=[aeaccfdf2bfcbcf561adba64b2af655e]
+entity emAssetStellarDB--><path d="M4023.5,1393.5 C4023.5,1383.5 4093,1383.5 4093,1383.5 C4093,1383.5 4162.5,1383.5 4162.5,1393.5 L4162.5,1418.9883 C4162.5,1428.9883 4093,1428.9883 4093,1428.9883 C4093,1428.9883 4023.5,1428.9883 4023.5,1418.9883 L4023.5,1393.5 " fill="#00FFFF" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M4023.5,1393.5 C4023.5,1403.5 4093,1403.5 4093,1403.5 C4093,1403.5 4162.5,1403.5 4162.5,1393.5 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="119" x="4033.5" y="1421.0352">emAssetStellarDB</text><!--MD5=[c0d4a298f1eb0b2a86ab4c8fae8d3ef8]
+entity emAssetLibraDB--><path d="M4248,1393.5 C4248,1383.5 4313,1383.5 4313,1383.5 C4313,1383.5 4378,1383.5 4378,1393.5 L4378,1418.9883 C4378,1428.9883 4313,1428.9883 4313,1428.9883 C4313,1428.9883 4248,1428.9883 4248,1418.9883 L4248,1393.5 " fill="#00FFFF" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M4248,1393.5 C4248,1403.5 4313,1403.5 4313,1403.5 C4313,1403.5 4378,1403.5 4378,1393.5 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="4258" y="1421.0352">emAssetLibraDB</text><!--MD5=[55cb96d5a19aeb75ec1bc5e9d1513d48]
+entity emAssetCosmosDB--><path d="M4482.5,1393.5 C4482.5,1383.5 4558,1383.5 4558,1383.5 C4558,1383.5 4633.5,1383.5 4633.5,1393.5 L4633.5,1418.9883 C4633.5,1428.9883 4558,1428.9883 4558,1428.9883 C4558,1428.9883 4482.5,1428.9883 4482.5,1418.9883 L4482.5,1393.5 " fill="#00FFFF" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M4482.5,1393.5 C4482.5,1403.5 4558,1403.5 4558,1403.5 C4558,1403.5 4633.5,1403.5 4633.5,1393.5 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="131" x="4492.5" y="1421.0352">emAssetCosmosDB</text><!--MD5=[a1848dae368cccd64039fe69285078b2]
+entity emAssetPolkadotDB--><path d="M4738,1393.5 C4738,1383.5 4816,1383.5 4816,1383.5 C4816,1383.5 4894,1383.5 4894,1393.5 L4894,1418.9883 C4894,1428.9883 4816,1428.9883 4816,1428.9883 C4816,1428.9883 4738,1428.9883 4738,1418.9883 L4738,1393.5 " fill="#00FFFF" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M4738,1393.5 C4738,1403.5 4816,1403.5 4816,1403.5 C4816,1403.5 4894,1403.5 4894,1393.5 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="136" x="4748" y="1421.0352">emAssetPolkadotDB</text><!--MD5=[cafbe2448e97f1e42e1aea6f9c3fcc49]
+entity emAssetHarmonyDB--><path d="M4963,1393.5 C4963,1383.5 5042,1383.5 5042,1383.5 C5042,1383.5 5121,1383.5 5121,1393.5 L5121,1418.9883 C5121,1428.9883 5042,1428.9883 5042,1428.9883 C5042,1428.9883 4963,1428.9883 4963,1418.9883 L4963,1393.5 " fill="#00FFFF" filter="url(#f140r7ukkpwweq)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M4963,1393.5 C4963,1403.5 5042,1403.5 5042,1403.5 C5042,1403.5 5121,1403.5 5121,1393.5 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="138" x="4973" y="1421.0352">emAssetHarmonyDB</text><!--MD5=[901f05aaf80d1e8074b5a65b2e319275]
+entity emAssetChainAccumulator--><rect fill="#ADD8E6" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="205" x="3328.5" y="1701"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="3338.5" y="1724.5352">emAssetChainAccumulator</text><!--MD5=[6ed663f572fba3fa7cc798e6828ce1e1]
+entity emEthereumAccumulator--><rect fill="#00FFFF" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="194" x="3569" y="1701"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="174" x="3579" y="1724.5352">emEthereumAccumulator</text><!--MD5=[76d33e9f1db9096e5ce578b9b96a054e]
+entity emBitcoinAccumulator--><rect fill="#00FFFF" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="174" x="3798" y="1701"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="154" x="3808" y="1724.5352">emBitcoinAccumulator</text><!--MD5=[9359f96ef999eb2020609bcf01cf401d]
+entity emStellarAccumulator--><rect fill="#00FFFF" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="171" x="4007.5" y="1701"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="4017.5" y="1724.5352">emStellarAccumulator</text><!--MD5=[2a64ae450361e9eefdd733753e7f11d7]
+entity emAssetLibraAccumulator--><rect fill="#00FFFF" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="199" x="4213.5" y="1701"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="4223.5" y="1724.5352">emAssetLibraAccumulator</text><!--MD5=[948b90b975a83fdc7883d271d783d795]
+entity emAssetCosmosAccumulator--><rect fill="#00FFFF" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="220" x="4448" y="1701"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="4458" y="1724.5352">emAssetCosmosAccumulator</text><!--MD5=[988a1925edbbc3e43499b6dd8b3f7c67]
+entity emAssetPolkadotAccumulator--><rect fill="#00FFFF" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="225" x="4703.5" y="1701"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="205" x="4713.5" y="1724.5352">emAssetPolkadotAccumulator</text><!--MD5=[4d6d60eec7c7641953a167f976438b79]
+entity emAssetHarmonyAccumulator--><rect fill="#00FFFF" filter="url(#f140r7ukkpwweq)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="227" x="4963.5" y="1701"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="207" x="4973.5" y="1724.5352">emAssetHarmonyAccumulator</text><!--MD5=[4c1381023e6587194e8595b115fa5fe6]
+link emAsset.com to emAssetX.com--><!--MD5=[32bdb681f87319a09df52d5a5be0b31c]
+link emAssetX.com to trust.emAsset.com--><!--MD5=[78d0e45a4aade5aefd36e4d140d90ee3]
+link emAssetApplications to api.emasset.com--><path d="M303,267.9732 C303,275.9871 303,284.1242 303,292.2613 C303,296.3298 303,300.3983 303,304.4514 C303,304.958 303,305.4644 303,305.9705 C303,306.2236 303,306.4766 303,306.7295 " fill="none" id="emAssetApplications-api.emasset.com" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a9bf3927c0b20111e2a278dab3b56773]
+link complianceAPI to fiatAPI--><!--MD5=[ed178773c91e536db66d570ad52aeb02]
+link fiatAPI to digitalAssetAPI--><!--MD5=[9efe61de67ed7dd5f95c371f3de42bcd]
+link digitalAssetAPI to emAssetTradeAPI--><!--MD5=[9c6cc84572f53842bda3d74bd3210bf5]
+link emAssetTradeAPI to emAssetAnalyticsAPI--><!--MD5=[b03bfc72ff969a497cb83438224c6991]
+link complianceAPI to complianceProviders--><path d="M487.77,493.05 C476.7,510.48 466.16,529.79 459,549 C456.4225,555.9088 454.1916,563.1386 452.2609,570.5059 C452.1403,570.9664 452.0208,571.4273 451.9025,571.8888 C451.8433,572.1196 451.7844,572.3504 451.7258,572.5814 " fill="none" id="complianceAPI-complianceProviders" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0589afcbd58d4948e57fcb8449aaaafc]
+link fiatAPI to fiatProviders--><path d="M945.97,501.21 C947.77,578.52 941.04,700.43 891,791 C828.255,904.565 716.77,998.4825 620.3463,1064.2963 C572.1344,1097.2031 527.6878,1123.0841 494.9817,1140.882 C478.6287,1149.781 465.2107,1156.6593 455.7248,1161.3846 C453.3533,1162.566 451.2276,1163.6128 449.3632,1164.5229 C448.8971,1164.7505 448.4473,1164.9695 448.0142,1165.1799 " fill="none" id="fiatAPI-fiatProviders" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7c96cc7d8f6d2b60dd88acebe5d9c68b]
+link digitalAssetAPI to AssetProviders--><path d="M1404.4,493.29 C1339.25,587.83 1233,768.44 1233,941 C1233,941 1233,941 1233,1171 C1233,1519.64 761.12,1273.22 544,1546 C540.9594,1549.8206 538.1112,1553.8222 535.4433,1557.968 C534.7764,1559.0044 534.1207,1560.0499 533.476,1561.1038 C533.3149,1561.3672 533.1544,1561.6312 532.9946,1561.8958 " fill="none" id="digitalAssetAPI-AssetProviders" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ea325c1582dc92464f212a6712647c8d]
+link emAssetTradeAPI to emAssetTradingEngine--><path d="M2061.07,493.21 C2088.62,510.4 2119.27,527.76 2149,541 C2251.73,586.74 2373.125,621.9225 2469.3838,645.765 C2517.5131,657.6863 2559.3584,666.7725 2589.4445,672.9259 C2604.4876,676.0027 2616.5908,678.3462 2625.0699,679.9443 C2627.1896,680.3438 2629.0829,680.6967 2630.7389,681.0029 " fill="none" id="emAssetTradeAPI-emAssetTradingEngine" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a2380f5420a79f75505627abf5fd30ca]
+link emAssetAnalyticsAPI to emAssetDB--><path d="M2425.9,434.99 C2667.89,452.05 3168.34,493.63 3224,549 C3447.33,771.16 3322.29,940.01 3297,1254 C3294.99,1278.91 3291.05,1284.7 3288,1309.5 C3287.3713,1314.6188 3286.7775,1319.8981 3286.2195,1325.2242 " fill="none" id="emAssetAnalyticsAPI-emAssetDB" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b2480a4d24ef54e58ba972e7ff05d0f8]
+link fiatAssets to primetrust--><path d="M235,1200.64 C235,1235.07 235,1292.96 235,1338.36 " fill="none" id="fiatAssets-primetrust" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[22f769391f2d479e642d93954cfd923e]
+link primetrust to fiat--><path d="M240.36,1473.72 C245.3,1535.11 252.47,1624.28 256.64,1676.19 " fill="none" id="primetrust-fiat" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[07ae4cfb88129124d8629aea45ba1199]
+link emIBC to emAssetSmartContractProtocol--><path d="M2739.06,759.34 C2726.3,771.19 2714.83,784.42 2706,799 C2703.9719,802.3512 2702.1214,805.8276 2700.4343,809.401 C2699.5908,811.1877 2698.7881,812.9987 2698.0245,814.8304 " fill="none" id="emIBC-emAssetSmartContractProtocol" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1853e85ca693bb4fe44f1ffb90caab46]
+link liquidity to atom--><path d="M2945,1026.19 C2945,1045.7 2945,1066.48 2945,1085.98 " fill="none" id="liquidity-atom" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1b556f32fc65c07ffa7ad1cc341ee292]
+link atom to emAssetSC--><path d="M2943.58,1254.16 C2943.25,1273.47 2942.9,1294.13 2942.56,1313.76 " fill="none" id="atom-emAssetSC" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0ce241056c93a0736c0e77ab846d9a1f]
+link emAssetSC to emChain--><path d="M2940.12,1498.21 C2939.7,1541.4 2939.21,1592.63 2938.8,1634.76 " fill="none" id="emAssetSC-emChain" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3b832a0e04653c7a572c58d500875f53]
+link ethereumAssets to ethereumAPI--><path d="M2406,1774.17 C2406,1804.99 2406,1841.55 2406,1862.63 " fill="none" id="ethereumAssets-ethereumAPI" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e8b2e1d2f355f9e0011d042f93c8cc4a]
+link ethereumAPI to ethereumExplorerNode--><path d="M2406,1899.24 C2406,1916.2 2406,1941.95 2406,1958.87 " fill="none" id="ethereumAPI-ethereumExplorerNode" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4d976c85d9bffb99573b38b39904e281]
+link ethereumExplorerNode to ethereumRawDB--><path d="M2406,1995.11 C2406,2020.42 2406,2067.87 2406,2095.66 " fill="none" id="ethereumExplorerNode-ethereumRawDB" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[be5b1aef7e778df48df354fee9a49534]
+link bitcoinAssets to bitcoinAPI--><path d="M2097,1749.72 C2097,1782.98 2097,1835.73 2097,1862.77 " fill="none" id="bitcoinAssets-bitcoinAPI" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7d6c7da13c852db9966acea6b35b1ecd]
+link bitcoinAPI to bitcoinExplorerNode--><path d="M2097,1899.24 C2097,1916.2 2097,1941.95 2097,1958.87 " fill="none" id="bitcoinAPI-bitcoinExplorerNode" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8fc4d320913f35c85bafaea21df57531]
+link bitcoinExplorerNode to bitcoinRawDB--><path d="M2097,1995.11 C2097,2020.42 2097,2067.87 2097,2095.66 " fill="none" id="bitcoinExplorerNode-bitcoinRawDB" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7e30e4e8aaf7e86820db31d69e119eee]
+link stellarAssets to stellarAPI--><path d="M1841,1757.51 C1841,1790.76 1841,1837.81 1841,1862.82 " fill="none" id="stellarAssets-stellarAPI" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2f7e7e3b827757055dd92df989d1e861]
+link stellarAPI to stellarExplorerNode--><path d="M1841,1899.24 C1841,1916.2 1841,1941.95 1841,1958.87 " fill="none" id="stellarAPI-stellarExplorerNode" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b1921929150960846ae9366811947294]
+link stellarExplorerNode to stellarRawDB--><path d="M1841,1995.11 C1841,2020.42 1841,2067.87 1841,2095.66 " fill="none" id="stellarExplorerNode-stellarRawDB" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4d584c87f204111bc41cfe5a1e6d83ea]
+link libraAssets to libraAPI--><path d="M1593,1749.72 C1593,1782.98 1593,1835.73 1593,1862.77 " fill="none" id="libraAssets-libraAPI" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[942c9fb6ac12896da4694c4aefb9e45a]
+link libraAPI to libraExplorerNode--><path d="M1593,1899.24 C1593,1916.2 1593,1941.95 1593,1958.87 " fill="none" id="libraAPI-libraExplorerNode" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d296377eafdc8f24df6c45306796bb10]
+link libraExplorerNode to libraRawDB--><path d="M1593,1995.11 C1593,2020.42 1593,2067.87 1593,2095.66 " fill="none" id="libraExplorerNode-libraRawDB" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ce75c48908904150d5eac50c1ddd1672]
+link cosmosAssets to cosmosAPI--><path d="M1332,1749.72 C1332,1782.98 1332,1835.73 1332,1862.77 " fill="none" id="cosmosAssets-cosmosAPI" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0ad795ffdb3f9b098e487f765498bc2c]
+link cosmosAPI to cosmosExplorerNode--><path d="M1332,1899.24 C1332,1916.2 1332,1941.95 1332,1958.87 " fill="none" id="cosmosAPI-cosmosExplorerNode" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[75272ab0866c1fc46281716a9155cb6f]
+link cosmosExplorerNode to cosmosRawDB--><path d="M1332,1995.11 C1332,2020.42 1332,2067.87 1332,2095.66 " fill="none" id="cosmosExplorerNode-cosmosRawDB" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[eabdde3c83555129611ec41fc7698ca3]
+link polkadotAssets to polkadotAPI--><path d="M1044,1774.17 C1044,1804.99 1044,1841.55 1044,1862.63 " fill="none" id="polkadotAssets-polkadotAPI" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[10eebce580e89018950900dc72aca00f]
+link polkadotAPI to polkadotExplorerNode--><path d="M1044,1899.24 C1044,1916.2 1044,1941.95 1044,1958.87 " fill="none" id="polkadotAPI-polkadotExplorerNode" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f1d881ad6f92be148940e6e213e1e0fe]
+link polkadotExplorerNode to polkadotRawDB--><path d="M1044,1995.11 C1044,2020.42 1044,2067.87 1044,2095.66 " fill="none" id="polkadotExplorerNode-polkadotRawDB" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b15787061659cde97ed789a09c5654c7]
+link harmonyAssets to harmonyAPI--><path d="M700,1774.17 C700,1804.99 700,1841.55 700,1862.63 " fill="none" id="harmonyAssets-harmonyAPI" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c8ef8e8fed6345abf2ef2cc59a10952f]
+link harmonyAPI to harmonyExplorerNode--><path d="M700,1899.24 C700,1916.2 700,1941.95 700,1958.87 " fill="none" id="harmonyAPI-harmonyExplorerNode" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[82963ca1fa4a139ac17c45dc924e054a]
+link harmonyExplorerNode to harmonyRawDB--><path d="M700,1995.11 C700,2010.17 700,2033.05 700,2054.98 " fill="none" id="harmonyExplorerNode-harmonyRawDB" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0de7d24f71abd390ff1e3fc8c9fcd9d0]
+link emChain to fiat--><!--MD5=[75eab93517e6da476517f13a67d4f9ab]
+link fiat to ethereum--><!--MD5=[7e6ef202134554b169440783a0c0d91c]
+link ethereum to bitcoin--><!--MD5=[473737107e91eb1bdc43785088f4727a]
+link bitcoin to stellar--><!--MD5=[cdb517ef155743f0d08457c17c829490]
+link stellar to libra--><!--MD5=[90d5f6bef76fe444b6a066db1933a40e]
+link libra to cosmos--><!--MD5=[880c07b02aa03a48ad3c1e4d9a5ffd50]
+link cosmos to polkadot--><!--MD5=[65d823225bf4c36a42e7a2fe74adad79]
+link polkadot to harmony--><!--MD5=[37fc1ceb6e1a129a1b5a009a936a6bf8]
+link emAssetChainDB to emAssetEthereumDB--><!--MD5=[59a7b0a863be3f5ea809af6839c42c35]
+link emAssetEthereumDB to emAssetBitcoinDB--><!--MD5=[67c50012ffebb1f0580cd3fa68d759ae]
+link emAssetBitcoinDB to emAssetStellarDB--><!--MD5=[2dd34ded2f87cd36c4b323ebec4d78d0]
+link emAssetStellarDB to emAssetLibraDB--><!--MD5=[7c0018b80187d0a745d201ad5854eece]
+link emAssetLibraDB to emAssetCosmosDB--><!--MD5=[913aed1c3d5799367e6243e70c80f30a]
+link emAssetCosmosDB to emAssetPolkadotDB--><!--MD5=[8274bc4db40256951f578ce2dca673b7]
+link emAssetPolkadotDB to emAssetHarmonyDB--><!--MD5=[3b82edc464f0df0a5c3768002ae1be26]
+link emAssetChainAccumulator to emEthereumAccumulator--><!--MD5=[348f2b57f239b9911ba8fa7a01b45d45]
+link emEthereumAccumulator to emBitcoinAccumulator--><!--MD5=[522f3c5a643ee2e67297a6437ffd020c]
+link emBitcoinAccumulator to emStellarAccumulator--><!--MD5=[991bcbaff790c497989bd7b9af83b33a]
+link emStellarAccumulator to emAssetLibraAccumulator--><!--MD5=[5a3987c696d39f8a3db0e9b6dc601d44]
+link emAssetLibraAccumulator to emAssetCosmosAccumulator--><!--MD5=[a1e525da34d3eb1df9eff4e547ae5cc4]
+link emAssetCosmosAccumulator to emAssetPolkadotAccumulator--><!--MD5=[85d6224e596e855b142e706d73efc020]
+link emAssetPolkadotAccumulator to emAssetHarmonyAccumulator--><!--MD5=[ca85e6597e04b24a25e205b9c4e95805]
+link emAssetChainDB to emAssetChainAccumulator--><path d="M3454.24,1428.87 C3449.52,1487.63 3436.62,1648.06 3432.38,1700.88 " fill="none" id="emAssetChainDB-emAssetChainAccumulator" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[304316641542df1449e953f823898f03]
+link emAssetEthereumDB to emEthereumAccumulator--><path d="M3666,1428.87 C3666,1487.63 3666,1648.06 3666,1700.88 " fill="none" id="emAssetEthereumDB-emEthereumAccumulator" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bfababd4efe2e42d56f1833904879658]
+link emAssetBitcoinDB to emBitcoinAccumulator--><path d="M3885,1428.87 C3885,1487.63 3885,1648.06 3885,1700.88 " fill="none" id="emAssetBitcoinDB-emBitcoinAccumulator" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[09cbdcdb6f3188a497a08371e73377d6]
+link emAssetStellarDB to emStellarAccumulator--><path d="M4093,1428.87 C4093,1487.63 4093,1648.06 4093,1700.88 " fill="none" id="emAssetStellarDB-emStellarAccumulator" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[674efc48a2760ca92ffefed0d46c2b2d]
+link emAssetLibraDB to emAssetLibraAccumulator--><path d="M4313,1428.87 C4313,1487.63 4313,1648.06 4313,1700.88 " fill="none" id="emAssetLibraDB-emAssetLibraAccumulator" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b4f811224b6b97987ca092abe4adc60b]
+link emAssetCosmosDB to emAssetCosmosAccumulator--><path d="M4558,1428.87 C4558,1487.63 4558,1648.06 4558,1700.88 " fill="none" id="emAssetCosmosDB-emAssetCosmosAccumulator" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7b754ba55ca52d86c3c1fee6cf684b90]
+link emAssetPolkadotDB to emAssetPolkadotAccumulator--><path d="M4816,1428.87 C4816,1487.63 4816,1648.06 4816,1700.88 " fill="none" id="emAssetPolkadotDB-emAssetPolkadotAccumulator" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7a788da244b5a2eb67c9e9f00d51e082]
+link emAssetHarmonyDB to emAssetHarmonyAccumulator--><path d="M5044.46,1428.87 C5051.07,1487.63 5069.13,1648.06 5075.07,1700.88 " fill="none" id="emAssetHarmonyDB-emAssetHarmonyAccumulator" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[54154a365e3da66fd67a46ec6f5ba433]
+link emChain to emAssetChainAccumulator--><!--MD5=[fa2e1070560be7b8a411640968bc4be3]
+link ethereum to emEthereumAccumulator--><!--MD5=[159c22fdf053135400dda312c5e5ae4a]
+link bitcoin to emBitcoinAccumulator--><!--MD5=[8bba2a299d2f6e4d256176380e82d750]
+link stellar to emStellarAccumulator--><!--MD5=[44fcbe4bcec2caa8108d482b03a9ccf0]
+link libra to emAssetLibraAccumulator--><!--MD5=[658b7c7da1061f11f6a762ed7b25bc8e]
+link cosmos to emAssetCosmosAccumulator--><!--MD5=[e68cf659870862a45277cbd84c1779a4]
+link polkadot to emAssetPolkadotAccumulator--><!--MD5=[125050c7443c1e879dfd1657972d142b]
+link harmony to emAssetHarmonyAccumulator--><!--MD5=[786ec843b70bf3203c568e0e3b03ee4b]
+link complianceProviders to fiatProviders--><!--MD5=[1b76a768c1b24a10bc54971e16cd0837]
+link fiatProviders to AssetProviders--><!--MD5=[6ea26d91245bf795c862b707f8ae6017]
+link AssetProviders to emAssetTradingEngine--><!--MD5=[92e9aade13b24c545c39f209c30c5856]
+link emAssetTradingEngine to emAssetDB--><!--MD5=[b9e0aebbe3a9fb1976f9733f1110b345]
+@startuml
+
+rectangle emAssetApplications #lightskyblue {
+	rectangle emAsset.com #lightblue [
+		emAsset.com
+		====
+		Payment Application similar to Venmo for fiat
+		plus digital asset transfer. 
+		(stablecoins, native tokens, erc20 and nft's)
+		....
+		Links:
+		[[https://venmo.com/ Venmo]]\n[[https://blog.abuiles.com/building-your-own-venmo-with-stellar/ Stellar Venmo]]\n[[https://metamask.io/ Metamask]]]
+	rectangle emAssetX.com #lightblue [
+		emAssetX.com
+		====
+		Trading Platform similar to Binance 
+		supporting fiat and digital assets from 
+		multiple layer 1 protocols.
+		(stablecoins, native tokens, erc20 and nft's)
+		....
+		Links:
+		[[https://www.binance.com BINANCE]]\n[[https://www.stellarx.com/ stellarX]]]
+	rectangle trust.emAsset.com  #lightblue [
+		trust.emAsset.com
+		====
+		Analytics and Transaction Explorer with compliance
+		similar to etherscan. 
+		....
+		Links:
+		[[https://etherscan.io/ etherscan]]]
+
+	emAsset.com -[hidden]right- emAssetX.com
+	emAssetX.com -[hidden]right- trust.emAsset.com
+}
+
+emAssetApplications - - api.emasset.com
+
+rectangle api.emasset.com #lightskyblue {
+
+
+	rectangle complianceAPI  #lightblue [
+		complianceAPI
+		====
+		Account management with know your Customer(KYC)  
+		and Anti Money Laundering (AML) compliance 
+		similar to Plaid.
+		....
+		Links:
+		[[https://plaid.com/docs/ plaid]]]
+	rectangle fiatAPI #lightblue [
+		fiat management
+		====
+		Deposit, withdrawal and transfer capabilities 
+		similar to primetrust.
+		....
+		Links:
+		[[https://documentation.primetrust.com/ Prime Trust]]\n[[https://developers.braintreepayments.com/reference/overview Braintree]]\n[[https://stripe.com/docs/api stripe]]]
+	rectangle digitalAssetAPI  #lightblue [
+		Digital Assets
+		====
+		Deposit, withdrawal and transfer capabilities for multiple layer 1 platforms.
+		Multichain capabilities powered by emAsset Inter Block Chain eIBC..
+		Digital assets  powered by smart contract standards similar to openzepplin standards.
+		....
+		Links:
+		[[https://openzeppelin.com/sdk/ OpenZeppelin]]]
+	rectangle emAssetTradeAPI  #lightblue [
+		Trading API
+		====
+		Digital Asset Trading for multiple platforms.
+		Similar to Coinbase and Binance.
+		....
+		Links:
+		[[https://developers.coinbase.com/api/v2 Coinbase API]] [[https://www.rosetta-api.org/docs/welcome.html Rosetta]]\n[[https://binance-docs.github.io/apidocs/spot/en/#introduction Binance API]]]
+	rectangle emAssetAnalyticsAPI  #lightblue [
+		Analytics API
+		====
+		Enhanced reporting capabilities.
+		Similar to Covalent and GraphQL.
+		....
+		Links:
+		[[https://www.covalenthq.com/docs/api/#overview covalent]]\n[[https://thegraph.com/docs/graphql-api#queries GraphQL]]]
+
+	complianceAPI -[hidden]right- fiatAPI
+	fiatAPI -[hidden]right- digitalAssetAPI
+	digitalAssetAPI -[hidden]right- emAssetTradeAPI
+	emAssetTradeAPI -[hidden]right- emAssetAnalyticsAPI
+
+}
+complianceAPI - - complianceProviders
+fiatAPI - - fiatProviders
+digitalAssetAPI - - AssetProviders
+emAssetTradeAPI - - emAssetTradingEngine
+emAssetAnalyticsAPI  - - emAssetDB
+
+
+rectangle complianceProviders #lightblue {
+	rectangle plaid #lightseagreen [
+		compliance Providers
+		====
+		Account management with know your Customer(KYC)  
+		and Anti Money Laundering (AML) compliance 
+		similar to Plaid.
+		....
+		Links:
+		[[https://plaid.com/docs/ plaid]]]
+}
+
+rectangle fiatProviders #lightblue {
+	storage fiatAssets #lightgreen [
+		fiat Assets
+		====
+		$USD, €EUR, etc
+		]
+ 
+	rectangle primetrust #lightseagreen [
+		Fiat Providers
+		====
+		Finaincial Institutions integrated with primetrust
+		....
+		Links:
+		[[https://documentation.primetrust.com/ Prime Trust]]\n[[https://developers.braintreepayments.com/reference/overview Braintree]]\n[[https://stripe.com/docs/api stripe]]]
+
+	rectangle fiat #lightseagreen [
+		Financial Institutions
+		====
+		Providing banking and finanical services.
+		....
+		Links:]
+
+	fiatAssets .. primetrust
+	primetrust - - fiat
+}
+
+rectangle emAssetTradingEngine #lightskyblue {
+
+
+	rectangle emIBC  #lightblue [
+		emiIBC emAsset Inter Blockchain framework
+		====
+		Multichain and fiat interoperability and connectivity. 
+		Similar to Interchain Standards.
+		....
+		Links:
+		[[https://github.com/cosmos/ics Interchain Standards]]\n[[https://medium.com/web3foundation/polkadots-messaging-scheme-b1ec560908b7 polkadot messaging]]\n[[https://libp2p.io/ libp2p]]]
+	rectangle emAssetSmartContractProtocol #lightblue {
+		rectangle liquidity  #lightblue [
+			Liquidity Protocol	
+			====
+			Provides multi-chain liquidity pools for stable coins 
+			and other digital assets.
+			Similar to uniswap, 0x and Cowri but across multiple chains.
+			....
+			Links:
+			[[https://0x.org/docs/api 0X]]\n[[https://uniswap.org/docs/v2/ Uniswap]]\n[[https://github.com/cowri/loihi Cowri]]]
+		rectangle atom  #lightblue [
+			Atomic Swaps
+			====
+			Multichain swap of digital assets without intermediaries.
+			Similar to uniswap, 0x and Cowri but across multiple chains.
+			....
+			Links:
+			[[https://github.com/cosmos/peggy peggy]]\n[[https://0x.org/docs/api 0X]]\n[[https://uniswap.org/docs/v2/ Uniswap]]\n[[https://github.com/cowri/loihi Cowri]]]
+		storage emAssetSC #lightgreen [
+			 emAsset Digitial Assets
+			====
+			Stable Coins and Digital Assets stored on emAsset Chain 
+			powered by smart contract standards.
+			Similar to USDC, BUSD, DAI, TUSD.
+			....
+			Links: 
+			[[https://developers.circle.com/docs/what-is-usdc usdc]]\n[[https://github.com/paxosglobal/busd-contract BUSD]]\n[[https://github.com/trusttoken/true-currencies TUSD]]\n[[https://github.com/makerdao/sai DAI]]]
+	}	
+	rectangle emChain  #lightblue [
+		emasset Blockchain
+		====
+		Providing instant finality, digital asset storage and smart contract support. 
+		Similar to  substrate, tendermint, ethermint, harmony, ethereum 2.0
+		....
+		Links:
+		[[https://github.com/paritytech/substrate substrate]]\n[[https://github.com/tendermint/tendermint tendermint]]\n[[https://github.com/harmony-one/harmony harmony]]\n[[https://github.com/ethereum/eth2.0-specs ethereum 2.0]]]
+
+	emIBC - - emAssetSmartContractProtocol
+	liquidity - - atom
+	atom - - emAssetSC
+	emAssetSC - - emChain
+
+}
+
+rectangle AssetProviders #lightblue {
+
+	rectangle ethereum  #lightseagreen{
+		storage ethereumAssets #lightgreen [
+			Ethereum Assets
+			====
+			StableCoins (USDC, TUSD, DAI)
+			Ethereum
+			CryptoCurrencies
+			Non Fungible Tokens
+			]	
+ 
+		rectangle ethereumAPI #lightgrey
+		rectangle ethereumExplorerNode #lightgrey
+		database ethereumRawDB #lightgrey
+
+		ethereumAssets - - ethereumAPI
+		ethereumAPI - - ethereumExplorerNode
+		ethereumExplorerNode - - ethereumRawDB
+	}
+	rectangle bitcoin  #lightseagreen{
+		storage bitcoinAssets #lightgreen [
+			bitcoin Assets
+			====
+			bitcoin (BTC)
+			]	
+ 
+		rectangle bitcoinAPI #lightgrey
+		rectangle bitcoinExplorerNode #lightgrey
+		database bitcoinRawDB #lightgrey
+
+		bitcoinAssets - -bitcoinAPI	
+		bitcoinAPI - - bitcoinExplorerNode
+		bitcoinExplorerNode - - bitcoinRawDB
+	}
+	rectangle stellar #lightseagreen{
+		storage stellarAssets #lightgreen [
+			Stellar Assets
+			====
+			StableCoins
+			Lumens (XLM)
+			]	
+ 
+		rectangle stellarAPI #lightgrey
+		rectangle stellarExplorerNode #lightgrey
+		database stellarRawDB #lightgrey
+	
+		stellarAssets - - stellarAPI
+		stellarAPI - - stellarExplorerNode
+		stellarExplorerNode - - stellarRawDB
+	}
+	rectangle libra  #lightseagreen{
+		storage libraAssets #lightgreen [
+			Libra Assets
+			====
+			Libra Coins
+			]	
+ 
+		rectangle libraAPI #lightgrey
+		rectangle libraExplorerNode #lightgrey
+		database libraRawDB #lightgrey
+	
+		libraAssets - - libraAPI
+		libraAPI - - libraExplorerNode
+		libraExplorerNode - - libraRawDB
+	}
+	rectangle cosmos  #lightseagreen{
+		storage cosmosAssets #lightgreen [
+			Cosmos Assets
+			====
+			Cosmos Atom (ATOM)
+			]	
+ 
+		rectangle cosmosAPI #lightgrey
+		rectangle cosmosExplorerNode #lightgrey
+		database cosmosRawDB #lightgrey
+
+		cosmosAssets - - cosmosAPI	
+		cosmosAPI - - cosmosExplorerNode
+		cosmosExplorerNode - - cosmosRawDB
+	}
+	rectangle polkadot  #lightseagreen{
+		storage polkadotAssets #lightgreen [
+			Polkadot Assets
+			====
+			StableCoins
+			Polkadot (DOT)
+			CryptoCurrencies
+			Non Fungible Tokens
+			]	
+ 
+		rectangle polkadotAPI #lightgrey
+		rectangle polkadotExplorerNode #lightgrey
+		database polkadotRawDB #lightgrey 
+	
+		polkadotAssets - - polkadotAPI
+		polkadotAPI - - polkadotExplorerNode
+		polkadotExplorerNode - - polkadotRawDB
+	}
+	rectangle harmony  #lightseagreen{
+		storage harmonyAssets #lightgreen [
+			Harmony Assets
+			====
+			StableCoins (BUSD)
+			Harmony Token (ONE)
+			CryptoCurrencies
+			Non Fungible Tokens
+			]	
+ 
+		rectangle harmonyAPI #lightgrey
+
+		rectangle harmonyExplorerNode #lightgrey
+
+		database harmonyRawDB #lightgrey [
+			Title: Harmony Raw Database
+			====
+			Description: Harmony Raw Database
+			....
+			Links:
+			[[https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go Schema]]\n[[https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go Schema2]]]
+
+		harmonyAssets - - harmonyAPI
+		harmonyAPI - - harmonyExplorerNode
+		harmonyExplorerNode - - harmonyRawDB
+
+	}
+
+	emChain -[hidden]right- fiat
+	fiat -[hidden]right- ethereum
+	ethereum -[hidden]right- bitcoin
+	bitcoin -[hidden]right- stellar
+	stellar -[hidden]right- libra
+	libra -[hidden]right- cosmos
+	cosmos -[hidden]right- polkadot
+	polkadot -[hidden]right- harmony
+
+}
+
+
+database emAssetDB #lightskyblue {
+
+	
+	database emAssetChainDB #lightBlue
+	database emAssetEthereumDB #cyan
+	database emAssetBitcoinDB #cyan
+	database emAssetStellarDB #cyan
+	database emAssetLibraDB #cyan
+	database emAssetCosmosDB #cyan
+	database emAssetPolkadotDB #cyan
+	database emAssetHarmonyDB #cyan
+
+	emAssetChainDB   -[hidden]right- emAssetEthereumDB 
+	emAssetEthereumDB -[hidden]right- emAssetBitcoinDB
+	emAssetBitcoinDB -[hidden]right- emAssetStellarDB
+	emAssetStellarDB -[hidden]right- emAssetLibraDB
+	emAssetLibraDB   -[hidden]right- emAssetCosmosDB 
+	emAssetCosmosDB   -[hidden]right- emAssetPolkadotDB
+	emAssetPolkadotDB -[hidden]right- emAssetHarmonyDB
+
+	rectangle emAssetAccumulator #lightskyblue {
+        	rectangle emAssetChainAccumulator #lightblue
+        	rectangle emEthereumAccumulator #cyan
+        	rectangle emBitcoinAccumulator #cyan
+        	rectangle emStellarAccumulator #cyan
+        	rectangle emAssetLibraAccumulator #cyan
+        	rectangle emAssetCosmosAccumulator #cyan
+        	rectangle emAssetPolkadotAccumulator #cyan
+        	rectangle emAssetHarmonyAccumulator #cyan
+
+        	emAssetChainAccumulator -[hidden]right- emEthereumAccumulator
+		emEthereumAccumulator -[hidden]right-  emBitcoinAccumulator
+        	emBitcoinAccumulator -[hidden]right- emStellarAccumulator
+        	emStellarAccumulator -[hidden]right- emAssetLibraAccumulator
+        	emAssetLibraAccumulator -[hidden]right- emAssetCosmosAccumulator
+        	emAssetCosmosAccumulator -[hidden]right- emAssetPolkadotAccumulator
+        	emAssetPolkadotAccumulator -[hidden]right- emAssetHarmonyAccumulator
+	}
+
+	emAssetChainDB - - emAssetChainAccumulator
+	emAssetEthereumDB - - emEthereumAccumulator
+	emAssetBitcoinDB - - emBitcoinAccumulator
+	emAssetStellarDB - - emStellarAccumulator
+	emAssetLibraDB - - emAssetLibraAccumulator
+	emAssetCosmosDB - - emAssetCosmosAccumulator
+	emAssetPolkadotDB - -emAssetPolkadotAccumulator
+	emAssetHarmonyDB - - emAssetHarmonyAccumulator
+}
+emChain -[hidden]right- emAssetChainAccumulator
+ethereum -[hidden]right- emEthereumAccumulator
+bitcoin -[hidden]right- emBitcoinAccumulator
+stellar -[hidden]right- emStellarAccumulator
+libra -[hidden]right- emAssetLibraAccumulator
+cosmos -[hidden]right- emAssetCosmosAccumulator
+polkadot -[hidden]right- emAssetPolkadotAccumulator
+harmony -[hidden]right- emAssetHarmonyAccumulator
+
+
+complianceProviders -[hidden]right- fiatProviders
+fiatProviders -[hidden]right- AssetProviders
+AssetProviders -[hidden]right- emAssetTradingEngine
+emAssetTradingEngine -[hidden]right- emAssetDB
+
+@enduml
+
+PlantUML version 1.2020.11(Sat May 30 03:13:43 PDT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

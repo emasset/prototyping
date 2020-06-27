@@ -1,0 +1,79 @@
+@startuml
+
+' **** Grouping **** '
+
+rectangle emAssetDataModel #lightskyblue {
+	rectangle emAssetOpenApi #lightblue
+	rectangle emAssetProtobuf #lightblue
+}
+emAssetOpenApi -right-- emAssetProtobuf
+
+rectangle emAssetApplication #lightskyblue {
+	rectangle emAssetVenmo #lightblue
+	rectangle emAssetExplorer #lightblue
+	rectangle emAssetBinance #lightblue
+}
+emAssetVenmo -right-- emAssetExplorer
+emAssetExplorer -right-- emAssetBinance
+
+rectangle emAssetApi #lightskyblue {
+
+	rectangle emAssetHarmonyAPI #lightsteelblue {
+		rectangle emAssetHarmonyGraphql #cyan
+		rectangle emAssetHarmonyCovalent #cyan
+		rectangle emAssetHarmonyUbiquity #cyan
+	}
+	emAssetHarmonyGraphql -left-- emAssetHarmonyCovalent
+	emAssetHarmonyCovalent -left-- emAssetHarmonyUbiquity
+
+}
+
+database emAssetDB #lightskyblue {
+
+	database emAssetHarmonyDB #cyan 
+}
+
+rectangle emAssetTradingEngine #lightskyblue {
+ 	rectangle emAssetLiquidity #lightblue
+        rectangle emAssetLayer2 #lightblue
+        rectangle emAssetAssets #lightblue
+}
+emAssetLiquidity -down-- emAssetLayer2
+emAssetLayer2 -down-- emAssetAssets
+
+
+rectangle emAssetAccumulator #lightskyblue {
+	rectangle emAssetHarmonyAccumulator #cyan
+}
+
+
+rectangle Harmony  #lightseagreen{
+
+	rectangle harmonyApi #lightgreen
+
+	rectangle harmonyExplorerNode #lightgreen
+
+	database harmonyRawDB #lightgreen [
+		Title: Harmony Raw Database
+		====
+		Description: Harmony Raw Database
+		....
+		Links:
+		[[https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go Schema]]\n[[https://github.com/harmony-one/harmony/blob/master/core/rawdb/schema.go Schema2]]]
+}
+harmonyApi -down-- harmonyExplorerNode
+harmonyExplorerNode -down-- harmonyRawDB
+
+
+
+' **** Dependencies **** '
+
+emAssetDataModel -down-- emAssetApplication
+emAssetApplication -down-- emAssetApi
+emAssetApi -down-- emAssetDB
+emAssetApi -down-- emAssetTradingEngine
+emAssetTradingEngine -down-- emAssetDB
+emAssetDB -down-- emAssetAccumulator
+emAssetAccumulator -down-- Harmony
+
+@enduml
